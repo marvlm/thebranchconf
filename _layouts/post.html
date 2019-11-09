@@ -1,0 +1,183 @@
+---
+layout: default
+---
+{% assign author = site.data.authors[page.author] %}
+{% assign post = page %}
+<div class="container">
+	<div class="jumbotron jumbotron-fluid mb-3 pl-0 pt-0 pb-0 bg-white position-relative">
+		<div class="h-100 tofront">
+			<div
+				class="row article-header {% if page.image %} justify-content-between {% else %} justify-content-center {% endif %}">
+				<div
+					class="{% if page.image %} col-md-6 {% else %} col-md-8 {% endif %} pr-0 pr-md-4 pt-4 pb-4 align-self-center">
+
+					{% include breadcrumbs.html %}
+					<p class="text-uppercase font-weight-bold">
+						<span class="catlist">
+							{% for category in page.categories %}
+							<a class="sscroll text-danger"
+								href="{{site.baseurl}}/blog/categorias.html#{{ category | downcase }}">{{ category | downcase }}</a><span
+								class="sep">, </span>
+							{% endfor %}
+						</span>
+					</p>
+					<h1 class="display-4 mb-4 article-headline wow fadeInUp">{{ page.title }}</h1>
+					<div class="article-title">
+						<p class="wow fadeInDown" data-wow-delay="0.2s">{{ page.subtitle }}</p>
+					</div>
+					<div class="d-flex align-items-center">
+						<small>
+							<span class="text-muted d-block mt-1">
+								{% for item in site.data.authors.docs %}
+								{% if item.id == page.author %}
+								Publicado por <strong>{{ item.name}}</strong> |
+								{% endif %}
+								{% endfor %}
+								{{ page.date | date: '%B %d, %Y' }} ·
+								{% include blog/read-time.html content=page.content %}
+							</span>
+						</small>
+					</div>
+				</div>
+				{% if page.image %}
+				<div class="col-md-6 align-self-center">
+					<img class="rounded article-image"
+						src="{% if page.image contains "://" %}{{ page.image }}{% else %}{{ site.baseurl }}/{{ page.image }}{% endif %}"
+						alt="{{ page.title }}">
+				</div>
+				{% endif %}
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="container pt-4 pb-4">
+	<div class="row justify-content-center">
+		<!-- Share -->
+		<div class="col-lg-2 pr-4 mb-4 col-md-12">
+			<div class="sticky-top sticky-top-offset text-center">
+				<div class="text-muted">
+					Compartir
+				</div>
+				<div class="share d-inline-block">
+					<!-- AddToAny BEGIN -->
+					<div class="a2a_kit a2a_kit_size_32 a2a_default_style">
+						<a class="a2a_dd" href="https://www.addtoany.com/share"></a>
+						<a class="a2a_button_facebook"></a>
+						<a class="a2a_button_twitter"></a>
+						<a class="a2a_button_linkedin"></a>
+					</div>
+					<script async src="https://static.addtoany.com/menu/page.js"></script>
+					<!-- AddToAny END -->
+				</div>
+			</div>
+		</div>
+		<div class="col-md-12 col-lg-8">
+			<!-- Article -->
+			<article class="article-post">
+				{{ content }}
+			</article>
+
+			{% include blog/tags-list.html %}
+
+			<!-- Mailchimp Subscribe Form -->
+			{% if site.mailchimp-list %}
+			<div class="border p-5 bg-lightblue">
+				<div class="row justify-content-between">
+					<div class="col-md-6 mb-2 mb-md-0">
+						<h5 class="font-weight-bold">Join Newsletter</h5>
+						Get the latest news right in your inbox. We never spam!
+					</div>
+					<div class="col-md-6">
+						<div class="row">
+							<form action="{{site.mailchimp-list}}" method="post" name="mc-embedded-subscribe-form"
+								class="wj-contact-form validate w-100" target="_blank" novalidate>
+								<div class="mc-field-group">
+									<input type="email" placeholder="Enter e-mail address" name="EMAIL"
+										class="required email form-control w-100" id="mce-EMAIL" autocomplete="on"
+										required>
+									<button type="submit" value="Subscribe" name="subscribe"
+										class="heart btn btn-success btn-block w-100 mt-2">Subscribe</button>
+								</div>
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+			{% endif %}
+
+			<!-- Author Box -->
+			{% for item in site.data.authors.docs %}
+			{% if item.id == page.author %}
+			<div class="row mt-5">
+				<div class="col-md-2 align-self-center">
+					{% if item.avatar %}
+					<img class="rounded-circle" src="{{site.baseurl}}/{{item.avatar}}" alt="{{item.name}}" width="90" />
+					{% endif %}
+				</div>
+				<div class="col-md-10">
+					<h5 class="font-weight-bold">Escrito por {{ item.name }} {% if item.twitter %}<span>
+							<!-- <a target="_blank" href="{{ item.twitter }}"
+								class="btn btn-common ml-2">Follow</a> --></span>{% endif %}</h5>
+					{{ item.bio }}
+				</div>
+				<div class="col-md-12">
+					<div class="row">
+						<div class="col-md-2 wow fadeInUp" data-wow-delay="0.8s"></div>
+						<h5>
+							<div class="widget">
+								<ul class="tags">
+									{% if item.facebook %}
+									<li class="author-social"><a class="facebook" target="_blank"
+											href="{{ item.facebook }}"><i
+												class="lni-facebook-filled"></i></a></li>
+									{% endif %}
+									{% if item.twitter %}			
+									<li class="author-social"><a class="twitter" target="_blank" href="{{ item.twitter }}"><i
+												class="lni-twitter-filled"></i></a></li>
+									{% endif %}
+									{% if item.linkedin %}
+									<li class="author-social"><a class="linkedin" target="_blank"
+											href="{{ item.linkedin }}"><i
+												class="lni-linkedin-filled"></i></a></li>
+									{% endif %}
+									{% if item.instagram %}
+									<li class="author-social"><a class="instagram" target="_blank"
+											href="{{ item.instagam }}"><i
+												class="lni-instagram-filled"></i></a></li>
+									{% endif %}
+								</ul>
+							</div>
+						</h5>
+					</div>
+				</div>
+			</div>
+			{% endif %}
+			{% endfor %}
+
+			<!-- Comments -->
+			{% if page.comments != false %}
+			{% include blog/comments.html %}
+			{% endif %}
+
+			{% include blog/previous-next.html %}
+
+			<!-- <div class="clearfix">
+
+				{% if page.previous.url %}
+				<a class="btn btn-primary float-left" href="{{ page.previous.url | prepend: site.baseurl | replace: '//', '/' }}"
+					data-toggle="tooltip" data-placement="top" title="{{ page.previous.title }}">&larr; Post<span
+						class="d-none d-md-inline">
+						Anterior</span></a>
+				{% endif %}
+				{% if page.next.url %}
+				<a class="btn btn-primary float-right" href="{{ page.next.url | prepend: site.baseurl | replace: '//', '/' }}"
+					data-toggle="tooltip" data-placement="top" title="{{ page.next.title }}">Post<span class="d-none d-md-inline">
+						Siguiente</span> &rarr;</a>
+				{% endif %}
+				
+			</div> -->
+
+		</div>
+	</div>
+</div>

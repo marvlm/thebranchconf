@@ -1,0 +1,21 @@
+docs_list_title: Authors
+docs:
+
+- id: marvin
+  name: Marvin López
+  bio: Co-Fundador de The Branch, fan de la tecnología y el desarrollo de software. Interesado en el desarrollo web, diseño y UX.
+  avatar: assets/img/authors/marvin.jpg
+  email: marvin@thebranch.tech
+  linkedin: https://www.linkedin.com/in/marvinlopez/
+  twitter: https://twitter.com/marvlm
+  facebook: https://facebook.com/marvlm
+  instagram: https://instagram.com/marvlm
+  
+
+- id: carol
+  name: Carol Cupas
+  bio: Co-Fundadora de The Branch, excelente esposa, mejor dicho, la mejor del mundo.
+  linkedin: https://www.linkedin.com/in/marvinlopez/
+  twitter: https://twitter.com/marvlm
+  avatar: assets/img/authors/carol.jpg
+  email: carol@thebranch.tech

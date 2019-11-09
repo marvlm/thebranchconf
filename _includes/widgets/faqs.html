@@ -1,0 +1,56 @@
+<section id="faq" class="section-padding">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <div class="section-title-header text-center">
+                <h1 class="section-title wow fadeInUp" data-wow-delay="0.2s">Preguntas Frecuentes</h1>
+                <p class="wow fadeInDown" data-wow-delay="0.2s"></p>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-lg-6 col-md-6 col-xs-12 col-sm-12">
+              <div class="accordion">
+                {% for faq in site.data.faqs.docs %}
+                {% if forloop.rindex <= 4 %}
+                <div class="card">
+                  <div class="card-header" id="heading{{ forloop.index }}">
+                    <div class="header-title" data-toggle="collapse" data-target="#question{{ forloop.index }}" aria-expanded="true"
+                      aria-controls="collapseOne">
+                      <i class="far fa-question-circle"></i> {{ faq.question }}
+                    </div>
+                  </div>
+                  <div id="question{{ forloop.index }}" class="collapse" aria-labelledby="heading{{ forloop.index }}" data-parent="#question">
+                    <div class="card-body">
+                        {{ faq.answer }}
+                    </div>
+                  </div>
+                </div>
+                {% endif %}
+                {% endfor %}
+              </div>
+            </div>
+            <div class="col-lg-6 col-md-6 col-xs-12 col-sm-12">
+              <div class="accordion">
+                {% for faq in site.data.faqs.docs %}
+                {% if forloop.rindex > 4 %}
+                <div class="card">
+                  <div class="card-header" id="headingOne{{ forloop.index }}">
+                    <div class="header-title" data-toggle="collapse" data-target="#questionOne{{ forloop.index }}" aria-expanded="true"
+                      aria-controls="collapseOne">
+                      <i class="far fa-question-circle"></i> {{ faq.question }}
+                    </div>
+                  </div>
+                  <div id="questionOne{{ forloop.index }}" class="collapse" aria-labelledby="headingOne{{ forloop.index }}" data-parent="#question">
+                    <div class="card-body">
+                        {{ faq.answer }}
+                    </div>
+                  </div>
+                </div>
+                {% endif %}
+                {% endfor %}
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>

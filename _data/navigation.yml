@@ -1,0 +1,74 @@
+docs_list_title: Navigation
+docs:
+
+- title: Qué es
+  url: /index.html#que-es
+  header: true
+  footer: false
+  side: 
+
+- title: Patrocinadores
+  url: /patrocinadores
+  header: true
+  footer: true
+  side: left
+
+- title: Speakers
+  url: /speakers
+  header: true
+  footer: true
+  side: left
+
+- title: Comunidades
+  url: /comunidades
+  header: true
+  footer: true
+  side: left
+
+- title: Voluntarios
+  url: /voluntarios
+  header: true
+  footer: true
+  side: left
+
+- title: Blog
+  url: /blog
+  header: true
+  footer: true
+  side: left
+
+- title: Contacto
+  url: /index.html#contact-map
+  header: true
+  footer: false
+  side: 
+
+- title: Política de Privacidad
+  url: /politica-de-privacidad
+  header: false
+  footer: true
+  side: right
+
+- title: Código de Conducta
+  url: /codigo-de-conducta
+  header: false
+  footer: true
+  side: right
+
+- title: Términos y condiciones
+  url: /terminos-y-condiciones
+  header: false
+  footer: true
+  side: right
+
+- title: Imagen Corporativa
+  url: /imagen-corporativa
+  header: false
+  footer: true
+  side: right
+
+- title: El equipo
+  url: /equipo
+  header: false
+  footer: true
+  side: right

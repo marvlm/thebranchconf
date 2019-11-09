@@ -1,0 +1,29 @@
+#Build settings
+markdown: kramdown
+permalink: "blog/:title/"
+paginate: 5
+paginate_path: "/posts/page:num/"
+ ##plugins:
+  ## - jekyll-feed
+  ## - jekyll-paginate-v2
+  ## - jekyll-sitemap ## Uncomment this line to silently generate a sitemaps.org compliant sitemap for your Jekyll site
+
+  # Add your google-analytics ID here to activate google analytics
+google_analytics:   UA-XXXXXXXXX-X # out your google-analytics code
+include: ['_pages']
+
+# Site Settings
+title: "The Branch Conference"
+slogan: "... evolucionemos el ecosistema tecnológico de Panamá. Juntos!"
+date: "SEPTIEMBRE 12 - 13, 2020"
+place: "CIUDAD DE PANAMÁ"
+logo-white: 'assets/img/logo.png'
+logo: 'assets/img/logo2.png'
+favicon: 'assets/images/favicon.ico'
+disqus: 'thebranch'
+email: 'hola@thebranch.tech'
+email2: 'equipo@thebranch.tech'
+
+---
+excerpt_separator: <!--more-->
+---

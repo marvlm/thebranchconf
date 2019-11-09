@@ -1,0 +1,8 @@
+<div class="col-md-6 col-lg-6 col-xs-12 wow fadeInLeft" data-wow-delay="0.3s">
+    <h2 class="intro-title">Temas:</h2>
+    <ul class="list-specification">
+        {% for item in site.data.topics.docs %}
+        <li><i class="fas fa-code-branch"></i> {{ item.title }} </li>
+        {% endfor %}
+    </ul>
+</div>
