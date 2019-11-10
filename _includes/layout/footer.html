@@ -17,7 +17,7 @@
                     {% for item in site.data.navigation.docs %}
                     {% if item.footer == true %}
                     {% if item.side == 'left' %}
-                    <li><a href="{{ item.url }} ">{{ item.title }} </a></li>
+                    <li><a href="{{site.baseurl}}{{ item.url }} ">{{ item.title }} </a></li>
                     {% endif %}
                     {% endif %}
                     {% endfor %}
@@ -29,7 +29,7 @@
                     {% for item in site.data.navigation.docs %}
                     {% if item.footer == true %}
                     {% if item.side == 'right' %}
-                    <li><a href="{{ item.url }} ">{{ item.title }} </a></li>
+                    <li><a href="{{site.baseurl}}{{ item.url }} ">{{ item.title }} </a></li>
                     {% endif %}
                     {% endif %}
                     {% endfor %}
