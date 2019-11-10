@@ -3,7 +3,7 @@ layout: post
 title: Mi Primer Post en este site para probar el diseño
 subtitle: Nos importa nuestra imagen
 categories: [The Branch]
-image: ../assets/img/blog/img-3.jpg
+image: /assets/img/blog/img-3.jpg
 date: 11/4/2019
 tags: [hot, summer, arroz, coshita, git]
 author: marvin
