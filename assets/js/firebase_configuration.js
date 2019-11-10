@@ -42,7 +42,7 @@ $(document).ready(function () {
                             $("#notifs-form-btn").text("Notified!");
                             $("#notifs-form").css("display","none");
                             $("h4.notified").text("Gracias por tu interés. Pronto te brindamos más información acerca de nosotros!");
-                            $(location).attr('href', '/gracias')
+                            $(location).attr('href', '/thebranchconf/gracias')
                         })
                         .catch(function (error) {
                             console.error("Error adding document: ", error);
