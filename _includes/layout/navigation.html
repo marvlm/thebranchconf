@@ -20,7 +20,7 @@
                     {% assign nav-item = item.url | downcase | split: '/' %}
                     {% if item.header == true %}
                     <li class="nav-item {% if current[1] == nav-item %} active {% endif %}">
-                        <a class="nav-link" href="{{ item.url }}">
+                        <a class="nav-link" href="{{site.baseurl}}{{ item.url }}">
                             {{ item.title }} 
                         </a>
                         <!-- <span style="color:aliceblue;"> {{ current[1] == "hola" }} </span> -->
@@ -37,7 +37,7 @@
         <ul class="mobile-menu">
             {% for item in site.data.navigation.docs %}
             <li>
-                <a class="page-scroll" href="{{ item.url }}">{{ item.title }}</a>
+                <a class="page-scroll" href="{{site.baseurl}}{{ item.url }}">{{ item.title }}</a>
             </li>
             {% endfor %}
         </ul>
