@@ -11,8 +11,6 @@ subtitle: Haga que su marca se vea "tech-sexy" frente a una audiencia de alreded
 
 #### UNA OPORTUNIDAD EFECTIVA PARA RECLUTAR
 
-Haga que su marca se vea "tech-sexy" frente a una audiencia de alrededor de 1000 profesionales del desarrollo de software y tecnología.
-
 Conecte con senior y junior developers, arquitectos de software, testers, analistas, DBAs y otros profesionales talentosos del mundo de la tecnología hambrientos de conocimiento y oportunidades de trabajo.
 
 Cubrir la demanda de profesionales en el sector tecnológico es siempre una difícil tarea para los departamentos de talento y Recursos Humanos de las compañías. The Branch será el lugar ideal para las empresas que estén buscando ampliar sus equipos con el mejor talento de Panamá.
