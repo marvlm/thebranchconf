@@ -4,7 +4,7 @@ title:  "Accumulated experience of social living"
 permalink: blog/accumulated-experience-of-social-living
 subtitle: The first mass-produced book to deviate from a rectilinear format, at least in the United States, is thought to be this 1863 edition of Red Riding Hood
 categories: [ Jekyll, tutorial ]
-image: ../assets/img/blog/img-3.jpg
+image: /assets/img/blog/img-3.jpg
 date: 11/4/2019
 tags: [hot, summer]
 author: carol

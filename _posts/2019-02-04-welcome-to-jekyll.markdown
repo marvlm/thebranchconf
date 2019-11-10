@@ -4,7 +4,7 @@ title: Bienvenido a Jekyll
 permalink: blog/tercer-post
 subtitle: Nos importa nuestra imagen
 categories: [ Jekyll, tutorial ]
-image: ../assets/img/blog/img-3.jpg
+image: /assets/img/blog/img-3.jpg
 date: 11/4/2019
 tags: [hot, summer]
 

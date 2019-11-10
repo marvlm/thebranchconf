@@ -4,7 +4,7 @@ title:  "We all wait for summer"
 permalink: we-all-wait-for-summer
 subtitle: Nos importa nuestra imagen
 categories: [ Jekyll, tutorial ]
-image: assets/img/blog/img-3.jpg
+image: /assets/img/blog/img-3.jpg
 date: 11/4/2019
 tags: [hot, summer]
 ---
