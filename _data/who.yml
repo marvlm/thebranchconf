@@ -6,8 +6,8 @@ docs:
   page: "#"
   linkedin: "#"
   twitter: "#"
-  facebook: "#"
-  mail: "#"
+  facebook: 
+  email: "#"
   description: Product Designer, Tesla
 
 - name: CAROL CUPAS
@@ -16,7 +16,7 @@ docs:
   linkedin: "#"
   twitter: "#"
   facebook: "#"
-  mail: "#"
+  email: "#"
   description: Front-end Developer, Dropbox
 
 - name: REGIS RIVERA
@@ -25,7 +25,7 @@ docs:
   linkedin: "#"
   twitter: "#"
   facebook: "#"
-  mail: "#"
+  email: "#"
   description: Lead Designer, TNW
 
 - name: ULISES GONZÁLEZ
@@ -34,7 +34,7 @@ docs:
   linkedin: "#"
   twitter: "#"
   facebook: "#"
-  mail: "#"
+  email: "#"
   description: Back-end Developer, ASUS
 
 - name: RAFAEL ECHEVERRÍA
@@ -43,7 +43,7 @@ docs:
   linkedin: "#"
   twitter: "#"
   facebook: "#"
-  mail: "#"
+  email: "#"
   description: Full-stack Developer, Google
 
 - name: RUTH MENDOZA
@@ -52,5 +52,5 @@ docs:
   linkedin: "#"
   twitter: "#"
   facebook: "#"
-  mail: "#"
+  email: "#"
   description: UI Designer, Apple

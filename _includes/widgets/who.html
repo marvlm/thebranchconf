@@ -18,16 +18,16 @@
                             <div class="team-overlay">
                                 <div class="overlay-social-icon text-center">
                                     <ul class="social-icons">
-                                        {% if item.facebook %}
+                                        {% if item.facebook != blank? %}
                                         <li><a href="{{ item.facebook }}"><i class="lni-facebook-filled" aria-hidden="true"></i></a></li>
                                         {% endif %}
-                                        {% if item.twitter %}
+                                        {% if item.twitter != blank? %}
                                         <li><a href="{{ item.twitter }}"><i class="lni-twitter-filled" aria-hidden="true"></i></a></li>
                                         {% endif %}
-                                        {% if item.linkedin %}
+                                        {% if item.linkedin != blank? %}
                                         <li><a href="{{ item.linkedin }}"><i class="lni-linkedin-filled" aria-hidden="true"></i></a></li>
                                         {% endif %}
-                                        {% if item.email %}
+                                        {% if item.email != blank? %}
                                         <li><a href="{{ item.email }}"><i class="lni-behance" aria-hidden="true"></i></a></li>
                                         {% endif %}
                                     </ul>
