@@ -1,0 +1,57 @@
+docs_list_title: Carousel
+docs:
+
+- id: 0
+  image: assets/img/slider/slide3.jpg
+  heading: El evento de desarrollo, tecnología e innovación más grande de Panamá
+  title: "The Branch Conference"
+  subtitle: SEPTIEMBRE 12 - 13, 2020
+  btn: false
+  btn_text: 
+  btn_link:
+  btn_type:
+  first: true
+
+- id: 1
+  image: assets/img/slider/slide5.jpg
+  heading: Construyamos una comunidad de comunidades.
+  title: The Branch 2020
+  subtitle: 
+  btn: true
+  btn_text: Te contamos más
+  btn_link: "#2020"
+  btn_type: btn-common
+  first: false
+
+- id: 2
+  image: assets/img/slider/slide2.jpg
+  heading: Haga que su marca se vea "tech-sexy" frente a más de 1000 profesionales del desarrollo de software y tecnología.
+  title: ¿Quieres ser patrocinador?
+  subtitle: 
+  btn: true
+  btn_text: Conoce más
+  btn_link: "#sponsors"
+  btn_type: btn-border
+  first: false
+
+- id: 3
+  image: assets/img/slider/slide1.jpg
+  heading: Un encuentro para las comunidades
+  title: ¿Perteneces a una comunidad de tecnología?
+  subtitle: 
+  btn: true
+  btn_text: Colabora con nosotros
+  btn_link: "#schedules"
+  btn_type: btn-common
+  first: false
+
+- id: 4
+  image: assets/img/slider/slide7.jpg
+  heading: Una oportunidad para hacer networking
+  title: ¿Quieres participar como voluntario?
+  subtitle: 
+  btn: true
+  btn_text: Únete al equipo
+  btn_link: "#volunteers"
+  btn_type: btn-border
+  first: false

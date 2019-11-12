@@ -16,6 +16,7 @@ include: ['_pages']
 
 # Site Settings
 title: "The Branch Conference"
+tagline: El evento de desarrollo, tecnología e innovación más grande de Panamá
 slogan: "... evolucionemos el ecosistema tecnológico de Panamá. Juntos!"
 date: "SEPTIEMBRE 12 - 13, 2020"
 place: "CIUDAD DE PANAMÁ"
