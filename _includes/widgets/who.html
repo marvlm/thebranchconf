@@ -1,0 +1,48 @@
+<section id="team" class="section-padding counter-section text-center">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <div class="section-title-header text-center">
+                    <h1 class="wow fadeInUp" data-wow-delay="0.2s">EQUIPO</h1>
+                    <p class="wow fadeInDown" data-wow-delay="0.2s">¿Quién organiza The Branch?</p>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            {% for item in site.data.who.docs %}
+            <div class="col-sm-6 col-md-6 col-lg-4">
+                    <!-- Team Item Starts -->
+                    <div class="team-item wow fadeInUp" data-wow-delay="0.2s">
+                        <div class="team-img">
+                            <img class="img-fluid" src="{{ item.image }}" alt="{{ item.name }}">
+                            <div class="team-overlay">
+                                <div class="overlay-social-icon text-center">
+                                    <ul class="social-icons">
+                                        {% if item.facebook %}
+                                        <li><a href="{{ item.facebook }}"><i class="lni-facebook-filled" aria-hidden="true"></i></a></li>
+                                        {% endif %}
+                                        {% if item.twitter %}
+                                        <li><a href="{{ item.twitter }}"><i class="lni-twitter-filled" aria-hidden="true"></i></a></li>
+                                        {% endif %}
+                                        {% if item.linkedin %}
+                                        <li><a href="{{ item.linkedin }}"><i class="lni-linkedin-filled" aria-hidden="true"></i></a></li>
+                                        {% endif %}
+                                        {% if item.email %}
+                                        <li><a href="{{ item.email }}"><i class="lni-behance" aria-hidden="true"></i></a></li>
+                                        {% endif %}
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="info-text">
+                            <h3><a href="{{ item.page }}">{{ item.name }}</a></h3>
+                            <p>{{ item.description }}</p>
+                        </div>
+                    </div>
+                    <!-- Team Item Ends -->
+            </div>
+            {% endfor %}
+        </div>
+        <!-- <a href="speakers.html" class="btn btn-common mt-30 wow fadeInUp" data-wow-delay="1.9s">All Speakers</a> -->
+    </div>
+</section>

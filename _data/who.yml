@@ -1,0 +1,56 @@
+docs_list_title: Who
+docs:
+
+- name: MARVIN LÓPEZ
+  image: assets/img/team/team-01.jpg
+  page: "#"
+  linkedin: "#"
+  twitter: "#"
+  facebook: "#"
+  mail: "#"
+  description: Product Designer, Tesla
+
+- name: CAROL CUPAS
+  image: assets/img/team/team-02.jpg
+  page: "#"
+  linkedin: "#"
+  twitter: "#"
+  facebook: "#"
+  mail: "#"
+  description: Front-end Developer, Dropbox
+
+- name: REGIS RIVERA
+  image: assets/img/team/team-03.jpg
+  page: "#"
+  linkedin: "#"
+  twitter: "#"
+  facebook: "#"
+  mail: "#"
+  description: Lead Designer, TNW
+
+- name: ULISES GONZÁLEZ
+  image: assets/img/team/team-04.jpg
+  page: "#"
+  linkedin: "#"
+  twitter: "#"
+  facebook: "#"
+  mail: "#"
+  description: Back-end Developer, ASUS
+
+- name: RAFAEL ECHEVERRÍA
+  image: assets/img/team/team-05.jpg
+  page: "#"
+  linkedin: "#"
+  twitter: "#"
+  facebook: "#"
+  mail: "#"
+  description: Full-stack Developer, Google
+
+- name: RUTH MENDOZA
+  image: assets/img/team/team-06.jpg
+  page: "#"
+  linkedin: "#"
+  twitter: "#"
+  facebook: "#"
+  mail: "#"
+  description: UI Designer, Apple

@@ -6,4 +6,4 @@ subtitle: ¿Quién Organiza The Branch?
 ---
 
 ***
-{% include widgets/team-layout.html %}
+{% include widgets/who.html %}
