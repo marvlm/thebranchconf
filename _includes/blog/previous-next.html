@@ -12,7 +12,7 @@
                {% if page.next.url %}
                <div class="col-md-6 text-right pr-0">
                    <a class="prevnext" href="{{ site.baseurl }}{{ page.next.url }}"> {{page.next.title}}
-                       {% if page.next.image %} <img height="40px" class="ml-1" src="{{site.baseurl}}/{{page.next.image}}">
+                       {% if page.next.image %} <img alt="{{page.next.title}}" title="{{page.next.title}}" height="40px" class="ml-1" src="{{site.baseurl}}/{{page.next.image}}">
                        {% endif %} <i class="fas fa-arrow-right"></i></a>
                </div>
                {% endif %}

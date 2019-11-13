@@ -2,6 +2,7 @@
 layout: post
 title: Mi Primer Post en este site para probar el diseño
 subtitle: Nos importa nuestra imagen
+description:  Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
 categories: [The Branch]
 image: /assets/img/blog/img-3.jpg
 date: 11/4/2019

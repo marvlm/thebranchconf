@@ -43,7 +43,7 @@ layout: default
 				<div class="col-md-6 align-self-center">
 					<img class="rounded article-image"
 						src="{% if page.image contains "://" %}{{ page.image }}{% else %}{{ site.baseurl }}/{{ page.image }}{% endif %}"
-						alt="{{ page.title }}">
+						alt="{{ page.title }}" title="{{ page.title }}">
 				</div>
 				{% endif %}
 			</div>
@@ -112,7 +112,7 @@ layout: default
 			<div class="row mt-5">
 				<div class="col-md-2 align-self-center">
 					{% if item.avatar %}
-					<img class="rounded-circle" src="{{site.baseurl}}/{{item.avatar}}" alt="{{item.name}}" width="90" />
+					<img class="rounded-circle" src="{{site.baseurl}}/{{item.avatar}}" alt="{{item.name}}" title="{{item.name}}" width="90" />
 					{% endif %}
 				</div>
 				<div class="col-md-10">
