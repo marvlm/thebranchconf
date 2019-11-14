@@ -11,15 +11,9 @@ subtitle: ¡No pierdas la oportunidad de formar parte en The Branch facilitando 
 
 El Call for Speakers de The Branch está abierto!
 
-¡No pierdas la ocasión de formar parte en The Branch facilitando una charla, un taller o una sesión de unconference!
-
-**¡Participa en la convocatoria!**
-
 Estamos trabajando mucho para garantizar que nuestros participantes disfruten de la mejor experiencia posible, también a través de una agenda de calidad: únete a nuestros ponentes y envía tu charla.
 
-The Branch atrae a cientos de participantes: aceptamos propuestas relativas a los principales temas de desarrollo de software y tecnología.
-
-Estamos buscando propuestas relacionados con los siguientes temas:
+Aceptamos propuestas relativas a los principales temas de desarrollo de software y tecnología. Estamos buscando propuestas relacionados con los siguientes temas:
 
 {% include topics.html %}
 
@@ -31,19 +25,19 @@ Nuestra audiencia se compone mayoritariamente de profesionales del desarrollo de
 
 #### Qué busca encontrar nuestra audiencia en The Branch?
 
-‌Nuestra conferencia atrae a desarrolladores, profesionales de tecnología, personas que, aunque sean de otras áreas de profesión, aman y viven la tecnología. Buscamos charlas y talleres que les brinden:
+‌Nuestra conferencia atrae a cientos de participantes: desarrolladores, profesionales de tecnología, personas que, aunque sean de otras áreas de profesión, aman y viven la tecnología. Buscamos charlas y talleres que les brinden:
 
-* Conocimientos sobre excelencia técnica, investigaciones innovadoras sobre tecnología de punta.
-    
-* Conocimiento que pueda ser útil para sus profesiones.
+* Conocimientos sobre excelencia técnica.
+
+* Investigaciones innovadoras sobre tecnología de punta.
     
 * Buenas prácticas y casos de estudio que les puedan ayudar a ser mejores desarrolladores y profesionales.
     
-* ¡Código! Recuerda siempre que puedas mostrar unas cuantas líneas de código y algún demo funcionando.
+* ¡Código! Recuerda mostrar unas cuantas líneas de código y algún demo funcionando.
     
 * Charlas inspiracionales y una visión de como la tecnología está moldeando el futuro.
     
-* Charlas con gran Contenido, no nos gustan las charlas que contienen un pitch de mercadeo Escondido.
+* Charlas con contenido valioso, no nos gustan las charlas que contienen un pitch de mercadeo escondido.
     
 #### Niveles
 
@@ -54,7 +48,7 @@ Las charlas de The Branch queremos clasificarlas dentro de los siguientes 4 nive
 3.  **Avanzado**: Una charla profunda para una audiencia experta. Este es el tipo de charla que quisieras atender para aprender algo nuevo sobre el tema principal.
 4.  **No-técnico**: Aquí entran un abanico de posibles temas: desarrollo personal, experiencias, puntos de vista, entre otros que enriquezcan la diversidad de temas del evento.
     
-Nuestra conferencia está compuesta por diversas charlas en paralelo: cada sesión es de 40 minutos máximo.
+Nuestra conferencia está compuesta por diversas charlas en paralelo: cada sesión es de 35 minutos máximo.
 
 Cada sesión será grabada y posteriormente subida a nuestro canal de Youtube y las presentaciones serán compartidas en nuestro sitio web.
 
@@ -66,19 +60,19 @@ Durante el Call for Speakers, se habilitará un formulario al que se podrá acce
 
 #### Agenda
 
-La agenda será creada por el comité de Programa basándose en los resultados del proceso de votación y lo temas seleccionados para el evento de conferencias.
+La agenda será creada por el Comité de Programa basándose en los resultados del proceso de votación y los temas seleccionados para el evento de conferencias.
 
-Todos los speakers que hayan aplicado serán contactados vía email: los seleccionados se contactarán 2 meses antes de la conferencia y se les compartirá la guía para que puedan preparar su charla y el proceso que deben seguir durante el evento. Los que no sean seleccionados, serán contactados al menos un mes antes del evento de conferencias.
+Todos los speakers que hayan aplicado serán contactados vía email: los seleccionados se contactarán 2 meses antes de la conferencia y se les compartirá la guía para que puedan preparar su charla y el proceso que deben seguir durante el evento.
 
 #### Pautas
 
-* **Temas:** Apreciamos la innovación y casos de estudios reales: considera importante lo que será de utilidad para nuestra audiencia de acuerdo a tu experiencia. También si has considerado presentar una charla que has presentado en algún otro evento, por favor considera darle un giro, un toque fresco para que no se sienta repetitivo en caso de que uno de nuestros asistentes haya también participado del otro evento.
+* **Temas:** Apreciamos la innovación y casos de estudios reales: considera importante lo que será de utilidad para nuestra audiencia de acuerdo a tu experiencia. Si tu charla la has presentado en algún otro evento, por favor dale un giro, un toque fresco para que no se sienta repetitivo en caso de que uno de nuestros asistentes haya también participado del otro evento.
     
-* **Título de la charla:** El título de la charla es probablemente la parte más difícil de tu aplicación como ponente: Deberá cautivar la atención de los asistentes de inmediato y despertar su interés. Pon un título corto, que sea memorable, conciso, con un toque de personalidad, con un enfoque directo al tema y a lo que quieres transmitir en la charla.
+* **Título de la charla:** Deberá cautivar la atención de los asistentes de inmediato y despertar su interés. Pon un título corto, que sea memorable, conciso, con un toque de personalidad, con un enfoque directo al tema y a lo que quieres transmitir en la charla.
     
-* **Idioma:** Nuestro principal objetivo es tener charlas en español, pero en el caso de que quieras presentar una charla en inglés, podemos valorarla siempre y cuando esté dentro de las características de lo que queremos transmitir en el evento. Trata de validar con alguien más que maneje el idioma para que el Contenido que presents refleje todo lo que hemos comentado anteriormente.
+* **Idioma:** Nuestro principal objetivo es tener charlas en español, pero en el caso de que quieras presentar una charla en inglés, podemos valorarla siempre y cuando esté dentro de las características de lo que queremos transmitir en el evento. Valida con alguien más que maneje el idioma para que el contenido que presentes refleje todo lo que hemos comentado anteriormente.
     
-* **Ponente por primera vez?:** Si no estás seguro como realizar la aplicación perfecta para ser ponente o para crear una charla que quede en la memoria de los asistentes, siéntete libre de contactarnos: nuestro comité de Programa estará feliz de revisar el Contenido de tu presentación y de brindarte el feedback que te ayudará a mejorarla.
+* **Ponente por primera vez?:** Si no estás seguro de como realizar la aplicación perfecta para ser ponente o para crear una charla que quede en la memoria de los asistentes, siéntete libre de contactárnos: nuestro Comité de Programa estará dispuesto a brindarte la ayuda que necesites para mejorarla.
     
 #### ¡Participa!
 
