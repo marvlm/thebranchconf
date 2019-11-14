@@ -11,7 +11,11 @@
             <img class="d-block w-100" src="{{ item.image }}" alt="{{ item.title }}" title="{{ item.title }}">
             <div class="carousel-caption d-md-block">
                 <p class="fadeInUp wow" data-wow-delay=".6s">{{ item.heading }}</p>
+                {% if item.title contains "The Branch" %}
+                <h1 class="wow fadeInDown heading" data-wow-delay=".4s"><span class="thebranch">{{ item.title }}</span></h1>
+                {% else %}
                 <h1 class="wow fadeInDown heading" data-wow-delay=".4s">{{ item.title }}</h1>
+                {% endif %}
                 <h2 class="wow fadeInDown" data-wow-delay=".4s">{{ item.subtitle }}</h2>
                 {% if item.btn == true %}
                 <a href="{{ item.btn_link }}" class="fadeInLeft wow btn {{ item.btn_type }} btn-lg"
