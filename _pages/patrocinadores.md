@@ -33,4 +33,8 @@ Inclusión de una **charla de 35 minutos dentro del programa**. El branch en el 
 
 #### Rellene el siguiente formulario y nos pondremos en contacto con usted.
 
-<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdKfPxBc6ATFfRVZApgTURbolxpmuzmYIRqheRsGq4U61_nFQ/viewform?embedded=true" width="100%" height="1434" frameborder="0" marginheight="0" marginwidth="0">Cargando…</iframe>
+<!-- <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdKfPxBc6ATFfRVZApgTURbolxpmuzmYIRqheRsGq4U61_nFQ/viewform?embedded=true" width="100%" height="1434" frameborder="0" marginheight="0" marginwidth="0">Cargando…</iframe> -->
+
+{% include layout/gforms.html url=site.form_patrocinadores height="1434px" %} 
+
+***

@@ -1,0 +1,27 @@
+{% assign url = include.url %}
+{% assign height = include.height %}
+<div>
+
+    <!-- <iframe id="form-iframe" src="iframe1form.html" style="margin:0; width:100%; height:150px; border:none; overflow:hidden;" ></iframe> -->
+    <iframe id="form-iframe" src="{{ url }}" scrolling="no" onload="loaded" style="margin:0; width:100%; height:{{ height }}; border:none; overflow:hidden;">Cargando…</iframe>
+
+    <!-- <script type="text/javascript">
+    function AdjustIframeHeightOnLoad() { document.getElementById("form-iframe").style.height = document.getElementById("form-iframe").contentWindow.document.body.scrollHeight + "px"; }
+    function AdjustIframeHeight(i) { document.getElementById("form-iframe").style.height = "200px"; }
+    </script> -->
+
+<script type="application/javascript">
+    var loadCounter = 0;
+    var loaded = function() {
+        var iframe = $("#form-iframe").first();
+        var position = iframe.position();
+        console.log(position);
+        loadCounter += 1;
+        if (loadCounter === 2) {
+            $("#form-iframe").attr("height", "500px");
+            window.scrollTo(0,100)
+        }
+    }
+</script>
+    
+</div>

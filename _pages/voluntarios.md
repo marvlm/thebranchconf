@@ -54,7 +54,9 @@ Sólo llena el formulario que encontrarás al final de ésta página con todos t
 
 ¡Aplica ahora y únete al equipo de The Branch!
 
-<iframe src="https://docs.google.com/forms/d/e/1FAIpQLScVq1Bk7YLsn7gT4Q9whzYg6HqaK9LUjskRW1xERzjziFObOQ/viewform?embedded=true" width="100%" height="1870" frameborder="0" marginheight="0" marginwidth="0">Cargando…</iframe>
+<!-- <iframe src="https://docs.google.com/forms/d/e/1FAIpQLScVq1Bk7YLsn7gT4Q9whzYg6HqaK9LUjskRW1xERzjziFObOQ/viewform?embedded=true" width="100%" height="1870" frameborder="0" marginheight="0" marginwidth="0">Cargando…</iframe> -->
+
+{% include layout/gforms.html url=site.form_voluntarios height="1870px" %} 
 
 Si tienes alguna dudad acerca del programa de voluntarios de The Branch, no dudes en contactarnos a través del siguiente email, estaremos encantados de responder a todas tus preguntas: [hola@thebranch.tech](mailto:hola@thebranch.tech)
 
