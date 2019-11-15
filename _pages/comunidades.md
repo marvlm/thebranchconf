@@ -25,9 +25,7 @@ A lo largo del año, queremos colaborar con ustedes las Comunidades para organiz
 
 #### ¡Te esperamos!
 
-<!-- <iframe src="{{ site.form_comunidades  }}" width="100%" height="1450" frameborder="0" marginheight="0" marginwidth="0">Cargando…</iframe> -->
+{% include layout/gforms.html url=site.form_comunidade height="1542px" %} 
 
 <!-- Test form: "https://bit.ly/2QolEQb" -->
 <!-- Real form: https://bit.ly/33QYNAX site.form_comunidade -->
-
-{% include layout/gforms.html url=site.form_comunidades height="1542px" %} 
