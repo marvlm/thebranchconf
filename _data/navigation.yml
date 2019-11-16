@@ -72,3 +72,9 @@ docs:
   header: false
   footer: true
   side: right
+
+- title: Sitemap
+  url: /sitemap.xml
+  header: false
+  footer: true
+  side: left
