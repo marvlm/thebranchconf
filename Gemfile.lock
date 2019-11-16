@@ -247,6 +247,7 @@ DEPENDENCIES
   jekyll-feed
   jekyll-paginate
   jekyll-seo-tag
+  jekyll-sitemap
   kramdown
 
 BUNDLED WITH
