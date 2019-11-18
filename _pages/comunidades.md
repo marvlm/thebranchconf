@@ -13,7 +13,7 @@ En The Branch queremos que las comunidades sean las protagonistas, que se den a 
 -   Nos gustaría **saber más sobre las comunidades**, cómo podemos ayudarlas y qué le gustaría ver en The Branch! Por eso hemos preparado la siguiente [encuesta]({{site.form_encuesta_comunidades}}){:target="_blank"}.
 -   Durante el evento tendremos  **un área especial para las comunidades**, para hacer networking, mostrar lo que hacen y conocer cómo colaborar con otras comunidades.
 -   Queremos que las comunidades formen parte del proceso de evaluación de **las propuestas del Call for Speakers** (con uno o dos representantes por Comunidad) que se encuentra abierto hasta el 1 de junio.
--   **Tenemos un [canal de Slack]()** para debatir, aportar ideas o lo que surja.
+-   Tenemos un [canal de Slack]({{ site.slack }}){:target="_blank"} para debatir, aportar ideas o lo que surja.
 -   Envíanos los datos de tu comunidad rellenando el formulario al final de esta página y te estaremos contactando para empezar a colaborar.
 
 A lo largo del año, queremos colaborar con ustedes las Comunidades para organizar **webinars**, **meetups**, **talleres** y oportunidades para promover The Branch y cumplir nuestro objetivo de hacer de este el evento de tecnologia, desarrollo de software e innovación más grande e importante de Panamá.
