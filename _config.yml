@@ -9,6 +9,7 @@ plugins:
   - jekyll-feed
   - jekyll-paginate
   - jekyll-sitemap
+  - jekyll-seo-tag
 
   # Add your google-analytics ID here to activate google analytics
 google_analytics:   UA-XXXXXXXXX-X # out your google-analytics code
@@ -32,6 +33,7 @@ twitter: https://twitter.com/thebranchconf
 facebook: https://www.facebook.com/thebranchconf
 linkedin: https://www.linkedin.com/company/thebranchconf/
 instagram: https://www.instagram.com/thebranchconf/
+slack: https://thebranchconf.slack.com/
 calendar_event: https://calendar.google.com/event?action=TEMPLATE&tmeid=MmQ4OGE1cWlsZTk2aDBmaW5laThpNGNkMXQgbWVyZ2UudGhlYnJhbmNoQG0&tmsrc=merge.thebranch%40gmail.com
 form_comunidades: https://docs.google.com/forms/d/e/1FAIpQLSeXU4WHGmA_vXir6b9zDgmIecySbTFOkipkTdriI3iud-7IGw/viewform?embedded=true
 form_voluntarios: https://docs.google.com/forms/d/e/1FAIpQLScVq1Bk7YLsn7gT4Q9whzYg6HqaK9LUjskRW1xERzjziFObOQ/viewform?embedded=true
