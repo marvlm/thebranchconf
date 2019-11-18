@@ -3,7 +3,7 @@ docs:
 
 - title: Qué es
   url: /index.html#que-es
-  header: true
+  header: false
   footer: false
   side: 
 
@@ -72,3 +72,9 @@ docs:
   header: false
   footer: true
   side: right
+
+- title: Sitemap
+  url: /sitemap.xml
+  header: false
+  footer: true
+  side: left

@@ -11,7 +11,7 @@ permalink: "blog/tags.html"
         {% include title.html %}
             
         {% for tag in site.tags %} 
-        <h4 class="font-weight-bold spanborder text-capitalize" id="{{ tag[0] | downcase }}"><span>{{ tag[0] }}</span></h4>
+        <h4 class="font-weight-bold spanborder text-lowercase" id="{{ tag[0] | downcase }}"><span>#{{ tag[0] }}</span></h4>
             
         {% assign pages_list = tag[1] %}
         {% for post in pages_list %}

@@ -70,7 +70,7 @@ The Branch se dedica a proporcionar una experiencia de evento inclusiva y libre 
 
 * El embarazo
 
- Se espera que los participantes que soliciten detener cualquier comportamiento de acoso cumplan de inmediato. Nuestra política de tolerancia cero significa que revisaremos y revisaremos cada presunta violación de nuestros Lineamientos de la comunidad de eventos y nuestra Política contra el acoso y responderemos adecuadamente. Le damos poder y le recomendamos que informe cualquier comportamiento que lo haga sentir incómodo a usted u otras personas al encontrar un miembro del personal de The Branch o al enviar un correo electrónico a [{{ site.email2 }}](mailto:{{ site.email2 }}?Subject=Reporte de Acoso)  
+ Se espera que los participantes que soliciten detener cualquier comportamiento de acoso cumplan de inmediato. Nuestra política de tolerancia cero significa que revisaremos y revisaremos cada presunta violación de nuestros Lineamientos de la comunidad de eventos y nuestra Política contra el acoso y responderemos adecuadamente. Le damos poder y le recomendamos que informe cualquier comportamiento que lo haga sentir incómodo a usted u otras personas al encontrar un miembro del personal de The Branch o al enviar un correo electrónico a [{{ site.email2 }}](mailto:{{ site.email2 }}?Subject=Reporte de Acoso).  
 
 El personal del evento estará encantado de ayudar a los participantes a ponerse en contacto con  la seguridad del hotel / lugar o la policía local, proporcionar acompañantes o ayudar a aquellos que experimenten molestias o acoso a sentirse seguros durante la duración del evento. Valoramos su asistencia.  
 

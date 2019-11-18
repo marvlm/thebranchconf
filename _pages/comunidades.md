@@ -10,7 +10,7 @@ En The Branch queremos que las comunidades sean las protagonistas, que se den a 
 
 #### Si perteneces a una comunidad:
 
--   Nos gustaría **saber más sobre las comunidades**, cómo podemos ayudarlas y qué le gustaría ver en The Branch! Por eso hemos preparado la siguiente encuesta: [EncuestaDemo](EncuestaCodemo)
+-   Nos gustaría **saber más sobre las comunidades**, cómo podemos ayudarlas y qué le gustaría ver en The Branch! Por eso hemos preparado la siguiente [encuesta]({{site.form_encuesta_comunidades}}){:target="_blank"}.
 -   Durante el evento tendremos  **un área especial para las comunidades**, para hacer networking, mostrar lo que hacen y conocer cómo colaborar con otras comunidades.
 -   Queremos que las comunidades formen parte del proceso de evaluación de **las propuestas del Call for Speakers** (con uno o dos representantes por Comunidad) que se encuentra abierto hasta el 1 de junio.
 -   **Tenemos un [canal de Slack]()** para debatir, aportar ideas o lo que surja.

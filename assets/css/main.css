@@ -281,19 +281,19 @@ a.back-to-top {
   display: none;
   position: fixed;
   bottom: 18px;
-  right: 15px;
+  left: 15px;
   text-decoration: none;
 }
 
 a.back-to-top i {
   display: block;
   font-size: 22px;
-  width: 40px;
-  height: 40px;
-  line-height: 40px;
+  width: 60px;
+  height: 60px;
+  line-height: 60px;
   color: #fff;
   background: #e4002b;
-  border-radius: 0px;
+  border-radius: 30px;
   text-align: center;
   transition: all 0.2s ease-in-out;
   -moz-transition: all 0.2s ease-in-out;
@@ -1638,7 +1638,7 @@ article h1,article h2,article h3,article h4,article h5,article h6,article .h1,ar
 
 .blog-item .category {
   position: absolute;
-  text-transform: uppercase;
+  text-transform: capitalize;
   top: -18px;
   left: 20px;
   padding: 4px 27px;
@@ -1851,7 +1851,7 @@ article h1,article h2,article h3,article h4,article h5,article h6,article .h1,ar
 }
 
 .page-inner p a {
-  margin: 0 20px 0 0;
+  margin: 0 0 0 0;
 }
 
 .page-inner li p {
@@ -1860,6 +1860,10 @@ article h1,article h2,article h3,article h4,article h5,article h6,article .h1,ar
 
 .page-inner ul li {
   list-style-type: disc;
+}
+
+.page-inner .list-specification li {
+  list-style-type: none;
 }
 
 .page-inner ol li {
