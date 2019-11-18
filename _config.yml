@@ -19,8 +19,9 @@ title: "The Branch Conference"
 tagline: El evento de desarrollo, tecnología e innovación más grande de Panamá
 slogan: "... evolucionemos el ecosistema tecnológico de Panamá. Juntos!"
 description: The Branch es el evento de conferencias de desarrollo de software, tecnología e innovación, más grande de Panamá. Juntos evolucionamos Panamá!
-date: "SEPTIEMBRE 12 - 13, 2020"
-place: "CIUDAD DE PANAMÁ"
+date: "Fecha por definir" ## SEPTIEMBRE 12 - 13, 2020
+place: "Lugar por definir"
+city: "CIUDAD DE PANAMÁ"
 logo-white: 'assets/img/logo.png'
 logo: 'assets/img/logo2.png'
 favicon: 'assets/images/favicon.ico'
