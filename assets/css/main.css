@@ -281,19 +281,19 @@ a.back-to-top {
   display: none;
   position: fixed;
   bottom: 18px;
-  right: 15px;
+  left: 15px;
   text-decoration: none;
 }
 
 a.back-to-top i {
   display: block;
   font-size: 22px;
-  width: 40px;
-  height: 40px;
-  line-height: 40px;
+  width: 60px;
+  height: 60px;
+  line-height: 60px;
   color: #fff;
   background: #e4002b;
-  border-radius: 0px;
+  border-radius: 30px;
   text-align: center;
   transition: all 0.2s ease-in-out;
   -moz-transition: all 0.2s ease-in-out;
