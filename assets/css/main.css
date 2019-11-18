@@ -283,6 +283,7 @@ a.back-to-top {
   bottom: 18px;
   left: 15px;
   text-decoration: none;
+  z-index: 999;
 }
 
 a.back-to-top i {
@@ -2770,4 +2771,8 @@ a.prevnext:hover {
 /*The Branch*/
 .thebranch {
   text-transform: capitalize;
+}
+
+.intro-desc {
+  margin-bottom: 30px;
 }
