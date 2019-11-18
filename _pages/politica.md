@@ -17,7 +17,7 @@ Recogemos información a través de las siguientes:
 
 - **Formulario de contacto.** El formulario de contacto del apartado [Contacto](http://thebranch.tech#contacto) tiene como objeto, proporcionar información a las personas acerca de nuestros servicios y aclarar dudas que puedan surgir referente a la participación de nuestro evento.
 
-Los datos de carácter personal que se facilitan por correo electrónico mediante el formulario disponible en la sección [Contacto](http://thebranch.tech#contacto)quedan registrados en el fichero ‘Contactos Web The Branch’, con la finalidad de contestar a las consultas y obtener datos estadísticos de las mismas.
+Los datos de carácter personal que se facilitan por correo electrónico mediante el formulario disponible en la sección [Contacto](http://thebranch.tech#contacto)quedan registrados en el fichero ‘Contactos Web The Branch’, con la finalidad de contestar a las consultas y obtener datos estadísticos, por lo que no se usarán para finalidades distintas a la de esta publicación.
 
 El formulario de contacto de la web tiene carácter meramente informativo, sin que, en ningún caso, pueda derivarse de la contestación efecto jurídico vinculante alguno.
 
@@ -28,8 +28,6 @@ Se informa que se pueden ejercitar los derechos de acceso, oposición, rectifica
 #### Registro General de Participantes.
 
 El objetivo de publicar el catálogo de participantes (speakers, comunidades, patrocinadores, colaboradores del blog) es difundir y dar publicidad a lo que corresponde al evento y sus derivados.
-
-Los datos de carácter personal incluidos en este catálogo no podrán ser objeto de tratamiento, ni usarse para finalidades distintas a la de esta publicación.
 
 Queda prohibida la reproducción total o parcial, incluso el volcado del contenido a cualquier soporte, sin expresa autorización de The Branch.
 
