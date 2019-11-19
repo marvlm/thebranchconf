@@ -33,6 +33,3 @@ A lo largo del año, queremos trabajar con ustedes las Comunidades para organiza
 Por favor, envíanos los datos de tu comunidad rellenando el siguiente formulario y te estaremos contactando para empezar a colaborar.
 
 {% include layout/gforms.html url=site.form_comunidades height="1542px" %} 
-
-<!-- Test form: "https://bit.ly/2QolEQb" -->
-<!-- Real form: https://bit.ly/33QYNAX site.form_comunidade -->
