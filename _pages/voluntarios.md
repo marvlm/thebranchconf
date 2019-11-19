@@ -60,6 +60,6 @@ Sólo llena el formulario que encontrarás al final de ésta página con todos t
 
 Si tienes alguna dudad acerca del programa de voluntarios de The Branch, no dudes en contactarnos a través del siguiente email, estaremos encantados de responder a todas tus preguntas: [hola@thebranch.tech](mailto:hola@thebranch.tech)
 
-#### Estamos ansiosos de darte la bienvenida al equipo de The Branch el 12 y 13 de septiembre de 2020 @Lugar escogido – Panamá, ciudad de Panamá.
+#### Estamos ansiosos de darte la bienvenida al equipo de The Branch.
 
 ***
