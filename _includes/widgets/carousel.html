@@ -7,12 +7,13 @@
     </ol>
     <div class="carousel-inner">
         {% for item in site.data.carousel.docs %}
-        <div class="carousel-item {% if item.first == true %}active{% endif %}">
-            <img class="d-block w-100" src="{{ item.image }}" alt="{{ item.title }}" title="{{ item.title }}">
+        <div class="carousel-item {% if item.first == true %}active{% endif %}" style="background-image: url({{ item.image }});">
+            <!-- <img class="d-block w-100" src="{{ item.image }}" alt="{{ item.title }}" title="{{ item.title }}"> -->
             <div class="carousel-caption d-md-block">
                 <p class="fadeInUp wow" data-wow-delay=".6s">{{ item.heading }}</p>
                 {% if item.title contains "The Branch" %}
-                <h1 class="wow fadeInDown heading" data-wow-delay=".4s"><span class="thebranch">{{ item.title }}</span></h1>
+                <br/>
+                <h1 class="wow fadeInDown heading text-capitalize" data-wow-delay=".4s"><!-- <span class="thebranch"> -->{{ item.title }}<!-- </span> --></h1>
                 {% else %}
                 <h1 class="wow fadeInDown heading" data-wow-delay=".4s">{{ item.title }}</h1>
                 {% endif %}
