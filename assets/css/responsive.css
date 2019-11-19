@@ -12,16 +12,6 @@
   .carousel-indicators {
     font-size: 14px;
   }
-  #main-slide .carousel-item .carousel-caption .heading {
-    font-size: 20px;
-    margin-top: 5px;
-  }
-  #main-slide .carousel-item .carousel-caption h2 {
-    font-size: 16px;
-  }
-  #main-slide .carousel-item .carousel-caption p {
-    font-size: 13px;
-  }
   #hero-area .contents .head-title {
     font-size: 40px;
   }
@@ -52,15 +42,6 @@
   }
   #main-slide .carousel-caption {
     top: 32%;
-  }
-  #main-slide .carousel-item .carousel-caption .heading {
-    font-size: 20px;
-  }
-  #main-slide .carousel-item .carousel-caption h2 {
-    font-size: 16px;
-  }
-  #main-slide .carousel-item .carousel-caption p {
-    font-size: 13px;
   }
   .page-title-section {
     padding: 40px 0;
@@ -117,15 +98,6 @@
 @media (min-width: 768px) and (max-width: 991px) {
   #main-slide .carousel-caption {
     top: 32%;
-  }
-  #main-slide .carousel-item .carousel-caption .heading {
-    font-size: 20px;
-  }
-  #main-slide .carousel-item .carousel-caption h2 {
-    font-size: 16px;
-  }
-  #main-slide .carousel-item .carousel-caption p {
-    font-size: 13px;
   }
   .countdown-timer .heading-count h2 {
     font-size: 25px;
