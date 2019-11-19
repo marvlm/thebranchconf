@@ -26,7 +26,7 @@ h1, h2, h3, h4 {
 }
 
 h2 {
-  font-size: 26px;
+  font-size: 22px;
   font-weight: 700;
   font-family: 'Baloo Bhai', sans-serif;
 }
@@ -1897,7 +1897,7 @@ article h1,article h2,article h3,article h4,article h5,article h6,article .h1,ar
 
 .page-inner h4 {
   padding: 10px;
-  font-size: 26px;
+  font-size: 22px;
 }
 
 /* Contact Forme */
