@@ -25,6 +25,12 @@ h1, h2, h3, h4 {
   font-family: 'Baloo Bhai', sans-serif;
 }
 
+h2 {
+  font-size: 26px;
+  font-weight: 700;
+  font-family: 'Baloo Bhai', sans-serif;
+}
+
 a {
   -webkit-transition: all 0.2s linear;
   -moz-transition: all 0.2s linear;
@@ -1891,7 +1897,7 @@ article h1,article h2,article h3,article h4,article h5,article h6,article .h1,ar
 
 .page-inner h4 {
   padding: 10px;
-  font-size: 22px;
+  font-size: 26px;
 }
 
 /* Contact Forme */
