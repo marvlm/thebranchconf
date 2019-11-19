@@ -36,9 +36,12 @@
         <!-- Mobile Menu Start -->
         <ul class="mobile-menu">
             {% for item in site.data.navigation.docs %}
+            {% assign nav-item = item.url | downcase | split: '/' %}
+            {% if item.header == true %}
             <li>
                 <a class="page-scroll" href="{{site.baseurl}}{{ item.url }}">{{ item.title }}</a>
             </li>
+            {% endif %}
             {% endfor %}
         </ul>
         <!-- Mobile Menu End -->
