@@ -188,18 +188,23 @@
   .section-sub {
     font-size: 16px;
   }
+  #main-slide .carousel-item {
+    height: 400px;
+    background-position: center center;
+    background-size: cover;
+  }
   #main-slide .carousel-caption {
     top: 22%;
   }
   #main-slide .carousel-item .carousel-caption .heading {
-    font-size: 14px;
+    font-size: 20px;
     margin-top: 10px;
   }
   #main-slide .carousel-item .carousel-caption h2 {
     font-size: 12px;
   }
   #main-slide .carousel-item .carousel-caption p {
-    font-size: 13px;
+    font-size: 16px;
   }
   #main-slide .carousel-indicators {
     display: none;
@@ -297,10 +302,10 @@
     font-size: 14px;
   }
   #main-slide .carousel-item .carousel-caption p {
-    font-size: 14px;
+    font-size: 16px;
   }
   #main-slide .carousel-caption .btn {
-    margin: 0;
+    margin: 15px 6px 0;
   }
   #main-slide .carousel-indicators {
     display: none;
@@ -315,8 +320,9 @@
     padding: 11px 20px;
   }
   .btn {
-    padding: 5px 7px;
+    padding: 20px 12px;
     font-size: 13px;
+    height: 60px;
   }
   .intro-title {
     margin-top: 25px;
