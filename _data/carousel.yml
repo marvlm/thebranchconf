@@ -3,7 +3,7 @@ docs:
 
 - id: 0
   image: assets/img/slider/slide3.jpg
-  heading: El evento de desarrollo, tecnología e innovación más grande de Panamá
+  heading: El evento de desarrollo, tecnología e innovación más grande de Panamá.
   title: "The Branch Conference"
   subtitle: 
   btn: false
@@ -25,7 +25,7 @@ docs:
 
 - id: 2
   image: assets/img/slider/slide2.jpg
-  heading: Haga que su marca se vea "tech-sexy" frente a más de 1000 profesionales del desarrollo de software y tecnología.
+  heading: The Branch es posible gracias al aporte generoso de nuestros patrocinadores.
   title: ¿Quieres ser patrocinador?
   subtitle: 
   btn: true
@@ -47,7 +47,7 @@ docs:
 
 - id: 4
   image: assets/img/slider/slide7.jpg
-  heading: Una oportunidad para hacer networking
+  heading: Una oportunidad para poner tus habilidades en acción.
   title: ¿Quieres participar como voluntario?
   subtitle: 
   btn: true
