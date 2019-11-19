@@ -218,7 +218,7 @@ ul li, ol li {
 .btn-common {
   background-color: #e4002b;
   position: relative;
-  z-index: 1;
+  /* z-index: 1; */
 }
 
 .btn-common:hover {
@@ -1389,7 +1389,7 @@ article h1,article h2,article h3,article h4,article h5,article h6,article .h1,ar
   font-size: 48px;
   text-align: center;
   margin-bottom: 15px;
-  color: #212121;
+  color: #2f2f2f;
   border-radius: 0;
   transition: all 0.3s ease-in-out 0s;
   -moz-transition: all 0.3s ease-in-out 0s;
@@ -2385,6 +2385,12 @@ article h1,article h2,article h3,article h4,article h5,article h6,article .h1,ar
   animation-fill-mode: both;
   -webkit-animation-name: fadeIn;
   animation-name: fadeIn;
+}
+
+#main-slide .carousel-item {
+  height: 700px;
+  background-position: center center;
+  background-size: cover;
 }
 
 #main-slide .carousel-item img {
