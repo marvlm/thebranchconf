@@ -50,7 +50,7 @@ Sólo llena el formulario que encontrarás al final de ésta página con todos t
     
 * **¡Y por supuesto, nuestro más sincero agradecimiento y reconocimiento!**
     
-### ¿Listo para aceptar el reto?
+#### ¿Listo para aceptar el reto?
 
 ¡Aplica ahora y únete al equipo de The Branch!
 
@@ -58,7 +58,7 @@ Sólo llena el formulario que encontrarás al final de ésta página con todos t
 
 {% include layout/gforms.html url=site.form_voluntarios height="1870px" %} 
 
-Si tienes alguna dudad acerca del programa de voluntarios de The Branch, no dudes en contactarnos a través del siguiente email, estaremos encantados de responder a todas tus preguntas: [hola@thebranch.tech](mailto:hola@thebranch.tech)
+Si tienes alguna duda acerca del programa de voluntarios de The Branch, no dudes en contactarnos a través del siguiente email, estaremos encantados de responder a todas tus preguntas: [hola@thebranch.tech](mailto:hola@thebranch.tech)
 
 #### Estamos ansiosos de darte la bienvenida al equipo de The Branch.
 
