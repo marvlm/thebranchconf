@@ -73,8 +73,8 @@ docs:
   footer: true
   side: right
 
-- title: Sitemap
-  url: /sitemap.xml
+- title: Mapa del sitio
+  url: /mapa-del-sitio
   header: false
   footer: true
   side: left
