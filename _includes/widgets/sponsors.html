@@ -12,8 +12,18 @@
         </div>
         <div class="container">
             <div class="row text-center">
-                <!-- Counter Item -->
+                {% for item in site.data.sponsors.docs %}
                 <div class="col-md-6 col-lg-3 col-xs-12 work-counter-widget text-center services-item">
+                    <div class="services-content" data-wow-delay="0.3s">
+                        <h3>
+                            <a>{{item.title}}</a>
+                        </h3>
+                        <p>{{item.description_a}}
+                        </p>
+                    </div>
+                </div>
+                {% endfor %}
+                <!-- <div class="col-md-6 col-lg-3 col-xs-12 work-counter-widget text-center services-item">
                     <div class="services-content" data-wow-delay="0.3s">
                         <h3>
                             <a>Oportunidad única para reclutar</a>
@@ -22,7 +32,6 @@
                         </p>
                     </div>
                 </div>
-                <!-- Counter Item -->
                 <div class="col-md-6 col-lg-3 col-xs-12 work-counter-widget text-center services-item">
                     <div class="services-content" data-wow-delay="0.6s">
                         <h3>
@@ -36,7 +45,6 @@
                         </p>
                     </div>
                 </div>
-                <!-- Counter Item -->
                 <div class="col-md-6 col-lg-3 col-xs-12 work-counter-widget text-center services-item">
                     <div class="services-content">
                         <h3>
@@ -48,7 +56,6 @@
                             en su negocio de la mano de los expertos que nos acompañarán en el evento.</p>
                     </div>
                 </div>
-                <!-- Counter Item -->
                 <div class="col-md-6 col-lg-3 col-xs-12 work-counter-widget text-center services-item">
                     <div class="services-content" data-wow-delay="1.2s">
                         <h3>
@@ -58,7 +65,7 @@
                             será decidido en función de la expectación generada en los asistentes durante la creación de
                             la agenda.</p>
                     </div>
-                </div>
+                </div> -->
                 <div class="col-12 text-center">
                     <a href="{{site.baseurl}}/patrocinadores" class="btn btn-common"><i
                             class="fas fa-thumbs-up"></i>Quiero ser
