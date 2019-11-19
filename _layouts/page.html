@@ -3,32 +3,32 @@ layout: default
 ---
 {% if page.image %}
 <header>
-    <!-- Main Carousel Section Start -->
     <div id="main-slide" class="carousel slide" data-ride="carousel">
         <div class="carousel-inner">
-            <div class="carousel-item active">
-                <img class="d-block w-100" src="{% if page.image contains "://" %}{{ page.image }}{% else %}{{ site.baseurl }}/{{ page.image }}{% endif %}"
-                alt="{{ page.title }}" title="{{ page.title }}">
+            <div class="carousel-item active" style="background-image: url({% if page.image contains "://" %}{{ page.image }}{% else %}{{ site.baseurl }}/{{ page.image }}{% endif %});">
+                <!-- <img class="d-block w-100" src="{% if page.image contains "://" %}{{ page.image }}{% else %}{{ site.baseurl }}/{{ page.image }}{% endif %}"
+                alt="{{ page.title }}" title="{{ page.title }}"> -->
                 <div class="carousel-caption d-md-block">
+                    <br/>
                     <h1 class="wow fadeInDown heading" data-wow-delay=".4s">{{ page.title }}</h1>
                     <p class="fadeInUp wow" data-wow-delay=".6s">{{ page.subtitle }}</p>
                 </div>
             </div>
         </div>
     </div>
-    <!-- Main Carousel Section End -->
 </header>
-<!-- Header Area wrapper End -->
 {% endif %}
 <section class="bg-primary">
     <div id="page" class="section-padding">
         <div class="container">
             <div class="row">
                 <div class="col-12">
+                    {% unless page.image != blank? %}
                     <div class="page-title text-center">
                         <h1 class="section-title wow fadeInUp" data-wow-delay="0.2s">{{ page.title }}</h1>
                         <p class="wow fadeInDown" data-wow-delay="0.2s">{{ page.subtitle }}</p>
                     </div>
+                    {% endunless %}
                     <div class="page-inner">
                         <p>{{ content }}</p>
                     </div>
