@@ -27,7 +27,7 @@ Nuestra imagen corporativa transmite y refleja el carácter de The Branch, sus v
 
 #### Tipografía Corporativa
 
-En el logo se ha utilizado el tipo de fuente *Segoe UI Heavy*, pero en el texto del logo han sido reducidos los espacios entre letras.
+En el logo se ha utilizado el tipo de fuente *Baloo Bhai*, pero en el texto del logo han sido reducidos los espacios entre letras.
 
 #### Colores Corporativos
 ![The Branch corporate colors]({{ site.baseurl }}/assets/img/identity/the-branch-logo-colors.png){:width="100%"}
