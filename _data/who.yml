@@ -11,7 +11,7 @@ docs:
   description: Product Designer, Tesla
 
 - name: CAROL CUPAS
-  image: assets/img/team/team-02.jpg
+  image: assets/img/team/team-01.jpg
   page: "#"
   linkedin: "#"
   twitter: "#"
@@ -20,7 +20,7 @@ docs:
   description: Front-end Developer, Dropbox
 
 - name: REGIS RIVERA
-  image: assets/img/team/team-03.jpg
+  image: assets/img/team/team-01.jpg
   page: "#"
   linkedin: "#"
   twitter: "#"
@@ -29,7 +29,7 @@ docs:
   description: Lead Designer, TNW
 
 - name: ULISES GONZÁLEZ
-  image: assets/img/team/team-04.jpg
+  image: assets/img/team/team-01.jpg
   page: "#"
   linkedin: "#"
   twitter: "#"
@@ -38,7 +38,7 @@ docs:
   description: Back-end Developer, ASUS
 
 - name: RAFAEL ECHEVERRÍA
-  image: assets/img/team/team-05.jpg
+  image: assets/img/team/team-01.jpg
   page: "#"
   linkedin: "#"
   twitter: "#"
@@ -47,7 +47,7 @@ docs:
   description: Full-stack Developer, Google
 
 - name: RUTH MENDOZA
-  image: assets/img/team/team-06.jpg
+  image: assets/img/team/team-01.jpg
   page: "#"
   linkedin: "#"
   twitter: "#"
