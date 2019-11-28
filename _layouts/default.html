@@ -4,6 +4,8 @@
 <head>
     {% include layout/head.html %}
 
+    {% include layout/serviceworker.html %}
+
     {% include widgets/crisp.html %}
 
     {% if site.google_analytics and jekyll.environment == 'production' %}
@@ -41,7 +43,7 @@
 
     <!-- Go to Top Link -->
     <a href="#" class="back-to-top">
-        <i class="lni-chevron-up"></i>
+        <i class="fas fa-chevron-up"></i>
     </a>
 
     <div id="preloader">

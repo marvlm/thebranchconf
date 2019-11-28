@@ -5,7 +5,7 @@
                {% if page.previous.url %}
                <div class="col-md-6 rightborder pl-0">
                    <a class="prevnext" href="{{ site.baseurl }}{{ page.previous.url }}"><i class="fas fa-arrow-left"></i> {% if page.previous.image %} <img
-                           height="40px" class="mr-1" src="{{site.baseurl}}/{{page.previous.image}}"> {% endif %}
+                           height="40px" class="mr-1" src="{{site.baseurl}}/{{page.previous.image}}" alt="{{page.previous.title}}"> {% endif %}
                            {{page.previous.title}}</a>
                </div>
                {% endif %}

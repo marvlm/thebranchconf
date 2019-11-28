@@ -56,9 +56,13 @@ enabled: true
                     <h5 class="post-subtitle">{{ post.excerpt | strip_html | truncatewords: 15 }}</h5>
                     {% endif %}
                 </a>
-                <p class="post-meta">Posted by
+                <p class="post-meta">Publicado por
                     {% if post.author %}
-                    {{ post.author }}
+                    {% for item in site.data.authors.docs %}
+                        {% if item.id == post.author %}
+                            <strong>{{ item.name }}</strong>
+                        {% endif %}
+                    {% endfor %}
                     {% else %}
                     {{ site.author }}
                     {% endif %}

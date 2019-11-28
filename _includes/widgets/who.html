@@ -11,7 +11,6 @@
         <div class="row">
             {% for item in site.data.who.docs %}
             <div class="col-sm-6 col-md-6 col-lg-4">
-                    <!-- Team Item Starts -->
                     <div class="team-item wow fadeInUp" data-wow-delay="0.2s">
                         <div class="team-img">
                             <img class="img-fluid" src="{{ item.image }}" alt="{{ item.name }}" title="{{ item.name }}">
@@ -19,16 +18,18 @@
                                 <div class="overlay-social-icon text-center">
                                     <ul class="social-icons">
                                         {% if item.facebook != blank? %}
-                                        <li><a href="{{ item.facebook }}"><i class="lni-facebook-filled" aria-hidden="true"></i></a></li>
+                                        <li><a href="{{ item.facebook }}"><i
+                                            class="fab fa-facebook-f"></i></a></li>
                                         {% endif %}
                                         {% if item.twitter != blank? %}
-                                        <li><a href="{{ item.twitter }}"><i class="lni-twitter-filled" aria-hidden="true"></i></a></li>
+                                        <li><a href="{{ item.twitter }}"><i class="fab fa-twitter"></i></a></li>
                                         {% endif %}
                                         {% if item.linkedin != blank? %}
-                                        <li><a href="{{ item.linkedin }}"><i class="lni-linkedin-filled" aria-hidden="true"></i></a></li>
+                                        <li><a href="{{ item.linkedin }}"><i
+                                            class="fab fa-linkedin-in"></i></a></li>
                                         {% endif %}
                                         {% if item.email != blank? %}
-                                        <li><a href="{{ item.email }}"><i class="lni-behance" aria-hidden="true"></i></a></li>
+                                        <li><a href="{{ item.email }}"><i class="far fa-envelope"></i></a></li>
                                         {% endif %}
                                     </ul>
                                 </div>
@@ -39,10 +40,9 @@
                             <p>{{ item.description }}</p>
                         </div>
                     </div>
-                    <!-- Team Item Ends -->
             </div>
             {% endfor %}
         </div>
-        <!-- <a href="speakers.html" class="btn btn-common mt-30 wow fadeInUp" data-wow-delay="1.9s">All Speakers</a> -->
+        <a href="speakers.html" class="btn btn-common mt-30 wow fadeInUp" data-wow-delay="1.9s">All Speakers</a>
     </div>
 </section>

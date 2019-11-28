@@ -10,10 +10,16 @@ plugins:
   - jekyll-paginate
   - jekyll-sitemap
   - jekyll-seo-tag
+  - jekyll-tidy
+  - jekyll-compress-images
 google_analytics: UA-149944962-1
 include: ['_pages']
 
 # Site Settings
+short_name: "TheBranch"
+language: "en"
+lang_direction: "ltr"
+color: "#2f2f2f"
 title: "The Branch Conference"
 tagline: El evento de desarrollo, tecnología e innovación más grande de Panamá
 slogan: "... evolucionemos el ecosistema tecnológico de Panamá. Juntos!"
@@ -42,3 +48,11 @@ form_encuesta_comunidades: https://docs.google.com/forms/d/e/1FAIpQLScQT2YF9Nyth
 ---
 excerpt_separator: <!--more-->
 ---
+
+imageoptim:
+  pngout: false
+  svgo: false
+  verbose: false
+
+#jekyll-tidy:
+  #ignore_env: development

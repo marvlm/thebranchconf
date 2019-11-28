@@ -5,7 +5,7 @@ permalink: codigo-de-conducta
 subtitle: Código de conducta y política contra el acoso
 ---
 
-The Branch se dedica a proporcionar una experiencia de evento inclusiva y libre de acoso para todos, independientemente de su identidad y expresión de género, orientación sexual, discapacidad, neurodiversidad, apariencia física, tamaño corporal, etnia, nacionalidad, raza, edad, religión u otra categoría protegida. No toleramos el acoso de los participantes del evento de ninguna forma. The Branch toma en serio las violaciones de nuestra política y responderá de manera adecuada. Nuestro código de conducta está basado en los Lineamientos de la comunidad de eventos de Google y la Política contra el acoso, para obtener más información al respecto consulte [aquí](#){:target="_blank"}.   
+The Branch se dedica a proporcionar una experiencia de evento inclusiva y libre de acoso para todos, independientemente de su identidad y expresión de género, orientación sexual, discapacidad, neurodiversidad, apariencia física, tamaño corporal, etnia, nacionalidad, raza, edad, religión u otra categoría protegida. No toleramos el acoso de los participantes del evento de ninguna forma. The Branch toma en serio las violaciones de nuestra política y responderá de manera adecuada. Nuestro código de conducta está basado en los Lineamientos de la comunidad de eventos de Google y la Política contra el acoso, para obtener más información al respecto consulte [aquí](#){:target="_blank" rel="noopener"}.   
 
 * * *
 
@@ -78,6 +78,6 @@ Esta política se extiende a sesiones, foros, talleres, codelabs, redes sociales
 
 Esto incluye, pero no se limita a, los asistentes que se comportan de manera desordenada o no cumplen con esta política y los términos y condiciones del presente. Si un participante se involucra en acoso o comportamiento incómodo, los organizadores de la conferencia pueden tomar cualquier acción que consideren apropiada, incluida una advertencia o expulsar al delincuente de la conferencia sin reembolso.  
 
-Fuente original y créditos: [chrome://community-guidelines](https://developer.chrome.com/devsummit/community-guidelines){:target="_blank"}
+Fuente original y créditos: [chrome://community-guidelines](https://developer.chrome.com/devsummit/community-guidelines){:target="_blank" rel="noopener"}
 
 * * *

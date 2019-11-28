@@ -10,7 +10,7 @@ En The Branch queremos que las comunidades sean las protagonistas, que se den a 
 
 #### Si perteneces a una comunidad:
 
-Nos gustaría **saber más sobre tu comunidad**, cómo podemos ayudarles y qué les gustaría ver en The Branch! Por eso hemos preparado la siguiente [encuesta]({{site.form_encuesta_comunidades}}){:target="_blank"}.
+Nos gustaría **saber más sobre tu comunidad**, cómo podemos ayudarles y qué les gustaría ver en The Branch! Por eso hemos preparado la siguiente [encuesta]({{site.form_encuesta_comunidades}}){:target="_blank" rel="noopener"}.
 
 A lo largo del año, queremos trabajar con ustedes las Comunidades para organizar **webinars**, **meetups**, **talleres** y oportunidades para promover The Branch y cumplir nuestro objetivo de hacer de este el evento de tecnologia, desarrollo de software e innovación más grande e importante de Panamá.
 
@@ -26,7 +26,7 @@ A lo largo del año, queremos trabajar con ustedes las Comunidades para organiza
 #### The Branch siempre estará abierto a las Comunidades 
 ... queremos ayudarles a crecer.
 
-**Para saber más**, debatir, proponer ideas, actividades o lo que surja puedes unirte a nuestro [canal de Slack]({{ site.slack }}){:target="_blank"}, contactar a nuestro equipo a través del correo [equipo@thebranch.tech](mailto:equipo@thebranch.tech) o síguenos en las redes sociales!
+**Para saber más**, debatir, proponer ideas, actividades o lo que surja puedes unirte a nuestro [canal de Slack]({{ site.slack }}){:target="_blank" rel="noopener"}, contactar a nuestro equipo a través del correo [equipo@thebranch.tech](mailto:equipo@thebranch.tech) o síguenos en las redes sociales!
 
 #### ¡Te esperamos!
 

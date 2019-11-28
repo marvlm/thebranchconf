@@ -2,37 +2,37 @@
     <div class="container">
         <div class="row">
             <div class="col-md-6 col-lg-3 col-sm-6 col-xs-12 wow fadeInUp" data-wow-delay="0.2s">
-                <h3><a href="{{ site.baseurl }}"><img src="{{ site.baseurl }}/{{ site.logo-white }}" alt="The Branch logo" title="The Branch logo"></a></h3>
+                <h3>
+                    <a href="{{ site.baseurl }}"><img src="{{ site.baseurl }}/{{ site.logo-white }}"
+                            alt="The Branch logo" title="The Branch logo" /></a>
+                </h3>
                 <p>
-                    <i class="fas fa-map-marked-alt"></i> {{ site.date }}. {{ site.place }}
+                    <i class="fas fa-map-marked-alt"></i> {{ site.date }}. {{ site.place
+          }}
                 </p>
                 <p>&nbsp;</p>
-                <p>
-                    <i class="fas fa-code-branch"></i> {{ site.slogan }}
-                </p>
+                <p><i class="fas fa-code-branch"></i> {{ site.slogan }}</p>
             </div>
             <div class="col-md-6 col-lg-3 col-sm-6 col-xs-12 wow fadeInUp" data-wow-delay="0.4s">
                 <h3>ENLACES DE INTERÉS</h3>
                 <ul>
-                    {% for item in site.data.navigation.docs %}
-                    {% if item.footer == true %}
-                    {% if item.side == 'left' %}
-                    <li><a href="{{site.baseurl}}{{ item.url }} ">{{ item.title }} </a></li>
-                    {% endif %}
-                    {% endif %}
-                    {% endfor %}
+                    {% for item in site.data.navigation.docs %} {% if item.footer == true
+          %} {% if item.side == 'left' %}
+                    <li>
+                        <a href="{{site.baseurl}}{{ item.url }} ">{{ item.title }} </a>
+                    </li>
+                    {% endif %} {% endif %} {% endfor %}
                 </ul>
             </div>
             <div class="col-md-6 col-lg-3 col-sm-6 col-xs-12 wow fadeInUp" data-wow-delay="0.4s">
                 <h3>QUIÉNES SOMOS</h3>
                 <ul>
-                    {% for item in site.data.navigation.docs %}
-                    {% if item.footer == true %}
-                    {% if item.side == 'right' %}
-                    <li><a href="{{site.baseurl}}{{ item.url }} ">{{ item.title }} </a></li>
-                    {% endif %}
-                    {% endif %}
-                    {% endfor %}
+                    {% for item in site.data.navigation.docs %} {% if item.footer == true
+          %} {% if item.side == 'right' %}
+                    <li>
+                        <a href="{{site.baseurl}}{{ item.url }} ">{{ item.title }} </a>
+                    </li>
+                    {% endif %} {% endif %} {% endfor %}
                 </ul>
             </div>
             <div class="col-md-6 col-lg-3 col-sm-6 col-xs-12 wow fadeInUp" data-wow-delay="0.8s">
@@ -40,8 +40,8 @@
                 <div class="widget">
                     <div class="newsletter-wrapper">
                         <p>
-                            <a href="mailto:{{ site.email }}?Subject=Información sobre The Branch"
-                                target="_top"><i class="far fa-envelope"></i> {{ site.email }}</a>
+                            <a href="mailto:{{ site.email }}?Subject=Información sobre The Branch" target="_top"><i
+                                    class="far fa-envelope"></i> {{ site.email }}</a>
                         </p>
                     </div>
                 </div>
@@ -49,15 +49,22 @@
                 <div class="widget">
                     <h5 class="widget-title">Síguenos</h5>
                     <ul class="footer-social">
-                        <li><a class="facebook" target="_blank" href="https://www.facebook.com/thebranchconf"><i
-                                    class="lni-facebook-filled"></i></a></li>
-                        <li><a class="twitter" target="_blank" href="https://twitter.com/thebranchconf"><i
-                                    class="lni-twitter-filled"></i></a></li>
-                        <li><a class="linkedin" target="_blank"
-                                href="https://www.linkedin.com/company/thebranchconf/"><i
-                                    class="lni-linkedin-filled"></i></a></li>
-                        <li><a class="instagram" target="_blank" href="https://www.instagram.com/thebranchconf/"><i
-                                    class="lni-instagram-filled"></i></a></li>
+                        <li>
+                            <a class="facebook" target="_blank" href="{{site.facebook}}" rel="noopener"><i
+                                    class="fab fa-facebook-f"></i></a>
+                        </li>
+                        <li>
+                            <a class="twitter" target="_blank" href="{{site.twitter}}" rel="noopener"><i
+                                    class="fab fa-twitter"></i></a>
+                        </li>
+                        <li>
+                            <a class="linkedin" target="_blank" href="{{site.linkedin}}" rel="noopener"><i
+                                    class="fab fa-linkedin-in"></i></a>
+                        </li>
+                        <li>
+                            <a class="instagram" target="_blank" href="{{site.instagram}}" rel="noopener"><i
+                                    class="fab fa-instagram"></i></a>
+                        </li>
                     </ul>
                 </div>
             </div>

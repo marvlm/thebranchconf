@@ -338,7 +338,7 @@ header.masthead .overlay {
   font-weight: 300;
   margin: 0 0 10px;
   color: #2f2f2f;
-  font-size:25px;
+  font-size:23px;
 }
 
 .post-preview>a>.post-title {
@@ -357,6 +357,11 @@ header.masthead .overlay {
   color: #0047bb;
 }
 
+.post-preview>.post-meta {
+  font-size: 16px;
+  font-style: italic;
+  margin-top: 0;
+}
 
 .reading-time{
   color: #e4002b;
@@ -365,7 +370,6 @@ header.masthead .overlay {
 article {
 	font-size:20px;
 	line-height:1.86;
-    font-family:Lora;
 }
 
 .article-headline {
@@ -408,7 +412,6 @@ article {
 
 .article-title p {
   /*text: center;*/
-  color: #888;
   font-weight: 400;
   line-height: 26px;
   padding-bottom: 0px;
@@ -1310,8 +1313,9 @@ article h1,article h2,article h3,article h4,article h5,article h6,article .h1,ar
 }
 
 .accordion .header-title:after {
-  font-family: "LineIcons";
-  content: "\e93a";
+  font-family: "Font Awesome 5 Free";
+  font-weight: 400;
+  content: "\f078";
   position: absolute;
   right: 10px;
   color: #999;
@@ -1322,7 +1326,7 @@ article h1,article h2,article h3,article h4,article h5,article h6,article .h1,ar
 }
 
 .accordion .collapsed:after {
-  content: "\e940";
+  content: "\f139";
 }
 
 .accordion .card-header {
@@ -1562,7 +1566,7 @@ article h1,article h2,article h3,article h4,article h5,article h6,article .h1,ar
   -o-transition: all 0.3s ease-in-out 0s;
 }
 
-.team-item .overlay-social-icon .social-icons li a:hover .fa-facebook {
+.team-item .overlay-social-icon .social-icons li a:hover .fa-facebook-f {
   background: #3B5998;
 }
 
@@ -1572,6 +1576,14 @@ article h1,article h2,article h3,article h4,article h5,article h6,article .h1,ar
 
 .team-item .overlay-social-icon .social-icons li a:hover .fa-instagram {
   background: #fb3958;
+}
+
+.team-item .overlay-social-icon .social-icons li a:hover .fa-linkedin-in {
+  background: #0073b1;
+}
+
+.team-item .overlay-social-icon .social-icons li a:hover .fa-envelope {
+  background: #2f2f2f;
 }
 
 
@@ -1688,13 +1700,14 @@ article h1,article h2,article h3,article h4,article h5,article h6,article .h1,ar
 }
 
 .blog-item .descr .meta-tags span {
-  color: #999;
+  color: #424242;
   margin-right: 8px;
+  font-size: 14px;
 }
 
 .blog-item .descr .meta-tags span a {
-  color: #999;
-  margin-left: 8px;
+  color: #424242;
+  margin-left: 6px;
 }
 
 .blog-item .descr .meta-tags span a:hover {
@@ -2689,9 +2702,10 @@ article h1,article h2,article h3,article h4,article h5,article h6,article .h1,ar
 }
 
 .tag {
+  font-size: 14px;
   background: #eee;
   border-radius: 3px 0 0 3px;
-  color: #999;
+  color: #424242;
   display: inline-block;
   height: 26px;
   line-height: 26px;
