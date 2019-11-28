@@ -3,7 +3,7 @@ layout: page
 title: Imagen Corporativa
 permalink: imagen-corporativa
 subtitle: Nos importa nuestra imagen
-image: assets/img/slider/slide3.jpg
+image: assets/img/slider/slide3-2.jpg
 comments: false
 ---
 
