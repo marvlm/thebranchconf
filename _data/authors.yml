@@ -19,3 +19,13 @@ docs:
   twitter: https://twitter.com/marvlm
   avatar: assets/img/authors/carol.jpg
   email: carol@thebranch.tech
+
+- id: thebranch
+  name: The Branch
+  bio: El evento de desarrollo, tecnología e innovación más grande de Panamá.
+  avatar: assets/img/authors/thebranch.jpg
+  email: equipo@thebranch.tech
+  linkedin: https://www.linkedin.com/in/thebranchconf/
+  twitter: https://twitter.com/thebranchconf
+  facebook: https://facebook.com/thebranchconf
+  instagram: https://instagram.com/thebranchconf

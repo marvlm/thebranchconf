@@ -7,13 +7,14 @@ categories: [The Branch]
 image: /assets/img/blog/thebranch-website-snapshot.jpg
 date: 15/11/2019
 tags: [bienvenido, Panamá, tecnología, desarrollo de software, innovación]
-author: marvin
+author: thebranch
 ---
 
 ****
 
 ```
 $ git checkout -b thebranch.tech
+Switched to a new branch 'thebranch.tech'
 ```
 
 Estamos muy emocionados porque estás aquí leyendo el primer post en el blog de nuestro sitio web 
