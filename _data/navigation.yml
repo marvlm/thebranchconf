@@ -39,7 +39,7 @@ docs:
 
 - title: Contacto
   url: /index.html#contact-map
-  header: true
+  header: false
   footer: false
   side: 
 

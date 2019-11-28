@@ -11,7 +11,7 @@
                     <span class="icon-menu"></span>
                     <span class="icon-menu"></span>
                 </button>
-                <a href="{{ site.baseurl }}/" class="logo-white navbar-brand"><img src="{{ site.baseurl }}/{{ site.logo-white }}" alt="The Branch logo" title="The Branch logo"></a>
+                <a href="{{ site.baseurl }}/" class="logo-white navbar-brand active"><img src="{{ site.baseurl }}/{{ site.logo-white }}" alt="The Branch logo" title="The Branch logo"></a>
                 <a href="{{ site.baseurl }}/" class="logo-color navbar-brand"><img src="{{ site.baseurl }}/{{ site.logo }}" alt="The Branch logo" title="The Branch logo"></a>
             </div>
             <div class="collapse navbar-collapse" id="main-navbar">
@@ -19,7 +19,7 @@
                     {% for item in site.data.navigation.docs %}
                     {% assign nav-item = item.url | downcase | split: '/' %}
                     {% if item.header == true %}
-                    <li class="nav-item {% if current[1] == nav-item %} active {% endif %}">
+                    <li class="nav-item {% if current[1] == nav-item[1] %} active {% endif %}">
                         <a class="nav-link" href="{{site.baseurl}}{{ item.url }}">
                             {{ item.title }} 
                         </a>
