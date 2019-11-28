@@ -12,14 +12,6 @@ author: carol
 
 ****
 
-```
-Frase motivadora
-```
-
-Si, ese de la foto soy yo, el de la izquierda, el de la derecha era el fotógrafo del evento, que como me vio solo me dijo que no era posible que saliera en la foto sin compañía. **#foreveralone**
-
-Era broma, estaba alone en el evento, pero no forever. xD
-
 #### www.thebranch.tech
 
 Han pasado 2 meses desde que nos reunimos 6 personas con una visión en común, *...evolucionar el ecosistema tecnológico de Panamá. Juntos!* y creamos The Branch.
