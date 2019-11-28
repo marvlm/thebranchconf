@@ -1,7 +1,6 @@
 ---
 layout: default
 title: Blog
-background: 'assets/img/slide3.jpg'
 pagination:
 enabled: true
 ---
@@ -10,9 +9,9 @@ enabled: true
     <div id="main-slide" class="carousel slide" data-ride="carousel">
         <div class="carousel-inner">
             <div class="carousel-item active"
-                style="background-image: url({{ site.baseurl }}/assets/img/slider/slide8.jpg);">
+                style="background-image: url({{site.baseurl}}/assets/img/slider/slide8.jpg);">
                 <div class="carousel-caption d-md-block">
-                    <h1 class="wow fadeInDown heading" data-wow-delay=".4s">Blog</h1>
+                    <h1 class="wow fadeInDown heading" data-wow-delay=".4s">{{ page.title }}</h1>
                     <p class="fadeInUp wow" data-wow-delay=".6s">{{ site.slogan }}</p>
                 </div>
             </div>
