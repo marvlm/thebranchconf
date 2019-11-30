@@ -31,6 +31,12 @@ h2 {
   font-family: 'Baloo Bhai', sans-serif;
 }
 
+h3 {
+  font-size: 18px;
+  font-weight: 700;
+  font-family: 'Baloo Bhai', sans-serif;
+}
+
 a {
   -webkit-transition: all 0.2s linear;
   -moz-transition: all 0.2s linear;
@@ -463,14 +469,14 @@ article p,article pre,article figure,article img,article blockquote,article ifra
 	margin-bottom:2rem;
 }
 
-article blockquote {
+blockquote {
 	padding-left:40px;
 	margin-left:0px;
 	font-style:italic;
 	position:relative;
 }
 
-article blockquote:before {
+blockquote:before {
 	content:"“";
 	font-family:Georgia;
 	font-size:8rem;
