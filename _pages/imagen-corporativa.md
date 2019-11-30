@@ -74,7 +74,7 @@ Queremos reflejar que somos una marca 100% digital, es por ello que hemos consid
 
 ¡Estamos muy contentos! 🙂 de presentarte nuestra marca. Diseñar tu propia marca no es un trabajo fácil y menos si lo ejecutas in-house, pero nos sentimos satisfechos con lo que hemos podido lograr.
 
-Esperamos que la marca The Branch se convierta también en tu marca, colbaores con nosotros y nos ayudes a potenciar lo que queremos transmitir para todas las comunidades de tecnología en Panamá.
+Esperamos que la marca The Branch se convierta también en tu marca, colabores con nosotros y nos ayudes a potenciar lo que queremos transmitir para todas las comunidades de tecnología en Panamá.
 
 Pronto pondremos a tu disposición un branding pack para que lo puedas descargar.
 
