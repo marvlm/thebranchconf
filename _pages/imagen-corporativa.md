@@ -70,7 +70,7 @@ Cada vez que utilizas nuestra marca estás representando nuestra cultura, person
 
 Queremos reflejar que somos una marca 100% digital, es por ello que hemos considerado dentro de nuestra imágen un ícono que represente nuestra marca en espacios más reducidos y en elementos digitales donde nuestro logo no podría utilizarse. 
 
-![The Branch favicon]({{ site.baseurl }}/assets/img/identity/the-branch-favicon.png){:width="30%"}
+![The Branch favicon]({{ site.baseurl }}/assets/img/identity/the-branch-favicon.png){:width="20%"}
 
 ¡Estamos muy contentos! 🙂 de presentarte nuestra marca. Diseñar tu propia marca no es un trabajo fácil y menos si lo ejecutas in-house, pero nos sentimos satisfechos con lo que hemos podido lograr.
 
