@@ -11,7 +11,7 @@ plugins:
   - jekyll-sitemap
   - jekyll-seo-tag
   - jekyll-tidy
-  - jekyll-compress-images
+  #- jekyll-compress-images
 google_analytics: UA-149944962-1
 include: ['_pages']
 
@@ -28,8 +28,8 @@ community: Construyamos una comunidad de comunidades.
 date: "Fecha por definir" ## SEPTIEMBRE 12 - 13, 2020
 place: "Lugar por definir"
 city: "CIUDAD DE PANAMÁ"
-logo-white: 'assets/img/logo.png'
-logo: 'assets/img/logo2.png'
+logo-white: '/assets/img/identity/the-branch-logo-inverted.svg' 
+logo: '/assets/img/identity/the-branch-logo.svg'
 favicon: 'assets/images/favicon.ico'
 disqus: 'thebranch'
 email: 'hola@thebranch.tech'
