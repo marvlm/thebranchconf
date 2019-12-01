@@ -65,9 +65,10 @@ Es por eso que con mi esposa, empezamos a trabajar en desarrollar la idea de un 
 
 #### Así nació 
 
-![The Branch logo]({{ site.baseurl }}/{{ site.logo }})
+![The Branch logo]({{ site.baseurl }}/{{ site.logo }}){:width="70%"}
 
-{{site.tagline}}
-
+## {{site.tagline}}
 
 Un abrazo!
+
+***
