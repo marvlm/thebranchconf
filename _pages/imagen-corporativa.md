@@ -33,12 +33,12 @@ Hemos creado diferentes versiones de nuestro logotipo:
 
 ### Versiones a color
 
-|![The Branch logo]({{ site.baseurl }}/assets/img/identity/the-branch-logo.png){:width="100%"}|![The Branch logo inverted]({{ site.baseurl }}/assets/img/identity/the-branch-logo-inverted.png){:width="100%"}
+|![The Branch logo]({{ site.baseurl }}/assets/img/identity/the-branch-logo.svg){:width="100%"}|![The Branch logo inverted]({{ site.baseurl }}/assets/img/identity/the-branch-logo-inverted.svg){:width="100%"}
 |
 
 ### Versiones B/N
 
-|![The Branch logo]({{ site.baseurl }}/assets/img/identity/the-branch-logo-bn-white.png){:width="100%"}|![The Branch logo inverted]({{ site.baseurl }}/assets/img/identity/the-branch-logo-bn-black.png){:width="100%"}
+|![The Branch logo]({{ site.baseurl }}/assets/img/identity/the-branch-logo-bn-white.svg){:width="100%"}|![The Branch logo inverted]({{ site.baseurl }}/assets/img/identity/the-branch-logo-bn-black.svg){:width="100%"}
 |
 
 #### Descriptor
@@ -54,13 +54,13 @@ Hemos creado diferentes versiones de nuestro logotipo:
 
 #### Tipografía Corporativa
 
-La tipografía guarda una elevada importancia en cuanto a terminos de diseño, carácter y usabilidad se refiere. En nuestro caso, gran parte de nuestra identidad se la debemos a ella, **Baloo Bhai**. Una tipografía con un diseño distintivo, tiene un toque sutil de alegría y todas las necesidades básicas de tipografía. Despreocupado pero confiado, cálido pero entretenido, alegre pero inteligible, Baloo infunde vida y alegría donde quiera que vaya. Con ella, mantenemos una tipografía principal gruesa y legible, pero ganando neutralidad, atemporalidad y aportando su granito de arena a que el buen gusto por el diseño se vea reflejado en la marca.
+La tipografía guarda una elevada importancia en cuanto a términos de diseño, carácter y usabilidad se refiere. En nuestro caso, gran parte de nuestra identidad se la debemos a ella, **Baloo**. Una tipografía con un diseño distintivo, tiene un toque sutil de alegría y todas las necesidades básicas de tipografía. Despreocupado pero confiado, cálido pero entretenido, alegre pero inteligible, Baloo infunde vida y alegría donde quiera que vaya. Con ella, mantenemos una tipografía principal gruesa y legible, pero ganando neutralidad, atemporalidad y aportando su granito de arena a que el buen gusto por el diseño se vea reflejado en la marca.
 
 Somos valientes a la hora de usar la tipografía. Gran parte de nuestra personalidad de marca viene dada por los altos contrastes tipográficos con los que conseguiremos mensajes fuertes, que impacten, que transmitan confianza y transparencia.
 
 #### Colores Corporativos
 
-La marca The Branch se apoya en 4 colores principales, el tricolor panameño Rojo, Blanco y Azul con los que queremos reflejar el nacionalismo que nos representa, además en contraste, el Gris oscuro que le da un caracter original, exclusivo y elegante. Para nosotros esta combinación de colores fluye de manera natural.
+La marca The Branch se apoya en 4 colores principales, el tricolor panameño Rojo, Blanco y Azul con los que queremos reflejar el nacionalismo que nos representa, además en contraste, el Gris que le da un carácter original, exclusivo y elegante. Para nosotros esta combinación de colores fluye de manera natural.
 
 ![The Branch corporate colors]({{ site.baseurl }}/assets/img/identity/the-branch-logo-colors.png){:width="100%"}
 
@@ -68,7 +68,7 @@ Cada vez que utilizas nuestra marca estás representando nuestra cultura, person
 
 #### Ícono
 
-Queremos reflejar que somos una marca 100% digital, es por ello que hemos considerado dentro de nuestra imágen un ícono que represente nuestra marca en esapacios más reducidos y en elementos digitales donde nuestro logo no podría utilizarse. 
+Queremos reflejar que somos una marca 100% digital, es por ello que hemos considerado dentro de nuestra imágen un ícono que represente nuestra marca en espacios más reducidos y en elementos digitales donde nuestro logo no podría utilizarse. 
 
 ![The Branch favicon]({{ site.baseurl }}/assets/img/identity/the-branch-favicon.png){:width="30%"}
 
