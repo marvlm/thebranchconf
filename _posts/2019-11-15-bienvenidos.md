@@ -29,8 +29,12 @@ Te invitamos a qué explores nuestro sitio web y consultes toda la información 
 
 Si te surge alguna duda o simplemente quieres contactar con nosotros puedes escribirnos a [hola@thebranch.tech](mailto:hola@thebranch.tech) o conectar con nosotros a través de nuestras redes sociales en [Twitter]({{ site.twitter }}){:target="_blank" rel="noopener"}, [Instagram]({{ site.instagram }}){:target="_blank" rel="noopener"}, [Facebook]({{ site.facebook }}){:target="_blank" rel="noopener"} o [Linkedin]({{ site.linkedin }}){:target="_blank" rel="noopener"} como **@thebranchconf** y estaremos encantados de responderte.
 
-Una vez más, te damos la bienvenida a The Branch y esperamos poder evolucionar el ecosistema tecnológico de Panamá. Juntos!
+Una vez más, te damos la bienvenida y esperamos que contigo...
 
-![The Branch logo]({{ site.baseurl }}/{{ site.logo }})
+## {{site.slogan}}
 
 Un abrazo!
+
+![The Branch logo]({{ site.baseurl }}/{{ site.logo }}){:width="30%"}
+
+***
