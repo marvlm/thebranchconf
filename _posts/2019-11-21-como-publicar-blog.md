@@ -18,6 +18,6 @@ Han pasado 2 meses desde que nos reunimos 6 personas con una visión en común, 
 
 Una vez más, te damos la bienvenida a The Branch y esperamos poder evolucionar el ecosistema tecnológico de Panamá. Juntos!
 
-![The Branch logo]({{ site.baseurl }}/{{ site.logo }})
-
 Un abrazo!
+
+***
