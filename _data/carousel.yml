@@ -5,7 +5,7 @@ docs:
   image: assets/img/slider/slide3-2.jpg
   heading: El evento de desarrollo, tecnología e innovación más grande de Panamá.
   title: "The Branch Conference"
-  subtitle: "$ git checkout -b thebranch"
+  subtitle: "… evolucionemos el ecosistema tecnológico de Panamá. Juntos!"
   btn: false
   btn_text: 
   btn_link:
