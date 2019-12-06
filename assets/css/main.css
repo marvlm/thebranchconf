@@ -373,6 +373,10 @@ header.masthead .overlay {
   color: #e4002b;
 }
 
+.blue-text{
+  color: #0047bb;
+}
+
 article {
 	font-size:20px;
 	line-height:1.86;
@@ -1214,7 +1218,7 @@ article h1,article h2,article h3,article h4,article h5,article h6,article .h1,ar
 
 /* Schedule Area */
 #schedules {
-  background: #f3f4f3;
+  background: #ffffff;
 }
 
 #schedule-tab {
@@ -1250,8 +1254,8 @@ article h1,article h2,article h3,article h4,article h5,article h6,article .h1,ar
   -o-transition: all 0.3s ease-in-out 0s;
 }
 
-.schedule .schedule-tab-title .nav-tabs .nav-item.show .nav-link h4, .schedule .schedule-tab-title .nav-tabs .nav-link.active h4,
-.schedule .schedule-tab-title .nav-tabs .nav-item .nav-link:hover h4 {
+.schedule .schedule-tab-title .nav-tabs .nav-item.show .nav-link h2, .schedule .schedule-tab-title .nav-tabs .nav-link.active h2,
+.schedule .schedule-tab-title .nav-tabs .nav-item .nav-link:hover h2 {
   color: #fff;
 }
 
@@ -1260,8 +1264,8 @@ article h1,article h2,article h3,article h4,article h5,article h6,article .h1,ar
   color: #fff;
 }
 
-.schedule .schedule-tab-title .item-text h4 {
-  font-size: 15px;
+.schedule .schedule-tab-title .item-text h2 {
+  font-size: 18px;
   color: #2f323c;
   line-height: 22px;
   font-weight: 400;
@@ -1315,7 +1319,7 @@ article h1,article h2,article h3,article h4,article h5,article h6,article .h1,ar
 .schedule .card-header h4 {
   font-weight: 700;
   font-size: 18px;
-  color: #212121;
+  color: #2f2f2f;
   margin-bottom: 8px;
 }
 

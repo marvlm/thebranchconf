@@ -1,0 +1,129 @@
+<section id="saturday" class="tab-panel">	
+	<div class="schedule-area row wow fadeInDown" data-wow-delay="0.3s">
+		<div class="schedule-tab-title col-md-3 col-lg-3 col-xs-12">
+			<div class="table-responsive">
+				<ul class="nav nav-tabs" id="time-{{post_time}}" role="tablist">
+					{% for post in site.categories.session reversed %}
+
+					{% assign post_time = post.date | date: '%Y-%m-%d-%H-%M' | downcases %}
+					{% assign time = post.date | date: '%I:%M%p' %}
+					{% assign minutes = post.date | date: ':%M%p' %}
+					{% assign hour = post.date | date: '%H%p' %}
+					{% assign nexthour = hour | plus: 1 %}
+					{% assign end_time = time | plus:3600 | date:'%I:%M%S%p' %}
+
+					{% capture day %}{{ post.date | date: "%A" }}{% endcapture %}
+					{% if previoustime != empty or previoustime != blank? %}
+					{% if previoustime != post_time %}
+					{% if day == 'Saturday' %}
+					{% if post.room == 'full' and post.accepted == true %}
+
+					<li class="nav-item">
+						<a class="nav-link {% if time == '08:00AM' %}active{% endif %}" id="nav-{{post_time}}" data-toggle="tab"
+							href="#hour-{{post_time}}" role="tab" aria-controls="monday" aria-expanded="true">
+							<div class="item-text text-center">
+								<h2>{{ time }} - {{ nexthour }}{{ minutes }}</h2>
+								<h5>
+										{% case time %}
+										{% when '08:00AM' %}
+											<i class="fas fa-fingerprint"></i> Bienvenida
+										{% when '12:00PM' %}
+											<i class="fas fa-mug-hot"></i> Coffee Break
+										{% when '02:15PM' %}
+											<i class="fas fa-utensils"></i> Lunch
+										{% when '06:30PM' %}
+											<i class="far fa-handshake"></i> Networking & Beers
+										{% else %}
+											<i class="fas fa-laptop-code"></i> Code Mode On!
+										{% endcase %}
+								</h5>
+							</div>
+						</a>
+					</li>
+
+					{% endif %}
+					{% endif %}
+					{% endif %}
+					{% endif %}
+					{% assign previoustime = post_time %}
+					{% endfor %}
+				</ul>
+			</div>
+		</div>
+		<div class="schedule-tab-content col-md-9 col-lg-9 col-xs-12 clearfix">
+			<div class="tab-content" id="myTabContent">
+			{% for post in site.categories.session reversed %}
+
+			{% assign post_time = post.date | date: '%Y-%m-%d-%H-%M' | downcases %}
+			{% assign time = post.date | date: '%I:%M%p' %}
+			{% assign minutes = post.date | date: ':%M%p' %}
+			{% assign hour = post.date | date: '%H%p' %}
+			{% assign nexthour = hour | plus: 1 %}
+			{% assign end_time = time | plus:3600 | date:'%I:%M%S%p' %}
+
+			{% capture day %}{{ post.date | date: "%A" }}{% endcapture %}
+
+			{% if day == 'Saturday' %}
+			
+			{% if post.room == 'full' and post.accepted == true %}
+			{% unless previoustime == post_time %}
+			{% assign card_count = 0 %}
+				<div class="tab-pane fade {% if time == '08:00AM' %}show active{% endif %}" id="hour-{{post_time}}"
+					role="tabpanel" aria-labelledby="{{post_time}}-tab">
+					<div id="accordion-{{post_time}}">
+
+						{% for card in site.categories.session reversed %}
+						{% assign card_time = card.date | date: '%Y-%m-%d-%H-%M' | downcases %}
+						{% if card_time == post_time %}
+						{% assign card_count = card_count | plus: 1 %}
+						<div class="card">
+							<div id="heading-{{post_time}}-{{card_count}}">
+								<div class="collapsed card-header" data-toggle="collapse" data-target="#collapse-{{post_time}}-{{card_count}}"
+									aria-expanded="false" aria-controls="collapse-{{post_time}}-{{card_count}}">
+									<div class="images-box">
+										<img class="img-fluid"
+											src="{{site.baseurl}}/assets/img/speaker/speakers-1.jpg" alt="">
+									</div>
+									<h4>{% if post.track %}{{ card.track }} Branch {% endif %}</h4>
+									<h4><span class="blue-text">{{ card.title }}</span></h4>
+									{% for speaker in card.speakers %}
+									<h5 class="name">{{ speaker }}{% if forloop.last == false %} - {% endif %}</h5>
+									{% endfor %}
+									<p><span class="time">{{ card.summary }}</span></p>
+									
+									<div class="mb-4">
+										<ul class="tags">
+											{% for tag in post.tags %}
+											<li class="schedule-tag">#{{ tag | downcase }}</li>
+											{% endfor %}
+										</ul>
+									</div>
+								</div>
+							</div>
+							<div id="collapse-{{post_time}}-{{card_count}}"
+								class="collapse show" aria-labelledby="heading-{{post_time}}-{{card_count}}" data-parent="#accordion-{{post_time}}">
+								<div class="card-body">
+									<p>{{ card.content }}</p>
+									{% if card.difficulty %}
+									<div class="location">
+										<span>Nivel:</span> {{ card.difficulty }}
+									</div>
+									{% endif %}
+								</div>
+							</div>
+						</div>
+						{% assign previoustime = post_time %}
+						{% endif %}
+						{% endfor %}
+
+					</div>
+				</div>
+			
+			{% endunless %}
+			{% endif %}
+			{% endif %}
+			{% endfor %}
+			</div>
+		</div>
+	</div>
+</section>

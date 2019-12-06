@@ -1,0 +1,122 @@
+---
+layout: default
+title: Agenda
+subtitle: Conoce nuestra propuesta de agenda para el evento. <br/>Queremos llenarla de charlas, talleres y ponentes grandiosos como Tú.
+permalink: schedule
+---
+<style>
+/*
+	CSS for the main interaction
+*/
+.tabset > input[type="radio"] {
+	position: absolute;
+	left: -200vw;
+}
+
+.tabset .tab-panel {
+	display: none;
+}
+
+.tabset > input:first-child:checked ~ .tab-panels > .tab-panel:first-child,
+.tabset > input:nth-child(3):checked ~ .tab-panels > .tab-panel:nth-child(2),
+.tabset > input:nth-child(5):checked ~ .tab-panels > .tab-panel:nth-child(3),
+.tabset > input:nth-child(7):checked ~ .tab-panels > .tab-panel:nth-child(4),
+.tabset > input:nth-child(9):checked ~ .tab-panels > .tab-panel:nth-child(5),
+.tabset > input:nth-child(11):checked ~ .tab-panels > .tab-panel:nth-child(6) {
+	display: block;
+}
+
+.tabset > label {
+	position: relative;
+	display: inline-block;
+	padding: 15px 15px 25px;
+	border: 1px solid transparent;
+	border-bottom: 0;
+	cursor: pointer;
+	font-weight: 600;
+	margin-bottom: 0;
+}
+
+.tabset > label::after {
+	content: "";
+	position: absolute;
+	left: 15px;
+	bottom: 10px;
+	width: 22px;
+	height: 4px;
+	background: #8d8d8d;
+}
+
+.tabset > label:hover,
+.tabset > input:focus + label {
+	color: #0047bb;
+}
+
+.tabset > label:hover::after,
+.tabset > input:focus + label::after,
+.tabset > input:checked + label::after {
+	background: #e4002b;
+}
+
+.tabset > input:checked + label {
+	border-color: #ccc;
+	border-bottom: 1px solid #fff;
+	margin-bottom: -1px;
+}
+
+.tab-panel {
+	padding: 20px 0;
+	border-top: 1px solid #ccc;
+}
+
+.schedule-tag {
+  pointer-events: none;
+  background-color: #EFF4FF;
+  border: none;
+  color: #2f2f2f;
+  padding: 5px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin-right: 13px;
+  margin-left: -1px;
+  margin-bottom: 10px;
+  border-radius: 100px;
+  font-size: 13px;
+}
+
+</style>
+
+<section id="schedules" class="schedule section-padding">
+	<div class="container">
+			<div class="row">
+				<div class="col-12">
+					{% include title.html %}
+				</div>
+			</div>
+		<div class="tabset section-padding">
+
+			{% for post in site.categories.session reversed %}
+				{% assign days = day | split: ',' %}
+				{% capture day %}{{ post.date | date: "%A" }}{% endcapture %}
+				
+				{% unless day == last_day %}
+					<input type="radio" name="tabset" id="tab{{forloop.index}}" aria-controls="{{ day | downcases }}" {% unless forloop.last == true %}checked{% endunless %}>
+					<label for="tab{{forloop.index}}">{{ day }}</label>
+				{% endunless %}
+				{% assign last_day = day %}
+
+			{% endfor %}
+			
+			<div class="tab-panels">
+				{% include schedule/schedule-day.html %}
+				<section id="rauchbier" class="tab-panel section-padding"> 
+					<h1 class="section-title">Pronto y con tu ayuda completaremos la agenda.</h1>
+					<div class="col-12 text-center">
+							<a href="{{site.baseurl}}/speakers" class="btn btn-common"><i class="fas fa-thumbs-up"></i>Quiero ser speaker</a>
+					</div>
+				</section> 
+			</div>
+		</div>
+	</div>
+</section>
