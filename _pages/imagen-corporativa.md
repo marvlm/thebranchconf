@@ -33,13 +33,11 @@ Hemos creado diferentes versiones de nuestro logotipo:
 
 ### Versiones a color
 
-|![The Branch logo]({{ site.baseurl }}/assets/img/identity/the-branch-logo.svg){:width="100%"}|![The Branch logo inverted]({{ site.baseurl }}/assets/img/identity/the-branch-logo-inverted.svg){:width="100%"}
-|
+|![The Branch logo]({{ site.baseurl }}/assets/img/identity/the-branch-logo.svg){:width="100%"}|![The Branch logo inverted]({{ site.baseurl }}/assets/img/identity/the-branch-logo-inverted.svg){:width="100%"}|
 
 ### Versiones B/N
 
-|![The Branch logo]({{ site.baseurl }}/assets/img/identity/the-branch-logo-bn-white.svg){:width="100%"}|![The Branch logo inverted]({{ site.baseurl }}/assets/img/identity/the-branch-logo-bn-black.svg){:width="100%"}
-|
+|![The Branch logo]({{ site.baseurl }}/assets/img/identity/the-branch-logo-bn-white.svg){:width="100%"}|![The Branch logo inverted]({{ site.baseurl }}/assets/img/identity/the-branch-logo-bn-black.svg){:width="100%"}|
 
 #### Descriptor
 **Descriptor:** Nombre de marca funcional, que permite identificar automáticamente la principal cualidad o aplicación del producto o servicio al que se refiere. En nuestro caso particular, el Descriptor es: 
