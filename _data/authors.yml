@@ -14,11 +14,11 @@ docs:
 
 - id: carol
   name: Carol Cupas
-  bio: Co-Fundadora de The Branch, excelente esposa, mejor dicho, la mejor del mundo.
-  linkedin: https://www.linkedin.com/in/marvinlopez/
-  twitter: https://twitter.com/marvlm
+  bio: Co-Fundadora de The Branch, especialista en Big Data & Business Intelligence. Le encanta viajar, conocer nuevas personas y nuevas culturas.
+  linkedin: https://www.linkedin.com/in/carolcupaspitti/
+  twitter: 
   avatar: assets/img/authors/carol.jpg
-  email: carol@thebranch.tech
+  email: hola@thebranch.tech
 
 - id: thebranch
   name: The Branch
