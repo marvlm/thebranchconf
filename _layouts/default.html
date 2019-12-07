@@ -3,6 +3,26 @@
 
 <head>
     {% include layout/head.html %}
+</head>
+
+<body>
+
+    <header id="header-wrap">
+        {% include layout/navigation.html %}
+    </header>
+
+    {{ content }}
+
+    {% include widgets/subscribe.html %}
+
+    {% include layout/footer.html %}
+
+    <!-- Go to Top Link -->
+    <a href="#" class="back-to-top">
+        <i class="fas fa-chevron-up"></i>
+    </a>
+
+    {% include layout/preloader.html %}
 
     {% include layout/serviceworker.html %}
 
@@ -11,57 +31,6 @@
     {% if site.google_analytics and jekyll.environment == 'production' %}
         {% include layout/analytics.html %}
     {% endif %}
-</head>
-
-<body>
-
-    <!-- Header Area wrapper Starts -->
-    <header id="header-wrap">
-        {% include layout/navigation.html %}
-    </header>
-    <!-- Header Area wrapper End -->
-
-    <!-- {% include breadcrumbs.html %} -->
-
-    {{ content }}
-
-    {% include widgets/subscribe.html %}
-
-    {% include layout/footer.html %}
-
-    <div id="copyright">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12">
-                    <div class="site-info">
-                        <p><i class="far fa-copyright"></i> The Branch 2019-2020</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!-- Go to Top Link -->
-    <a href="#" class="back-to-top">
-        <i class="fas fa-chevron-up"></i>
-    </a>
-
-    <div id="preloader">
-        <div class="sk-circle">
-            <div class="sk-circle1 sk-child"></div>
-            <div class="sk-circle2 sk-child"></div>
-            <div class="sk-circle3 sk-child"></div>
-            <div class="sk-circle4 sk-child"></div>
-            <div class="sk-circle5 sk-child"></div>
-            <div class="sk-circle6 sk-child"></div>
-            <div class="sk-circle7 sk-child"></div>
-            <div class="sk-circle8 sk-child"></div>
-            <div class="sk-circle9 sk-child"></div>
-            <div class="sk-circle10 sk-child"></div>
-            <div class="sk-circle11 sk-child"></div>
-            <div class="sk-circle12 sk-child"></div>
-        </div>
-    </div>
 
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="{{site.baseurl}}/assets/js/jquery-min.js"></script>
