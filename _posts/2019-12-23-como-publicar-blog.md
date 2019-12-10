@@ -5,7 +5,7 @@ subtitle: Queremos que todos ustedes nos ayuden a compartir conocimiento.
 description: Tú también puedes publicar un artículo en nuestro Blog.
 categories: [The Branch]
 image: /assets/img/blog/blog.jpg
-date: 21/11/2019
+date: 23/12/2019
 tags: [Panamá, tecnología, desarrollo de software, innovación]
 author: carol
 ---
