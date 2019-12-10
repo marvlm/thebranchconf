@@ -7,7 +7,7 @@ subtitle: Encuentra tu enlace de interés
 
 ***
 
-#### [Página de Inicio]({{site.baseurl}})
+#### <i class="fas fa-home"></i> [Página de Inicio]({{site.baseurl}})
 
 ***
 
@@ -15,6 +15,7 @@ subtitle: Encuentra tu enlace de interés
 {% assign sortedPages = site.pages | sort: 'title' %}
 
 {% for page in sortedPages %}
+{% unless page.url contains ".json" %}
 {% if page.layout != nil %}
 {% if page.layout != 'feed' %}
 {% if page.layout != 'default' %}
@@ -24,6 +25,7 @@ subtitle: Encuentra tu enlace de interés
 {% endif %}
 {% endif %}
 {% endif %}
+{% endunless %}
 {% endfor %}
 
 {% assign sortedPosts = site.posts | sort: 'title' %}
@@ -32,7 +34,9 @@ subtitle: Encuentra tu enlace de interés
 
 #### Posts
 {% for post in sortedPosts %}
+{% unless post.categories contains "session" %}
 * [{{post.title}}]({{site.baseurl}}{{ post.url | remove: 'index.html' }}) 
+{% endunless %}
 {% endfor %}
 
 ***
