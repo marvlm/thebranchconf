@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Como nace la idea de crear The Branch
-subtitle: ... toda idea tiene un origen! 
+subtitle: ... porque toda idea tiene un origen!
 description: The Branch nace de las experiencias vividas en comunidades y eventos fuera de Panamá.
 categories: [The Branch]
 image: /assets/img/blog/como-nace.jpg
