@@ -378,8 +378,18 @@ header.masthead .overlay {
 }
 
 article {
-	font-size:20px;
+	font-size:18px;
 	line-height:1.86;
+}
+
+article ul li:before{
+  content: '';
+  padding: 10px 10px 10px 20px;
+  background-repeat: no-repeat;
+  display: inline-block;
+  background-image: url('../img/favicon/favicon-32x32.png');
+  background-position: left center;
+  background-size: 18px;
 }
 
 .article-headline {
