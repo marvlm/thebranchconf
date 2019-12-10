@@ -28,9 +28,9 @@ Sólo llena el formulario que encontrarás al final de ésta página con todos t
 
 * Monitorear lo que sucede en el evento durante los dos días.
     
-* Dar apoyo y soporte en sitio a en las charlas y a los speakers.
+* Dar apoyo y soporte en sitio a los asistentes y los speakers de cada branch.
     
-* Facilitar la sesión de preguntas y respuestas después de cada charla o taller.
+* Facilitar el tiempo y dinámica de preguntas y respuestas después de cada charla o taller.
     
 * Reportar al staff principal si algo sale mal durante el evento o si detectas alguna situación fuera de lo normal.
 
