@@ -28,11 +28,11 @@ Sólo llena el formulario que encontrarás al final de ésta página con todos t
 
 * Monitorear lo que sucede en el evento durante los dos días.
     
-* Dar apoyo y sporte en sitio a en las charlas y a los speakers.
+* Dar apoyo y soporte en sitio a en las charlas y a los speakers.
     
-* Facilitar la session de preguntas y respuestas después de cada charla o taller.
+* Facilitar la sesión de preguntas y respuestas después de cada charla o taller.
     
-* Reportar al staff principal si algo sale mal Durant el evento o si detectas alguna situación fuera de lo normal.
+* Reportar al staff principal si algo sale mal durante el evento o si detectas alguna situación fuera de lo normal.
 
 #### ¿Cuáles serán mis beneficios al apuntarme como voluntario en The Branch?
 
@@ -46,7 +46,7 @@ Sólo llena el formulario que encontrarás al final de ésta página con todos t
     
 * La oportunidad de participar en una o dos charlas en el evento.
     
-* La oportunidad de conocer sobre oportunidades de empleo ofrecidas por nuestros patrocinadores.
+* La oportunidad de conocer y participar de las oportunidades de empleo ofrecidas por nuestros patrocinadores.
     
 * **¡Y por supuesto, nuestro más sincero agradecimiento y reconocimiento!**
     
