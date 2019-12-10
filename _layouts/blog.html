@@ -41,6 +41,8 @@ enabled: true
 
             {% for post in site.posts limit : 5 %}
 
+            {% unless post.categories contains "session" %}
+
             <article class="post-preview">
                 <a href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}">
                     <h2 class="post-title">{{ post.title }}</h2>
@@ -67,6 +69,8 @@ enabled: true
             </article>
 
             <hr>
+
+            {% endunless %}
 
             {% endfor %}
 
