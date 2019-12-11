@@ -5,7 +5,7 @@
 
 <meta property="og:locale" content="es_ES"> 
 <meta property="og:locale:alternate" content="en_US" />
-<meta property="og:title" content="{%if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
+<meta property="og:title" content="{%if page.title %}{{ site.title }} - {{ page.title }}{% else %}{{ site.title }}{% endif %}">
 <meta property="og:url" content="{{ site.url }}{{ page.url }}">
 <meta property="og:image" content="{{ site.url }}/{{ site.baseurl }}{%if page.image %}{{ page.image }}{% else %}/assets/img/blog/thebranch-website-snapshot.jpg{% endif %}" />
 <meta property="og:site_name" content="{{ site.title }}">
