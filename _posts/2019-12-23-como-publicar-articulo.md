@@ -6,7 +6,7 @@ description: Tú también puedes publicar un artículo en nuestro Blog.
 categories: [The Branch]
 image: /assets/img/blog/blog.jpg
 date: 11/12/2019
-tags: [Markdown, HTML, Jekyll]
+tags: [Markdown, HTML, Jekyll, web]
 author: carol
 ---
 
@@ -120,6 +120,8 @@ De ser necesario puedes también insertar HTML para por ejemplo insertar algún 
 ```
 
 <p><iframe style="width:100%;" height="315" src="https://www.youtube.com/embed/hvjGbuWMoLU" frameborder="0" allowfullscreen></iframe></p>
+
+_Puedes ver un ejemplo de una presentación como referencia que hemos insertado en el artículo [Como nace la idea de crear The Branch]({{site.baseurl}}/blog/como-nace-the-branch/)._
 
 Seguro en Internet encontrarás mucha más información sobre Jekyll, Markdown y como aprovechar lo que te ofrecen estas herramientas, incluso podemos también recomendarte el siguiente [tutorial](https://www.markdowntutorial.com/es/){:target="_blank" rel="noopener"} para que sigas practicando lo que aquí te hemos compartido antes de enviarnos tu artículo.
 
