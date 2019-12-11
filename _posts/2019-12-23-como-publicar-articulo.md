@@ -95,10 +95,10 @@ La segunda, cuando se trata de una porción de código distribuido en varias lí
 ## Agregar enlaces
 
 ```
-[{{site.url}}]({{site.url}})
+[{{site.url}}]({{site.url}}){:target="_blank"}
 ```
 
-[{{site.url}}]({{site.url}})
+[{{site.url}}]({{site.url}}){:target="_blank" rel="noopener"}
 
 ## Utilizar quotes
 ```
