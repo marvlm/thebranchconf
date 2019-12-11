@@ -2,7 +2,7 @@
 layout: post
 title: Unconference, la conferencia no conferencia
 subtitle:  Una sesión donde TODOS contribuyen.
-description: Unconference, la única regla más importante, es que no hay reglas.
+description: Unconference, la única regla y la más importante, es que no hay reglas.
 categories: [The Branch]
 image: /assets/img/blog/unconference.jpg
 date: 10/12/2019
