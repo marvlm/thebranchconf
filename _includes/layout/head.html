@@ -6,8 +6,8 @@
 <meta property="og:locale" content="es_ES"> 
 <meta property="og:locale:alternate" content="en_US" />
 <meta property="og:title" content="{%if page.title %}{{ site.title }} - {{ page.title }}{% else %}{{ site.title }}{% endif %}">
-<meta property="og:url" content="{{ site.url }}{{ page.url }}">
-<meta property="og:image" content="{{ site.url }}/{{ site.baseurl }}{%if page.image %}{{ page.image }}{% else %}/assets/img/blog/thebranch-website-snapshot.jpg{% endif %}" />
+<meta property="og:url" content="{{ site.url }}{{ site.baseurl }}{{ page.url }}">
+<meta property="og:image" content="{{ site.url }}{{ site.baseurl }}{%if page.image %}{{ page.image }}{% else %}/assets/img/blog/thebranch-website-snapshot.jpg{% endif %}" />
 <meta property="og:site_name" content="{{ site.title }}">
 <meta property="og:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
 {%if page.author %}
@@ -17,19 +17,19 @@
 <meta property="article:published_time" content="{{ page.date }}" />
 {% endif %}
 
-<meta name="twitter:card" content="summary_large_image"/>
-<meta name="twitter:title" content="{%if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
+<meta name="twitter:card" content="{{ site.url }}{{ site.baseurl }}{%if page.image %}{{ page.image }}{% else %}/assets/img/blog/thebranch-website-snapshot.jpg{% endif %}"/>
+<meta name="twitter:title" content="{%if page.title %}{{ site.title }} - {{ page.title }}{% else %}{{ site.title }}{% endif %}">
 <meta name="twitter:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
 <meta name="twitter:site" content="@thebranchconf" />
 <meta name="twitter:creator" content="@marvlm">
-<meta name="twitter:card" content="summary">
+<meta name="twitter:card" content="{%if page.subtitle %}{{ page.subtitle }}{% else %}{{ site.slogan }}{% endif %}">
 
 <meta name="theme-color" content="#2f2f2f">
 <link rel="apple-touch-icon" sizes="180x180" href="{{site.baseurl}}/assets/img/favicon/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="{{site.baseurl}}/assets/img/favicon/favicon-32x32.png">
 <link rel="icon" type="image/png" sizes="16x16" href="{{site.baseurl}}/assets/img/favicon/favicon-16x16.png">
 <link rel="manifest" href="{{site.baseurl}}/manifest.json">
-<link rel="canonical" href="{{ page.url | prepend: site.url }}">
+<link rel="canonical" href="{{ site.url }}{{ site.baseurl }}{{ page.url }}">
 
 <title> 
     {%if page.title %}
