@@ -88,24 +88,24 @@ La segunda, cuando se trata de una porción de código distribuido en varias lí
 ## Agregar imágenes
 
 ```
-![Nombre de la imagen](image.jpg){:width="30%"}
+![Nombre de la imagen](image.jpg){:width="100%"}
 ```
-![The Branch logo]({{ site.baseurl }}/{{ site.logo }}){:width="30%"}
+![I´m your Mardown!](https://bournetocode.com/projects/AQA_AS_Theory/pages/img/markdown.jpg){:width="100%"}
 
 ## Agregar enlaces
 
 ```
-[{{site.url}}]({{site.url}}){:target="_blank"}
+[Markdown en Wikipedia](https://es.wikipedia.org/wiki/Markdown){:target="_blank"}
 ```
 
-[{{site.url}}]({{site.url}}){:target="_blank" rel="noopener"}
+[Markdown en Wikipedia](https://es.wikipedia.org/wiki/Markdown){:target="_blank" rel="noopener"}
 
 ## Utilizar quotes
 ```
-> Esto fue escrito por alguien muy importante :)
+> Esto fue escrito por alguien a quien le gusta trabajar con Markdown :)
 ```
 
-> Esto fue escrito por alguien muy importante :)
+> Esto fue escrito por alguien a quien le gusta trabajar con Markdown :)
 
 ## Insertar HTML
 De ser necesario puedes también insertar HTML para por ejemplo insertar algún video, formulario o una presentación que tengas publicada online que pueda ilustrar aún más el contenido de tu artículo.
