@@ -16,9 +16,11 @@ Estamos muy contentos y emocionados porque estás aquí leyendo el primer post e
 
 #### www.thebranch.tech
 
+<!--more-->
+
 Han pasado 2 meses desde que nos reunimos 6 personas con una visión en común, *...evolucionar el ecosistema tecnológico de Panamá. Juntos!* y creamos The Branch.
 
-Aún, con mucho trabajo por delante, celebramos este primer objetivo cumplido, el poder transmitir a través de un sitio web la visión que tenemos para Panamá, las comunidades de tecnología y desarrollo de software que aquí existen y todos los profesionales que son los que crean tecnología e innovan en este bello país.
+Aún, con mucho trabajo por delante, celebramos este primer objetivo cumplido, el poder compartir a través de un sitio web la visión que tenemos para Panamá, las comunidades de tecnología y desarrollo de software que aquí existen y todos los profesionales que son los que crean tecnología e innovan en este bello país.
 
 Te invitamos a qué explores nuestro sitio web y consultes toda la información que aquí hemos compartido para que te enteres *Qué es The Branch*, *cuándo es*, *qué queremos lograr* y *cómo puedes colaborar con nosotros*, ya sea como [patrocinador]({{site.baseurl}}/patrocinadores){:target="_blank"}, [ponente]({{site.baseurl}}/speakers){:target="_blank"}, [miembro de una comunidad]({{site.baseurl}}/communities){:target="_blank"}, [voluntario]({{site.baseurl}}/volunteers){:target="_blank"} o publicando un artículo en nuestro [blog]({{site.baseurl}}/blog#interesado){:target="_blank"}, hemos creado oportunidades de colaboración para todos los gustos e intereses.
 
