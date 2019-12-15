@@ -393,12 +393,12 @@ article ul li:before{
 }
 
 .article-headline {
-    /*font-family: Georgia,Times,"Times New Roman",serif;*/
-    font-size: 3.2rem;
+    font-size: 3.0rem;
     font-weight: 400;
     line-height: 1.15;
     color: #222222;
-    margin-top: 60px;
+    margin-top: 40px;
+    padding-bottom: 20px;
 }
 
 .article-headline:before {
@@ -441,6 +441,7 @@ article ul li:before{
 .article-image{
   width:100%;
   height: auto;
+  padding-top: 20px;
 }
 
 .article-post code {
@@ -2840,4 +2841,44 @@ a.prevnext:hover {
 
 .intro-desc {
   margin-bottom: 30px;
+}
+
+.jumbotron {
+	background-size:cover;
+	padding:7rem 1rem;
+}
+.bg-lightblue {
+  background-color: #f3f4f3 !important; 
+}
+
+.jumbotron-home h1 {
+  font-size: 2.4rem;
+  font-weight: 700;
+  line-height: 1.1;
+  padding-top: 35px;
+}
+.jumbotron-home a {
+  margin-bottom: 35px;
+}
+
+@media (min-width:992px) {
+	.jumbotron-lg-withnav {
+		padding-bottom:calc(10rem - 69.75px);
+	}
+	.jumbotron-lg {
+		padding:10rem 0;
+	}
+	.jumbotron-xl {
+		padding:15rem 0;
+	}
+	.jumbotron-xl {
+		min-height:100vh;
+	}
+	.bottom-align-text-absolute {
+		position:absolute;
+		bottom:30px;
+		margin:auto;
+		left:0;
+		right:0;
+	}
 }

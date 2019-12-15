@@ -19,9 +19,12 @@ enabled: true
     </div>
 </header>
 
-{% include blog/latest-articles.html %}
-
 <div class="container">
+    
+    {% include blog/sticky.html %}
+
+    {% include blog/latest-articles.html %}
+
     <section id="interesado">
         <div class="row justify-content-center">
             <div class="col-12">

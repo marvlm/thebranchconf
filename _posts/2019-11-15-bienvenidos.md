@@ -6,18 +6,13 @@ description: Te damos la bienvenida a The Branch y esperamos poder evolucionar e
 categories: [The Branch]
 image: /assets/img/blog/thebranch-website-snapshot.jpg
 date: 15/11/2019
-tags: [bienvenido, Panamá, tecnología, desarrollo de software, innovación]
+tags: [sticky, bienvenido, Panamá, tecnología, desarrollo de software, innovación]
 author: thebranch
 ---
 
 ****
 
-```
-$ git checkout -b thebranch.tech
-Switched to a new branch 'thebranch.tech'
-```
-
-Estamos muy emocionados porque estás aquí leyendo el primer post en el blog de nuestro sitio web 
+Estamos muy contentos y emocionados porque estás aquí leyendo el primer post en el blog de nuestro sitio web ...  
 
 #### www.thebranch.tech
 
@@ -33,8 +28,13 @@ Una vez más, te damos la bienvenida y esperamos que contigo...
 
 ## {{site.slogan}}
 
+```
+$ git checkout -b thebranch.tech
+Switched to a new branch 'thebranch.tech'
+```
+
 Un abrazo!
 
-![The Branch logo]({{ site.baseurl }}/{{ site.logo }}){:width="30%"}
+![The Branch logo]({{ site.baseurl }}/{{ site.logo }}){:width="40%"}
 
 ***

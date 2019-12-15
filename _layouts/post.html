@@ -30,7 +30,7 @@ layout: default
 							<span class="text-muted d-block mt-1">
 								{% for item in site.data.authors.docs %}
 								{% if item.id == page.author %}
-								Publicado por <strong>{{ item.name}}</strong> |
+								Publicado por <strong>{{ item.name}}</strong> <br/>
 								{% endif %}
 								{% endfor %}
 								{{ page.date | date: '%B %d, %Y' }} ·
@@ -65,7 +65,7 @@ layout: default
 						<a class="a2a_dd" href="https://www.addtoany.com/share"></a>
 						<a class="a2a_button_facebook"></a>
 						<a class="a2a_button_twitter"></a>
-						<a class="a2a_button_linkedin"></a>
+						<a class="a2a_button_whatsapp"></a>
 					</div>
 					<script async src="https://static.addtoany.com/menu/page.js"></script>
 					<!-- AddToAny END -->
