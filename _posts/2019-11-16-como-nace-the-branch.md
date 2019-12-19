@@ -29,7 +29,7 @@ Pero, ¿quién te escribe?, bueno ese de la foto soy yo, el de la izquierda, y m
 
 Como comentaba antes, la frase tiene una razón, y es que en este momento me encuentro viviendo fuera de Panamá, específicamente en España desde hace un año ya que mi esposa y yo nos vinimos a estudiar, pero como buen panameño no sólo a estudiar, vinimos a conocer a vivir nuevas experiencias y a quejarnos de lo que hay acá que no encontramos en Panamá (en broma y en serio, he conversado con otros panameños que tienen mucho tiempo acá y en algún momento han expresado lo mismo, pero eso es tema de otra conversación).
 
-Una de las mejores experiencias que he tenido, ha sido la oportunidad de conocer como es el ecosistema de tecnología en un país tan grande y desarrollado como España, como existe una cultura de crear comunidades de profesionales, de compartir conocimiento y de crear entornos dónde estos se puedan juntar a compartir experiencias, conocimiento y por supuesto un café, un tapa o una buena caña (cerveza). 
+Una de las mejores experiencias que he tenido, ha sido la oportunidad de conocer como es el ecosistema de tecnología en un país tan grande y desarrollado como España, como existe una cultura de crear comunidades de profesionales, de compartir conocimiento y de crear entornos dónde estos se puedan juntar a compartir experiencias, conocimiento y por supuesto un café, una tapa o una buena caña (cerveza). 
 
 Y es que me he encontrado con tantos eventos, de todos los tipos, Meetups, Talleres, cursos, hackatones, conferencias, open spaces, etc., etc., etc. Es increíble la cantidad de eventos que ocurren que te puedes encontrar 2 o 3 muy buenos que se dan el mismo día y a la misma hora. 
 
