@@ -14,7 +14,7 @@ author: carol
 
 Este es el primero de una serie de artículos dónde explicaremos el proceso para que puedas publicar un artículo en nuestro Blog.
 
-En The Branch queremos crear comunidad, es por eso que hemos creado nuestro Blog, un espacio donde podemos compartir conocimiento, experiencias, buenas noticias, etc. todo lo que se nos ocurra, pero no queremos hacerlo solo nosotros, nos gustaría que todos ustedes lo que forman parte de la gran comunidad de profesionales de la tecnología se sumen en esta aventura.
+En The Branch queremos crear comunidad, es por eso que hemos creado nuestro Blog, un espacio donde podemos compartir conocimiento, experiencias, buenas noticias, etc. todo lo que se nos ocurra, siguiendo nuestro [código de conducta](/codigo-de-conducta). Pero no queremos hacerlo solo nosotros, nos gustaría que todos ustedes lo que forman parte de la gran comunidad de profesionales de la tecnología se sumen en esta aventura.
 
 ## ¿Pero cómo puedo sumarme?
 
