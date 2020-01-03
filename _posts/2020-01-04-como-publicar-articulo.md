@@ -5,7 +5,7 @@ subtitle: Queremos que todos ustedes nos ayuden a compartir conocimiento.
 description: Tú también puedes publicar un artículo en nuestro Blog.
 categories: [The Branch]
 image: /assets/img/blog/blog.jpg
-date: 11/12/2019
+date: 04/01/2020
 tags: [Markdown, HTML, Jekyll, web]
 author: carol
 ---

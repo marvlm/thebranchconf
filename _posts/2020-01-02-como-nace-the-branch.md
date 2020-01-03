@@ -5,7 +5,7 @@ subtitle: ... porque toda idea tiene un origen! La experiencia.
 description: The Branch nace de las experiencias vividas en comunidades y eventos fuera de Panamá.
 categories: [The Branch]
 image: /assets/img/blog/como-nace.jpg
-date: 16/11/2019
+date: 02/01/2020
 tags: [Panamá, tecnología, desarrollo de software, innovación, Comunidades]
 author: marvin
 ---

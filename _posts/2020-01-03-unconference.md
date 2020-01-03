@@ -5,7 +5,7 @@ subtitle:  Una sesión donde TODOS contribuyen.
 description: Unconference, la única regla y la más importante, es que no hay reglas.
 categories: [The Branch]
 image: /assets/img/blog/unconference.jpg
-date: 10/12/2019
+date: 03/01/2020
 tags: [Unconference, innovación]
 author: carol
 ---
