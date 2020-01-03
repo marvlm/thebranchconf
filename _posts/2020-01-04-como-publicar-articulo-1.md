@@ -127,6 +127,6 @@ _Puedes ver un ejemplo de una presentación como referencia que hemos insertado 
 
 Seguro en Internet encontrarás mucha más información sobre Jekyll, Markdown y como aprovechar lo que te ofrecen estas herramientas, incluso podemos también recomendarte el siguiente [tutorial](https://www.markdowntutorial.com/es/){:target="_blank" rel="noopener"} para que sigas practicando lo que aquí te hemos compartido antes de enviarnos tu artículo.
 
-Ahora que ya conoces Markdown y deseas contribuir en nuestro Blog, escríbenos a [equipo@thebranch.tech](mailto:equipo@thebranch.tech?Subject=Me gustaría publicar un artículo en su Blog)y manténte atento a nuestro Blog ya que próximamente estaremos publicando los siguientes artículos de esta serie donde explicaremos los siguientes pasos a seguir.
+Ahora que ya conoces Markdown y deseas contribuir en nuestro Blog, escríbenos a [equipo@thebranch.tech](mailto:equipo@thebranch.tech?Subject=Me gustaría publicar un artículo en su Blog) y manténte atento a nuestro Blog ya que próximamente estaremos publicando los siguientes artículos de esta serie donde explicaremos los siguientes pasos a seguir.
 
 ***
