@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Unconference, la conferencia no conferencia
+title: Unconference, la no conferencia
 subtitle:  Una sesión donde TODOS contribuyen.
 description: Unconference, la única regla y la más importante, es que no hay reglas.
 categories: [The Branch]

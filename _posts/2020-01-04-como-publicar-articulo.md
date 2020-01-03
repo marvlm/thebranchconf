@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Como publicar un artículo en nuestro Blog
+title: Como publicar en nuestro Blog (1)
 subtitle: Queremos que todos ustedes nos ayuden a compartir conocimiento. 
 description: Tú también puedes publicar un artículo en nuestro Blog.
 categories: [The Branch]
@@ -11,6 +11,8 @@ author: carol
 ---
 
 ****
+
+Este es el primero de una serie de artículos dónde explicaremos el proceso para que puedas publicar un artículo en nuestro Blog.
 
 En The Branch queremos crear comunidad, es por eso que hemos creado nuestro Blog, un espacio donde podemos compartir conocimiento, experiencias, buenas noticias, etc. todo lo que se nos ocurra, pero no queremos hacerlo solo nosotros, nos gustaría que todos ustedes lo que forman parte de la gran comunidad de profesionales de la tecnología se sumen en esta aventura.
 
@@ -125,6 +127,6 @@ _Puedes ver un ejemplo de una presentación como referencia que hemos insertado 
 
 Seguro en Internet encontrarás mucha más información sobre Jekyll, Markdown y como aprovechar lo que te ofrecen estas herramientas, incluso podemos también recomendarte el siguiente [tutorial](https://www.markdowntutorial.com/es/){:target="_blank" rel="noopener"} para que sigas practicando lo que aquí te hemos compartido antes de enviarnos tu artículo.
 
-Ahora que ya conoces Markdown y deseas contribuir en nuestro Blog, escríbenos a [equipo@thebranch.tech](mailto:equipo@thebranch.tech?Subject=Me gustaría publicar un artículo en su Blog) y te enviaremos los siguientes pasos a seguir.
+Ahora que ya conoces Markdown y deseas contribuir en nuestro Blog, escríbenos a [equipo@thebranch.tech](mailto:equipo@thebranch.tech?Subject=Me gustaría publicar un artículo en su Blog)y manténte atento a nuestro Blog ya que próximamente estaremos publicando los siguientes artículos de esta serie donde explicaremos los siguientes pasos a seguir.
 
 ***
