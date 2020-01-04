@@ -11,6 +11,11 @@
         {% include layout/navigation.html %}
     </header>
 
+    <!-- Search Results -->
+    <div id="lunrsearchresults">
+        <ul class="mb-0"></ul>
+    </div>
+
     {{ content }}
 
     {% include widgets/subscribe.html %}
@@ -33,20 +38,20 @@
     {% endif %}
 
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="{{site.baseurl}}/assets/js/jquery-min.js"></script>
+    <script src="{{site.url}}/assets/js/jquery-min.js"></script>
     <script src="https://www.gstatic.com/firebasejs/5.7.3/firebase.js"></script>
     <script src="https://www.gstatic.com/firebasejs/5.7.2/firebase-app.js"></script>
     <script src="https://www.gstatic.com/firebasejs/5.7.2/firebase-firestore.js"></script>
-    <script src="{{site.baseurl}}/assets/js/firebase_configuration.js" type="text/javascript"></script>
-    <script src="{{site.baseurl}}/assets/js/popper.min.js"></script>
-    <script src="{{site.baseurl}}/assets/js/bootstrap.min.js"></script>
-    <script src="{{site.baseurl}}/assets/js/jquery.nav.js"></script>
-    <script src="{{site.baseurl}}/assets/js/jquery.easing.min.js"></script>
-    <script src="{{site.baseurl}}/assets/js/wow.js"></script>
-    <script src="{{site.baseurl}}/assets/js/jquery.slicknav.js"></script>
-    <script src="{{site.baseurl}}/assets/js/nivo-lightbox.js"></script>
-    <script src="{{site.baseurl}}/assets/js/main.js"></script>
-    <script src="{{site.baseurl}}/assets/js/countdown.js" type="text/javascript"></script>
+    <script src="{{site.url}}/assets/js/firebase_configuration.js" type="text/javascript"></script>
+    <script src="{{site.url}}/assets/js/popper.min.js"></script>
+    <script src="{{site.url}}/assets/js/bootstrap.min.js"></script>
+    <script src="{{site.url}}/assets/js/jquery.nav.js"></script>
+    <script src="{{site.url}}/assets/js/jquery.easing.min.js"></script>
+    <script src="{{site.url}}/assets/js/wow.js"></script>
+    <script src="{{site.url}}/assets/js/jquery.slicknav.js"></script>
+    <script src="{{site.url}}/assets/js/nivo-lightbox.js"></script>
+    <script src="{{site.url}}/assets/js/main.js"></script>
+    <script src="{{site.url}}/assets/js/countdown.js" type="text/javascript"></script>
     {% include layout/cookie-consent.html %}
 </body>
 
