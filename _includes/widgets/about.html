@@ -17,13 +17,13 @@
       {% if post.categories contains "The Branch" %}
       <div class="col-xs-12 col-md-6 col-lg-4">
         <div class="about-item">
-          <img class="img-fluid" src="{{ site.baseurl }}{{ post.image }}" alt="{{ post.title }}" title="{{ post.title }}">
+          <img class="img-fluid" src="{{ site.url }}{{ post.image }}" alt="{{ post.title }}" title="{{ post.title }}">
           <div class="about-text">
-            <h3><a href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}">
+            <h3><a href="{{ post.url | prepend: site.url | replace: '//', '/' }}">
               {{post.title}}</a>
             </h3>
             <p>{{ post.subtitle }}</p>
-            <a class="btn btn-common" href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}">Leer más</a>
+            <a class="btn btn-common" href="{{ post.url | prepend: site.url | replace: '//', '/' }}">Leer más</a>
           </div>
         </div>
       </div>

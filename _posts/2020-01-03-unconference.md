@@ -58,7 +58,7 @@ Antes mencionamos que en el Unconference no hay reglas, sin embargo, es importan
 **La regla de los dos pies** dice que, si en algún momento sientes que la sesión no te aporta ningún valor, que no estás aprendiendo o contribuyendo en nada al tema que se está desarrollando, libremente puedes usar tus dos pies y retirarte de la sala. Con toda confianza puedes salir y dirigirte a otra reunión o lugar donde puedas aprender, contribuir o aprovechar tu tiempo. Nadie debería estar en una reunión que considera aburrida, sólo deberían estar en la reunión las personas que estén genuinamente interesadas en el tema que se está desarollando.
 
 {:class="text-center"}
-![Regla de los 2 pies]({{ site.baseurl }}/assets/img/blog/2-pies.jpg){:width="40%"}
+![Regla de los 2 pies]({{ site.url }}/assets/img/blog/2-pies.jpg){:width="40%"}
 
 > ## ... libremente puedes usar tus dos pies y retirarte de la sala. Con toda confianza puedes salir y dirigirte a otra reunión o lugar donde puedas aprender, contribuir o aprovechar tu tiempo. Nadie debería estar en una reunión que considera aburrida, ...
 
@@ -66,7 +66,7 @@ Antes mencionamos que en el Unconference no hay reglas, sin embargo, es importan
 
 Tenemos la idea de tener al menos 1 branch dedicado al formato unconference donde cada sesión sería de 1 hora y 45 minutos (puede cambiar cuando publiquemos la agenda final), lo que haría un aproximado de 6 sesiones en los dos días de conferencia y para ello necesitamos facilitadores. Si tienes experiencia con un tema donde crees que sería bueno contrastar ideas y ya estás familiarizado con el formato (o no), queremos contar contigo. 
 
-Envía tu propuesta de sesión en nuestro [Call for Papers]({{site.baseurl}}/speakers){:target="_blank"} seleccionando la categoría unconference, y si tu propuesta es elegida nos pondremos en contacto contigo.
+Envía tu propuesta de sesión en nuestro [Call for Papers]({{site.url}}/speakers){:target="_blank"} seleccionando la categoría unconference, y si tu propuesta es elegida nos pondremos en contacto contigo.
 
 Y no te preocupes si en este momento no tienes idea de como facilitar una sesión de Unconference, te proveeremos de lo que necesites para que puedas facilitarla con éxito, nosotros, en The Branch, somos los más interesados en que este experimento tenga excelentes resultados 🙂.
 

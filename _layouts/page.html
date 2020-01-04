@@ -5,8 +5,8 @@ layout: default
 <header>
     <div id="main-slide" class="carousel slide" data-ride="carousel">
         <div class="carousel-inner">
-            <div class="carousel-item active" style="background-image: url({% if page.image contains "://" %}{{ page.image }}{% else %}{{ site.baseurl }}/{{ page.image }}{% endif %});">
-                <!-- <img class="d-block w-100" src="{% if page.image contains "://" %}{{ page.image }}{% else %}{{ site.baseurl }}/{{ page.image }}{% endif %}"
+            <div class="carousel-item active" style="background-image: url({% if page.image contains "://" %}{{ page.image }}{% else %}{{ site.url }}/{{ page.image }}{% endif %});">
+                <!-- <img class="d-block w-100" src="{% if page.image contains "://" %}{{ page.image }}{% else %}{{ site.url }}/{{ page.image }}{% endif %}"
                 alt="{{ page.title }}" title="{{ page.title }}"> -->
                 <div class="carousel-caption d-md-block">
                     <br/>

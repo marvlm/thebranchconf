@@ -33,11 +33,11 @@ Hemos creado diferentes versiones de nuestro logotipo:
 
 ### Versiones a color
 
-|![The Branch logo]({{ site.baseurl }}/assets/img/identity/the-branch-logo.svg){:width="100%"}|![The Branch logo inverted]({{ site.baseurl }}/assets/img/identity/the-branch-logo-inverted.svg){:width="100%"}|
+|![The Branch logo]({{ site.url }}/assets/img/identity/the-branch-logo.svg){:width="100%"}|![The Branch logo inverted]({{ site.url }}/assets/img/identity/the-branch-logo-inverted.svg){:width="100%"}|
 
 ### Versiones B/N
 
-|![The Branch logo]({{ site.baseurl }}/assets/img/identity/the-branch-logo-bn-white.svg){:width="100%"}|![The Branch logo inverted]({{ site.baseurl }}/assets/img/identity/the-branch-logo-bn-black.svg){:width="100%"}|
+|![The Branch logo]({{ site.url }}/assets/img/identity/the-branch-logo-bn-white.svg){:width="100%"}|![The Branch logo inverted]({{ site.url }}/assets/img/identity/the-branch-logo-bn-black.svg){:width="100%"}|
 
 #### Descriptor
 **Descriptor:** Nombre de marca funcional, que permite identificar automáticamente la principal cualidad o aplicación del producto o servicio al que se refiere. En nuestro caso particular, el Descriptor es: 
@@ -60,7 +60,7 @@ Somos valientes a la hora de usar la tipografía. Gran parte de nuestra persona
 
 La marca The Branch se apoya en 4 colores principales, el tricolor panameño Rojo, Blanco y Azul con los que queremos reflejar el nacionalismo que nos representa, además en contraste, el Gris que le da un carácter original, exclusivo y elegante. Para nosotros esta combinación de colores fluye de manera natural.
 
-![The Branch corporate colors]({{ site.baseurl }}/assets/img/identity/the-branch-logo-colors.png){:width="100%"}
+![The Branch corporate colors]({{ site.url }}/assets/img/identity/the-branch-logo-colors.png){:width="100%"}
 
 Cada vez que utilizas nuestra marca estás representando nuestra cultura, personas y valores. Hay que tenerle cariño. Queremos ayudarte a usarla de forma adecuada.
 
@@ -68,7 +68,7 @@ Cada vez que utilizas nuestra marca estás representando nuestra cultura, person
 
 Queremos reflejar que somos una marca 100% digital, es por ello que hemos considerado dentro de nuestra imágen un ícono que represente nuestra marca en espacios más reducidos y en elementos digitales donde nuestro logo no podría utilizarse. 
 
-![The Branch favicon]({{ site.baseurl }}/assets/img/identity/the-branch-favicon.png){:width="20%"}
+![The Branch favicon]({{ site.url }}/assets/img/identity/the-branch-favicon.png){:width="20%"}
 
 ¡Estamos muy contentos! 🙂 de presentarte nuestra marca. Diseñar tu propia marca no es un trabajo fácil y menos si lo ejecutas in-house, pero nos sentimos satisfechos con lo que hemos podido lograr.
 

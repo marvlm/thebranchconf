@@ -33,7 +33,7 @@ Una de las mejores experiencias que he tenido, ha sido la oportunidad de conocer
 
 Y es que me he encontrado con tantos eventos, de todos los tipos, Meetups, Talleres, cursos, hackatones, conferencias, open spaces, etc., etc., etc. Es increíble la cantidad de eventos que ocurren que te puedes encontrar 2 o 3 muy buenos que se dan el mismo día y a la misma hora. 
 
-![Eventos en los que he tenido oportunidad de participar]({{ site.baseurl }}/assets/img/blog/como-nace-2.jpg)
+![Eventos en los que he tenido oportunidad de participar]({{ site.url }}/assets/img/blog/como-nace-2.jpg)
 <span>"Algunos de los eventos en los que he tenido oportunidad de participar"</span>
 
 Ha sido tan buena la experiencia de asistir a tantos eventos que no solo he participado como asistente, también me animé a participar como voluntario en uno de ellos, como facilitador de cursos e incluso como ponente. 
@@ -65,7 +65,7 @@ Es por eso que con mi esposa, empezamos a trabajar en desarrollar la idea de un 
 
 #### Así nació 
 
-![The Branch logo]({{ site.baseurl }}/{{ site.logo }}){:width="70%"}
+![The Branch logo]({{ site.url }}/{{ site.logo }}){:width="70%"}
 
 ## {{site.tagline}}
 

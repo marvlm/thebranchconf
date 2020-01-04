@@ -7,7 +7,7 @@ subtitle: Encuentra tu enlace de interés
 
 ***
 
-#### <i class="fas fa-home"></i> [Página de Inicio]({{site.baseurl}})
+#### <i class="fas fa-home"></i> [Página de Inicio]({{site.url}})
 
 ***
 
@@ -20,7 +20,7 @@ subtitle: Encuentra tu enlace de interés
 {% if page.layout != 'feed' %}
 {% if page.layout != 'default' %}
 {% if page.permalink != 'gracias' %}
-* [{{page.title}}]({{site.baseurl}}{{ page.url | remove: 'index.html' }})
+* [{{page.title}}]({{site.url}}{{ page.url | remove: 'index.html' }})
 {% endif %}
 {% endif %}
 {% endif %}
@@ -35,7 +35,7 @@ subtitle: Encuentra tu enlace de interés
 #### Posts
 {% for post in sortedPosts %}
 {% unless post.categories contains "session" %}
-* [{{post.title}}]({{site.baseurl}}{{ post.url | remove: 'index.html' }}) 
+* [{{post.title}}]({{site.url}}{{ post.url | remove: 'index.html' }}) 
 {% endunless %}
 {% endfor %}
 

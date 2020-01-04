@@ -32,7 +32,7 @@ Aún, con mucho trabajo por delante para poder realizar el evento, celebramos nu
 
 ## ¿Qué podrás encontrar aquí?
 
-Te invitamos a qué explores nuestro sitio web y consultes toda la información que aquí hemos compartido para que te enteres *Qué es The Branch*, *cuándo es*, *qué queremos lograr* y *cómo puedes colaborar con nosotros*, ya sea como [patrocinador]({{site.baseurl}}/patrocinadores){:target="_blank"}, [ponente]({{site.baseurl}}/speakers){:target="_blank"}, [miembro de una comunidad]({{site.baseurl}}/communities){:target="_blank"}, [voluntario]({{site.baseurl}}/volunteers){:target="_blank"} o publicando un artículo en nuestro [blog]({{site.baseurl}}/blog#interesado){:target="_blank"}, hemos creado oportunidades de colaboración para todos los gustos e intereses.
+Te invitamos a qué explores nuestro sitio web y consultes toda la información que aquí hemos compartido para que te enteres *Qué es The Branch*, *cuándo es*, *qué queremos lograr* y *cómo puedes colaborar con nosotros*, ya sea como [patrocinador]({{site.url}}/patrocinadores){:target="_blank"}, [ponente]({{site.url}}/speakers){:target="_blank"}, [miembro de una comunidad]({{site.url}}/communities){:target="_blank"}, [voluntario]({{site.url}}/volunteers){:target="_blank"} o publicando un artículo en nuestro [blog]({{site.url}}/blog#interesado){:target="_blank"}, hemos creado oportunidades de colaboración para todos los gustos e intereses.
 
 Si te surge alguna duda, alguna forma de colaboración que no hemos contemplado aún o simplemente quieres contactar con nosotros, puedes escribirnos a [hola@thebranch.tech](mailto:hola@thebranch.tech) o conectar con nosotros a través de nuestras redes sociales en [Twitter]({{ site.twitter }}){:target="_blank" rel="noopener"}, [Instagram]({{ site.instagram }}){:target="_blank" rel="noopener"}, [Facebook]({{ site.facebook }}){:target="_blank" rel="noopener"} o [Linkedin]({{ site.linkedin }}){:target="_blank" rel="noopener"} como **@thebranchconf** y estaremos encantados de responderte.
 
@@ -47,6 +47,6 @@ Switched to a new branch 'thebranch.tech'
 
 Un abrazo!
 
-![The Branch logo]({{ site.baseurl }}/{{ site.logo }}){:width="40%"}
+![The Branch logo]({{ site.url }}/{{ site.logo }}){:width="40%"}
 
 ***

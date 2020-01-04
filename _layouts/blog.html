@@ -9,7 +9,7 @@ enabled: true
     <div id="main-slide" class="carousel slide" data-ride="carousel">
         <div class="carousel-inner">
             <div class="carousel-item active"
-                style="background-image: url({{site.baseurl}}/assets/img/slider/slide8.jpg);">
+                style="background-image: url({{site.url}}/assets/img/slider/slide8.jpg);">
                 <div class="carousel-caption d-md-block">
                     <h1 class="wow fadeInDown heading" data-wow-delay=".4s">{{ page.title }}</h1>
                     <p class="fadeInUp wow" data-wow-delay=".6s">{{ site.slogan }}</p>
@@ -47,7 +47,7 @@ enabled: true
             {% unless post.categories contains "session" %}
 
             <article class="post-preview">
-                <a href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}">
+                <a href="{{ post.url | prepend: site.url | replace: '//', '/' }}">
                     <h2 class="post-title">{{ post.title }}</h2>
                     {% if post.subtitle %}
                     <h5 class="post-subtitle">{{ post.subtitle }}</h5>

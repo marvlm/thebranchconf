@@ -16,7 +16,7 @@ layout: default
 						<span class="catlist">
 							{% for category in page.categories %}
 							<a class="sscroll text-danger"
-								href="{{site.baseurl}}/blog/categorias.html#{{ category | downcase }}">{{ category | downcase }}</a><span
+								href="{{site.url}}/blog/categorias.html#{{ category | downcase }}">{{ category | downcase }}</a><span
 								class="sep">{% if forloop.last == false %},{% endif %}</span>
 							{% endfor %}
 						</span>
@@ -42,7 +42,7 @@ layout: default
 				{% if page.image %}
 				<div class="col-md-6 align-self-center">
 					<img class="rounded article-image"
-						src="{% if page.image contains "://" %}{{ page.image }}{% else %}{{ site.baseurl }}/{{ page.image }}{% endif %}"
+						src="{% if page.image contains "://" %}{{ page.image }}{% else %}{{ site.url }}/{{ page.image }}{% endif %}"
 						alt="{{ page.title }}" title="{{ page.title }}">
 				</div>
 				{% endif %}
@@ -112,7 +112,7 @@ layout: default
 			<div class="row mt-5">
 				<div class="col-md-2 align-self-center">
 					{% if item.avatar %}
-					<img class="rounded-circle" src="{{site.baseurl}}/{{item.avatar}}" alt="{{item.name}}"
+					<img class="rounded-circle" src="{{site.url}}/{{item.avatar}}" alt="{{item.name}}"
 						title="{{item.name}}" width="90" />
 					{% endif %}
 				</div>
@@ -163,13 +163,13 @@ layout: default
 			<!-- <div class="clearfix">
 
 				{% if page.previous.url %}
-				<a class="btn btn-primary float-left" href="{{ page.previous.url | prepend: site.baseurl | replace: '//', '/' }}"
+				<a class="btn btn-primary float-left" href="{{ page.previous.url | prepend: site.url | replace: '//', '/' }}"
 					data-toggle="tooltip" data-placement="top" title="{{ page.previous.title }}">&larr; Post<span
 						class="d-none d-md-inline">
 						Anterior</span></a>
 				{% endif %}
 				{% if page.next.url %}
-				<a class="btn btn-primary float-right" href="{{ page.next.url | prepend: site.baseurl | replace: '//', '/' }}"
+				<a class="btn btn-primary float-right" href="{{ page.next.url | prepend: site.url | replace: '//', '/' }}"
 					data-toggle="tooltip" data-placement="top" title="{{ page.next.title }}">Post<span class="d-none d-md-inline">
 						Siguiente</span> &rarr;</a>
 				{% endif %}
