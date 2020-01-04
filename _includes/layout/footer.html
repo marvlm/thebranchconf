@@ -3,7 +3,7 @@
         <div class="row">
             <div class="col-md-6 col-lg-3 col-sm-6 col-xs-12 wow fadeInUp" data-wow-delay="0.2s">
                 <h3>
-                    <a href="{{ site.baseurl }}"><img src="{{ site.baseurl }}/{{ site.logo-white }}"
+                    <a href="{{ site.url }}"><img src="{{ site.url }}/{{ site.logo-white }}"
                             alt="The Branch logo" title="The Branch logo" /></a>
                 </h3>
                 <p>
@@ -19,7 +19,7 @@
                     {% for item in site.data.navigation.docs %} {% if item.footer == true
           %} {% if item.side == 'left' %}
                     <li>
-                        <a href="{{site.baseurl}}{{ item.url }} ">{{ item.title }} </a>
+                        <a href="{{site.url}}{{ item.url }} ">{{ item.title }} </a>
                     </li>
                     {% endif %} {% endif %} {% endfor %}
                 </ul>
@@ -30,7 +30,7 @@
                     {% for item in site.data.navigation.docs %} {% if item.footer == true
           %} {% if item.side == 'right' %}
                     <li>
-                        <a href="{{site.baseurl}}{{ item.url }} ">{{ item.title }} </a>
+                        <a href="{{site.url}}{{ item.url }} ">{{ item.title }} </a>
                     </li>
                     {% endif %} {% endif %} {% endfor %}
                 </ul>

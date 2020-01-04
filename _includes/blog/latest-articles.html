@@ -12,8 +12,8 @@
       <div class="col-lg-4 col-md-6 col-xs-12">
         <div class="blog-item">
           <div class="blog-image">
-            <a href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}">
-              <img class="img-fluid" src="{{ site.baseurl }}{{ post.image }}" alt="{{ post.title }}" title="{{ post.title }}">
+            <a href="{{ post.url | prepend: site.url | replace: '//', '/' }}">
+              <img class="img-fluid" src="{{ site.url }}{{ post.image }}" alt="{{ post.title }}" title="{{ post.title }}">
             </a>
           </div>
           <div class="descr">
@@ -21,14 +21,14 @@
             <div class="category">{{ category | downcase }}</div>
             {% endfor %}
             <h3 class="title">
-              <a href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}">
+              <a href="{{ post.url | prepend: site.url | replace: '//', '/' }}">
                 {{ post.title }}
               </a>
             </h3>
             <div class="meta-tags">
               <span class="date">{{ post.date | date: "%B %d, %Y" }}</span>
               <span class="comments">|
-                <a href="{{site.baseurl}}{{ post.permalink }}">
+                <a href="{{site.url}}{{ post.permalink }}">
                   {% for item in site.data.authors.docs %}
                   {% if item.id == post.author %}
                   por <strong>{{ item.name }}</strong>

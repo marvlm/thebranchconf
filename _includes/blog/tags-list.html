@@ -3,7 +3,7 @@
     <ul class="tags">
         {% for tag in post.tags %}
         {% unless tag == 'sticky' %}
-        <li><a href="{{site.baseurl}}/blog/tags.html#{{ tag | downcase }}"
+        <li><a href="{{site.url}}/blog/tags.html#{{ tag | downcase }}"
                 class="tag">#{{ tag | downcase }}</a></li>
         {% endunless %}
         {% endfor %}
