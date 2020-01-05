@@ -5,7 +5,7 @@ permalink: codigo-de-conducta
 subtitle: Código de conducta y política contra el acoso
 ---
 
-The Branch se dedica a proporcionar una experiencia de evento inclusiva y libre de acoso para todos, independientemente de su identidad y expresión de género, orientación sexual, discapacidad, neurodiversidad, apariencia física, tamaño corporal, etnia, nacionalidad, raza, edad, religión u otra categoría protegida. No toleramos el acoso de los participantes del evento de ninguna forma. The Branch toma en serio las violaciones de nuestra política y responderá de manera adecuada. Nuestro código de conducta está basado en los Lineamientos de la comunidad de eventos de Google y la Política contra el acoso, para obtener más información al respecto consulte [aquí](#){:target="_blank" rel="noopener"}.   
+The Branch se dedica a proporcionar una experiencia de evento inclusiva y libre de acoso para todos, independientemente de su identidad y expresión de género, orientación sexual, discapacidad, neurodiversidad, apariencia física, tamaño corporal, etnia, nacionalidad, raza, edad, religión u otra categoría protegida. No toleramos el acoso de los participantes del evento de ninguna forma. The Branch toma en serio las violaciones de nuestra política y responderá de manera adecuada. Nuestro código de conducta está basado en los lineamientos y política contra el acoso de la comunidad de eventos de Google, para obtener más información al respecto consulte [aquí](https://www.google.com/events/policy/anti-harassmentpolicy.html){:target="_blank" rel="noopener"}.   
 
 * * *
 
