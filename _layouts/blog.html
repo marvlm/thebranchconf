@@ -47,7 +47,7 @@ enabled: true
             {% unless post.categories contains "session" %}
 
             <article class="post-preview">
-                <a href="{{ post.url | prepend: site.url | replace: '//', '/' }}">
+                <a href="{{ post.url }}">
                     <h2 class="post-title">{{ post.title }}</h2>
                     {% if post.subtitle %}
                     <h5 class="post-subtitle">{{ post.subtitle }}</h5>
