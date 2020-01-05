@@ -19,7 +19,7 @@ _No fue Sócrates el filósofo griego quien dijo ésta frase como se piensa y se
 ***
 Pero ¿porqué empiezo con esa frase?, la verdad estaba pensando iniciar este post con una frase así muy motivadora de esas que están de moda, pero no tenía ni idea de cuál utilizar y haciendo una exahustiva investigación (_me leí 2 páginas de 50 frases motivadoras para emprendedores_) encontré esa que me pareció perfecta para darle un contexto a esta historia. 
 
-Y es que así he estado yo este último año, enfocando mi energía en lo que no había, en lo que no encontraba, en lo que no existía y no me daba cuenta que la mejor forma de hacer que algo cambie, es crear el cambio uno mismo.
+Y es que así estuve en el 2019, enfocando mi energía en lo que no había, en lo que no encontraba, en lo que no existía y no me daba cuenta que la mejor forma de hacer que algo cambie, es crear el cambio uno mismo.
 
 > ## ... la mejor forma de hacer que algo cambie, es crear el cambio uno mismo.
 
@@ -43,11 +43,13 @@ El tema de la presentación fue una introducción a [Flutter - SDK de Google par
 <span>"Aquí les comparto la presentación"</span>
 <iframe src="//slides.com/marvlm/flutter-paradigma-os/embed" width="100%" height="420" scrolling="no" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 
- Una de las particularidades de la mayoría de los eventos en los que he podido participar es que no son eventos para gente de saco y corbata, como sucede en Panamá la mayoría de las veces, son eventos creados y pensados para nosotros, aquellos artesanos del código que les toca batallar con los errores 500, aquellos fans de los bugs que encuentran esos errores en el diseño usando el [Pick Pick](https://picpick.app/en/){:target="_blank" rel="noopener"} o quienes les toca ver como arreglar el error causado por aquel [Blue screen of dead](https://en.wikipedia.org/wiki/Blue_screen_of_death){:target="_blank" rel="noopener"} que apareció en la computadora de la persona de recursos humanos.
+ Una de las particularidades de la mayoría de los eventos en los que he podido participar es que no son eventos para gerentes, directores, CEOs, como sucede en la mayoría de los eventos en Panamá, eventos con costos altísimos o en horarios de trabajo donde la verdad por más que uno quiera participar a veces es imposible. Con esto quiero decir, que son eventos accesibles a todo el que quiera participar desde eventos gratuitos hasta con entradas que por lo que ofrecen son una inversión muy pequeña y que cualquiera que trabaje y le interese puede participar, son eventos creados y pensados para nosotros, aquellos artesanos del código que les toca batallar con los errores 500, aquellos fans de los bugs que encuentran esos errores en el diseño usando el [Pick Pick](https://picpick.app/en/){:target="_blank" rel="noopener"} o quienes les toca ver como arreglar el error causado por aquel [Blue screen of dead](https://en.wikipedia.org/wiki/Blue_screen_of_death){:target="_blank" rel="noopener"} que apareció en la computadora de la persona de recursos humanos.
  
-> ## ... no son eventos para gente de saco y corbata, ..., son eventos creados y pensados para nosotros,
+> ## ... no son eventos para gerentes, directores, CEOs, ..., son eventos creados y pensados para nosotros,
 
-No me malinterpreten, el saco y la corbata están bien para ciertos momentos, pero aceptémoslo, a quienes trabajamos en una oficina cerrada, que no vemos clientes, no nos sentimos cómodos trabajando en saco y corbata, ¿qué mejor para tu concentración y para resolver los problemas del día a día que usar tus jeans favoritos y esa camiseta de tu equipo de fútbol, tu serie de TV favorita o con ese mensaje gracioso que compraste por Internet?. 
+Y lo que más me ha gustado de estos eventos, es que no son eventos de saco y corbata. No me malinterpreten, el saco y la corbata están bien para ciertas personas y ciertos momentos, pero aceptémoslo, a quienes trabajamos programando en una oficina cerrada, trabajando en un data center, que no vemos clientes, no nos sentimos cómodos ni trabajando ni asistiendo a eventos en saco y corbata, ¿qué mejor para tu concentración y para resolver los problemas del día a día que usar tus jeans favoritos y esa camiseta de tu equipo de fútbol, tu serie de TV favorita o con ese mensaje gracioso que compraste por Internet?. 
+
+> ## ... no son eventos de saco y corbata.
 
 Todas estas experiencias me hicieron preguntarme **¿porqué no tenemos este tipo de eventos en Panamá? ¿qué nos hace falta?**
 
