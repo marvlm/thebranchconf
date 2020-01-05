@@ -19,11 +19,11 @@
         <div class="about-item">
           <img class="img-fluid" src="{{ site.url }}{{ post.image }}" alt="{{ post.title }}" title="{{ post.title }}">
           <div class="about-text">
-            <h3><a href="{{ post.url | prepend: site.url | replace: '//', '/' }}">
+            <h3><a href="{{ post.url }}">
               {{post.title}}</a>
             </h3>
             <p>{{ post.subtitle }}</p>
-            <a class="btn btn-common" href="{{ post.url | prepend: site.url | replace: '//', '/' }}">Leer más</a>
+            <a class="btn btn-common" href="{{ post.url }}">Leer más</a>
           </div>
         </div>
       </div>
