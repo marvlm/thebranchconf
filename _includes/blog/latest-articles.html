@@ -12,7 +12,7 @@
       <div class="col-lg-4 col-md-6 col-xs-12">
         <div class="blog-item">
           <div class="blog-image">
-            <a href="{{ post.url | prepend: site.url | replace: '//', '/' }}">
+            <a href="{{ post.url }}">
               <img class="img-fluid" src="{{ site.url }}{{ post.image }}" alt="{{ post.title }}" title="{{ post.title }}">
             </a>
           </div>
@@ -21,7 +21,7 @@
             <div class="category">{{ category | downcase }}</div>
             {% endfor %}
             <h3 class="title">
-              <a href="{{ post.url | prepend: site.url | replace: '//', '/' }}">
+              <a href="{{ post.url }}">
                 {{ post.title }}
               </a>
             </h3>
