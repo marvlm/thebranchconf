@@ -1,0 +1,62 @@
+docs_list_title: Team
+docs:
+
+- name: MARVIN LÓPEZ
+  image: assets/img/team/team-marv.jpg
+  page: "https://about.me/marvlm"
+  linkedin: "marvinlopez"
+  twitter: "marvlm"
+  facebook: 
+  email: "marvin@thebranch.tech"
+  description: Software Engineer, Scrum Master
+  show: true
+
+- name: CAROL CUPAS
+  image: assets/img/team/team-carol.jpg
+  page: "https://www.linkedin.com/in/carolcupaspitti"
+  linkedin: "carolcupaspitti"
+  twitter: 
+  facebook: 
+  email: "hola@thebranch.tech"
+  description: Software Engineer, Big Data & BI
+  show: true
+
+- name: REGIS RIVERA
+  image: assets/img/team/team-01.jpg
+  page: "#"
+  linkedin: "#"
+  twitter: "#"
+  facebook: "#"
+  email: "#"
+  description: Lead Designer, TNW
+  show: false
+
+- name: ULISES GONZÁLEZ
+  image: assets/img/team/team-01.jpg
+  page: 
+  linkedin: 
+  twitter: 
+  facebook: 
+  email: 
+  description: Back-end Developer, ASUS
+  show: false
+
+- name: TÚ?
+  image: assets/img/team/team-01.jpg
+  page: 
+  linkedin: 
+  twitter: 
+  facebook: 
+  email: 
+  description: Awesome Person
+  show: true
+
+- name: RUTH MENDOZA
+  image: assets/img/team/team-01.jpg
+  page: "#"
+  linkedin: "#"
+  twitter: "#"
+  facebook: "#"
+  email: "#"
+  description: UI Designer, Apple
+  show: false

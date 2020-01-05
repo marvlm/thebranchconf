@@ -1,15 +1,16 @@
-<section id="team" class="section-padding counter-section text-center">
+<section id="team" class="section-padding text-center">
     <div class="container">
-        <div class="row">
+        <!-- <div class="row">
             <div class="col-12">
                 <div class="section-title-header text-center">
                     <h1 class="wow fadeInUp" data-wow-delay="0.2s">EQUIPO</h1>
                     <p class="wow fadeInDown" data-wow-delay="0.2s">¿Quién organiza The Branch?</p>
                 </div>
             </div>
-        </div>
+        </div> -->
         <div class="row">
-            {% for item in site.data.who.docs %}
+            {% for item in site.data.team.docs %}
+            {% if item.show %}
             <div class="col-sm-6 col-md-6 col-lg-4">
                     <div class="team-item wow fadeInUp" data-wow-delay="0.2s">
                         <div class="team-img">
@@ -18,31 +19,32 @@
                                 <div class="overlay-social-icon text-center">
                                     <ul class="social-icons">
                                         {% if item.facebook != blank? %}
-                                        <li><a href="{{ item.facebook }}"><i
+                                        <li><a href="https://www.facebook.com/{{ item.facebook }}" target="_blank" rel="noopener"><i
                                             class="fab fa-facebook-f"></i></a></li>
                                         {% endif %}
                                         {% if item.twitter != blank? %}
-                                        <li><a href="{{ item.twitter }}"><i class="fab fa-twitter"></i></a></li>
+                                        <li><a href="https://twitter.com/{{ item.twitter }}" target="_blank" rel="noopener"><i class="fab fa-twitter"></i></a></li>
                                         {% endif %}
                                         {% if item.linkedin != blank? %}
-                                        <li><a href="{{ item.linkedin }}"><i
+                                        <li><a href="https://www.linkedin.com/in/{{ item.linkedin }}" target="_blank" rel="noopener"><i
                                             class="fab fa-linkedin-in"></i></a></li>
                                         {% endif %}
                                         {% if item.email != blank? %}
-                                        <li><a href="{{ item.email }}"><i class="far fa-envelope"></i></a></li>
+                                        <li><a href="mailto:{{ item.email }}"><i class="far fa-envelope"></i></a></li>
                                         {% endif %}
                                     </ul>
                                 </div>
                             </div>
                         </div>
                         <div class="info-text">
-                            <h3><a href="{{ item.page }}">{{ item.name }}</a></h3>
+                            <h3><a href="{{ item.page }}" target="_blank" rel="noopener">{{ item.name }}</a></h3>
                             <p>{{ item.description }}</p>
                         </div>
                     </div>
             </div>
+            {% endif %}
             {% endfor %}
         </div>
-        <a href="speakers.html" class="btn btn-common mt-30 wow fadeInUp" data-wow-delay="1.9s">All Speakers</a>
+        <a href="mailto:equipo@thebranch.tech" class="btn btn-common mt-30 wow fadeInUp" data-wow-delay="1.9s"><i class="fas fa-hands-helping"></i>Quiero colaborar</a>
     </div>
 </section>
