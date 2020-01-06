@@ -17,7 +17,7 @@ author: marvin
 _No fue Sócrates el filósofo griego quien dijo ésta frase como se piensa y se dice en algunos sitios en Internet, en realidad es de un personaje llamado Sócrates (coincidencia) en un libro llamado [Way of the Peaceful Warrior: A Book that Changes Lives](https://www.amazon.es/Way-Peaceful-Warrior-Changes-Lives/dp/1932073205), escrito por Dan Millman ([se los dejo ahí para que lo investiguen](https://quoteinvestigator.com/2013/05/28/socrates-energy/){:target="_blank" rel="noopener"})._
 
 ***
-Pero ¿porqué empiezo con esa frase?, la verdad estaba pensando iniciar este post con una frase así muy motivadora de esas que están de moda, pero no tenía ni idea de cuál utilizar y haciendo una exahustiva investigación (_me leí 2 páginas de 50 frases motivadoras para emprendedores_) encontré esa que me pareció perfecta para darle un contexto a esta historia. 
+Pero ¿por qué empiezo con esa frase?, la verdad estaba pensando iniciar este post con una frase así muy motivadora de esas que están de moda, pero no tenía ni idea de cuál utilizar y haciendo una exhaustiva investigación (_me leí 2 páginas de 50 frases motivadoras para emprendedores_) encontré esa que me pareció perfecta para darle un contexto a esta historia. 
 
 Y es que así estuve en el 2019, enfocando mi energía en lo que no había, en lo que no encontraba, en lo que no existía y no me daba cuenta que la mejor forma de hacer que algo cambie, es crear el cambio uno mismo.
 
@@ -43,7 +43,7 @@ El tema de la presentación fue una introducción a [Flutter - SDK de Google par
 <span>"Aquí les comparto la presentación"</span>
 <iframe src="//slides.com/marvlm/flutter-paradigma-os/embed" width="100%" height="420" scrolling="no" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 
- Una de las particularidades de la mayoría de los eventos en los que he podido participar es que no son eventos para gerentes, directores, CEOs, como sucede en la mayoría de los eventos en Panamá, eventos con costos altísimos o en horarios de trabajo donde la verdad por más que uno quiera participar a veces es imposible. Con esto quiero decir, que son eventos accesibles a todo el que quiera participar desde eventos gratuitos hasta con entradas que por lo que ofrecen son una inversión muy pequeña y que cualquiera que trabaje y le interese puede participar, son eventos creados y pensados para nosotros, aquellos artesanos del código que les toca batallar con los errores 500, aquellos fans de los bugs que encuentran esos errores en el diseño usando el [Pick Pick](https://picpick.app/en/){:target="_blank" rel="noopener"} o quienes les toca ver como arreglar el error causado por aquel [Blue screen of dead](https://en.wikipedia.org/wiki/Blue_screen_of_death){:target="_blank" rel="noopener"} que apareció en la computadora de la persona de recursos humanos.
+ Una de las particularidades de la mayoría de los eventos en los que he podido participar es que no son eventos para gerentes, directores, CEOs, como sucede en la mayoría de los eventos en Panamá, eventos con costos altísimos o en horarios de trabajo donde la verdad por más que uno quiera participar a veces es imposible. Con esto quiero decir, que son eventos accesibles a todo el que quiera participar desde eventos gratuitos hasta con entradas que por lo que ofrecen son una inversión muy pequeña y que cualquiera que trabaje y le interese puede participar, son eventos creados y pensados para nosotros, aquellos artesanos del código que les toca batallar con los errores 500, aquellos fans de los bugs que encuentran esos errores en el diseño usando el [Pick Pick](https://picpick.app/en/){:target="_blank" rel="noopener"} o quienes les toca ver cómo arreglar el error causado por aquel [Blue screen of dead](https://en.wikipedia.org/wiki/Blue_screen_of_death){:target="_blank" rel="noopener"} que apareció en la computadora de la persona de recursos humanos.
  
 > ## ... no son eventos para gerentes, directores, CEOs, ..., son eventos creados y pensados para nosotros,
 
@@ -51,7 +51,7 @@ Y lo que más me ha gustado de estos eventos, es que no son eventos de saco y co
 
 > ## ... no son eventos de saco y corbata.
 
-Todas estas experiencias me hicieron preguntarme **¿porqué no tenemos este tipo de eventos en Panamá? ¿qué nos hace falta?**
+Todas estas experiencias me hicieron preguntarme **¿por qué no tenemos este tipo de eventos en Panamá? ¿qué nos hace falta?**
 
 Y mi respuesta fue:
 
@@ -61,7 +61,7 @@ Creo que Panamá ya está en buen camino, he visto que existen muchas comunidade
 
 > ## ... que tengan una visión en común, ... {{site.community}} 
 
-Es por eso que con mi esposa, empezamos a trabajar en desarrollar la idea de un evento de tecnología diferente, uno que juntase a todas estas comunidades en un solo sitio, y no sólo eso, que incluso puedan juntarse con empresas que ya están creando tecnología en Panamá para que
+Es por eso que, con mi esposa, empezamos a trabajar en desarrollar la idea de un evento de tecnología diferente, uno que juntase a todas estas comunidades en un solo sitio, y no sólo eso, que incluso puedan juntarse con empresas que ya están creando tecnología en Panamá para que
 
 ## {{site.slogan}}
 
