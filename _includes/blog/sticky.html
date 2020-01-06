@@ -6,7 +6,7 @@
     <div class="pl-4 pr-0 h-100 tofront">
         <div class="row justify-content-between">
             <div class="col-md-6 pt-6 pb-6 pr-lg-4 align-self-center">
-                <h1 class="mb-3">{{post.title}}</h1>
+                <a href="{{ post.url }}"><h1 class="post-title text-dark">{{post.title}}</h1></a>
                 <p class="mb-3 lead">
                     {{ post.content | strip_html | strip_newlines | truncate: 131 }}
                 </p>
