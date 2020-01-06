@@ -81,7 +81,7 @@ layout: default
 			{% include blog/tags-list.html %}
 
 			<!-- Mailchimp Subscribe Form -->
-			{% if site.mailchimp-list %}
+			<!-- {% if site.mailchimp-list %}
 			<div class="border p-5 bg-lightblue">
 				<div class="row justify-content-between">
 					<div class="col-md-6 mb-2 mb-md-0">
@@ -104,7 +104,7 @@ layout: default
 					</div>
 				</div>
 			</div>
-			{% endif %}
+			{% endif %} -->
 
 			<!-- Author Box -->
 			{% for item in site.data.authors.docs %}
@@ -117,9 +117,9 @@ layout: default
 					{% endif %}
 				</div>
 				<div class="col-md-10">
-					<h5 class="font-weight-bold">Escrito por {{ item.name }} {% if item.twitter %}<span>
-							<!-- <a target="_blank" rel="noopener" href="{{ item.twitter }}"
-								class="btn btn-common ml-2">Follow</a> --></span>{% endif %}</h5>
+					<h5 class="font-weight-bold">Escrito por {{ item.name }} <!-- {% if item.twitter %}<span>
+							<a target="_blank" rel="noopener" href="{{ item.twitter }}"
+								class="btn btn-common ml-2"><i class="fab fa-twitter"></i>Seguir</a></span>{% endif %} --></h5>
 					{{ item.bio }}
 				</div>
 				<div class="col-md-12">
