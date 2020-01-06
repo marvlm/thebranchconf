@@ -5,12 +5,13 @@ docs:
   image: assets/img/slider/slide3-2.jpg
   heading: El evento de desarrollo, tecnología e innovación más grande de Panamá.
   title: "The Branch Conference"
-  subtitle: "… evolucionemos el ecosistema tecnológico de Panamá. Juntos!"
-  btn: false
-  btn_text: 
-  btn_link:
-  btn_type:
+  subtitle: 
+  btn: true
+  btn_text: "Quiero ser patrocinador"
+  btn_link: "/patrocinadores"
+  btn_type: btn-common
   first: true
+  show: true
 
 - id: 1
   image: assets/img/slider/slide5-2.jpg
@@ -22,6 +23,7 @@ docs:
   btn_link: "#2020"
   btn_type: btn-common
   first: false
+  show: true
 
 - id: 2
   image: assets/img/slider/slide2-2.jpg
@@ -30,9 +32,10 @@ docs:
   subtitle: 
   btn: true
   btn_text: Conoce más
-  btn_link: "#sponsors"
+  btn_link: "/patrocinadores"
   btn_type: btn-border
   first: false
+  show: false
 
 - id: 3
   image: assets/img/slider/slide1.jpg
@@ -41,9 +44,10 @@ docs:
   subtitle: 
   btn: true
   btn_text: Colabora con nosotros
-  btn_link: "#schedules"
+  btn_link: "/comunidades"
   btn_type: btn-common
   first: false
+  show: true
 
 - id: 4
   image: assets/img/slider/slide7-2.jpg
@@ -52,6 +56,7 @@ docs:
   subtitle: 
   btn: true
   btn_text: Únete al equipo
-  btn_link: "#volunteers"
+  btn_link: "/voluntarios"
   btn_type: btn-border
   first: false
+  show: true

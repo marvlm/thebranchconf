@@ -6,6 +6,7 @@
     </ol>
     <div class="carousel-inner">
         {% for item in site.data.carousel.docs %}
+        {% if item.show == true %}
         <div class="carousel-item {% if item.first == true %}active{% endif %}" style="background-image: url({{item.image}});">
             <div class="carousel-caption d-md-block">
                 <p class="fadeInUp wow" data-wow-delay=".6s">{{ item.heading }}</p>
@@ -23,6 +24,7 @@
                 <!-- <a href="#que-es" class="fadeInRight wow btn btn-border btn-lg" data-wow-delay=".6s"><i class="fas fa-chevron-down"></i></a> -->
             </div>
         </div>
+        {% endif %}
         {% endfor %}
 </div>
 <a class="carousel-control-prev" href="#main-slide" role="button" data-slide="prev">
