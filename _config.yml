@@ -4,7 +4,7 @@ permalink: "blog/:title/"
 paginate: 5
 paginate_path: "/posts/page:num/"
 baseurl: /
-url: https://thebranch.tech
+url: https://www.thebranch.tech/
 plugins:
   - jekyll-feed
   - jekyll-paginate
@@ -45,6 +45,7 @@ form_voluntarios: https://docs.google.com/forms/d/e/1FAIpQLScVq1Bk7YLsn7gT4Q9whz
 form_speakers: https://docs.google.com/forms/d/e/1FAIpQLSfF80CyKP1b3DEXVK5gKLDlbGuSDwgJ-NgkdZ07tuJdPcq51Q/viewform?embedded=true
 form_patrocinadores: https://docs.google.com/forms/d/e/1FAIpQLSdKfPxBc6ATFfRVZApgTURbolxpmuzmYIRqheRsGq4U61_nFQ/viewform?embedded=true
 form_encuesta_comunidades: https://docs.google.com/forms/d/e/1FAIpQLScQT2YF9Nyth_awKjMAdS1YjUgtsp9zDkX_ZWGlgW2DqzYViA/viewform?embedded=true
+mailchimp-list: https://tech.us4.list-manage.com/subscribe/post?u=5e0da60851d9d4ac16dd669af&amp;id=7e241858dc
 ---
 excerpt_separator: <!--more-->
 ---
