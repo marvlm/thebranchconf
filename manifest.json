@@ -9,6 +9,12 @@ layout: none
     "short_name": "{{ site.short_name }}",
     "icons": [
       {
+        "src": "{{ site.url }}/assets/img/favicon/apple-touch-icon-144x144.png",
+        "sizes": "144x144",
+        "type": "image/png",
+        "purpose": "maskable"
+      },
+      {
         "src": "{{ site.url }}/assets/img/favicon/android-chrome-192x192.png",
         "sizes": "192x192",
         "type": "image/png",
@@ -23,7 +29,7 @@ layout: none
     ],
     "theme_color": "{{ site.color }}",
     "background_color": "{{ site.color }}",
-    "start_url": "index.html",
+    "start_url": "/index.html",
     "display": "standalone",
     "orientation": "natural"
   }
