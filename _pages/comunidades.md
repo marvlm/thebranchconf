@@ -22,6 +22,7 @@ A lo largo del año, queremos trabajar con ustedes las Comunidades para organiza
 * Oportunidad de proponer y facilitar charlas y talleres en el evento.
 * Seguir creando comunidad y compartiendo informacion publicando artículos en nuestro Blog.
 * Durante el evento tendremos  **un área especial para las comunidades**, para hacer networking, mostrar lo que hacen y conocer cómo colaborar con otras comunidades.
+* Todas nuestras comunidades asociadas, tendrán un espacio dedicado en nuestro sitio web, dónde se podrá conocer quiénes la organizan, misión, visión, dónde se reúnen, etc. 
 
 #### The Branch siempre estará abierto a las Comunidades 
 ... queremos ayudarles a crecer.
