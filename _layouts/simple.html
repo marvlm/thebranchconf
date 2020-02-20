@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    {% include layout/head.html %}
+</head>
+
+<body>
+
+    {{ content }}
+
+    {% include widgets/subscribe.html %}
+
+    {% include copyright.html %}
+
+    <!-- Go to Top Link -->
+    <a href="#" class="back-to-top">
+        <i class="fas fa-chevron-up"></i>
+    </a>
+
+    {% include layout/preloader.html %}
+
+    {% include layout/serviceworker.html %}
+
+    {% if site.google_analytics and jekyll.environment == 'production' %}
+        {% include layout/analytics.html %}
+    {% endif %}
+
+    {% include layout/scripts.html %}
+
+</body>
+
+</html>
