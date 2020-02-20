@@ -2882,3 +2882,35 @@ a.prevnext:hover {
 		right:0;
 	}
 }
+
+/*Search*/
+.bd-search .form-control {
+  font-size: .85rem;
+  color: #999;
+  border-radius: 10px;
+  height: 35px;
+  border: 1px solid #eee;
+}
+
+/* progress bar container */
+.progress-bar-container {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: .5rem;
+  z-index: 999999;
+}
+
+/* progress bar */
+.progress-bar-container__progress {
+  height: .5rem;
+  background-color: #0047bb;
+  width: 0%;
+  float: left;
+}
+
+.linktree {
+  width: 80%;
+  margin: 5px;
+}

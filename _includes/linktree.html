@@ -1,0 +1,20 @@
+<div>
+  <div class="container">
+      <div class="row justify-content-md-center">
+          <div class="col-md-10 col-lg-7">
+              <div class="subscribe-inner wow fadeInDown" data-wow-delay="0.3s">
+                <img src="assets/img/identity/the-branch-logo.svg"/>
+                  <h2 class="wow fadeInDown what animated" data-wow-delay="0.4s" style="visibility: visible;-webkit-animation-delay: 0.4s; -moz-animation-delay: 0.4s; animation-delay: 0.4s;">
+                  {{site.slogan}}
+                  </h2>
+                  <p>@thebranchconf</p>
+                  <ul>
+                  {% for link in page.links %}
+                    <li class="nav-item"><a target="_blank" rel="noopener" class="linktree nav-link btn btn-common text-white" href="{{ link.url }}"><i class="fas fa-paper-plane"></i>{{ link.title }}</a></li>                    
+                  {% endfor %}
+                 </ul>
+              </div>
+          </div>
+      </div>
+  </div>
+</div>
