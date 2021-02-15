@@ -1,34 +1,34 @@
 docs_list_title: Navigation
 docs:
 
-- title: Qué es
-  url: /index.html#que-es
-  header: false
-  footer: false
-  side: 
-
-- title: Patrocinadores
-  url: /patrocinadores
+- title: Inicio
+  url: /
   header: true
   footer: true
   side: left
 
-- title: Speakers
-  url: /speakers
+- title: Servicios
+  url: /#services
+  header: true
+  footer: true
+  side: left
+
+- title: Enfoque
+  url: /#focus
   header: true
   footer: true
   side: left
 
 - title: Comunidades
   url: /comunidades
-  header: true
-  footer: true
+  header: false
+  footer: false
   side: left
 
 - title: Voluntarios
   url: /voluntarios
-  header: true
-  footer: true
+  header: false
+  footer: false
   side: left
 
 - title: Blog
@@ -39,7 +39,7 @@ docs:
 
 - title: Contacto
   url: /index.html#contact-map
-  header: false
+  header: true
   footer: false
   side: 
 
@@ -52,7 +52,7 @@ docs:
 - title: Código de Conducta
   url: /codigo-de-conducta
   header: false
-  footer: true
+  footer: false
   side: right
 
 - title: Términos y condiciones

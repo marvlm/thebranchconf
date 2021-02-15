@@ -676,7 +676,7 @@ article h1,article h2,article h3,article h4,article h5,article h6,article .h1,ar
 }
 
 .section-padding {
-  padding: 60px 0;
+  padding: 100px 0;
 }
 
 .no-padding {
@@ -1381,6 +1381,10 @@ article h1,article h2,article h3,article h4,article h5,article h6,article .h1,ar
 /* Services Item */
 .services {
   background: #fff;
+  background-image: url(../img/background/blue-corners.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 
 .padding-none {
@@ -1757,6 +1761,14 @@ article h1,article h2,article h3,article h4,article h5,article h6,article .h1,ar
 /* Conact Home Page Section */
 .contact {
   background: #111111;
+}
+
+#contact-map {
+  background: #fff;
+  background-image: url(../img/background/blue-corners-2.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 
 #conatiner-map {

@@ -2,7 +2,7 @@
 layout: page
 title: Equipo
 permalink: equipo
-subtitle: ¿Quién Organiza The Branch?
+subtitle: ¿Quién está en el equipo The Branch?
 ---
 
 ***

@@ -4,14 +4,14 @@ permalink: "blog/:title/"
 paginate: 5
 paginate_path: "/posts/page:num/"
 baseurl: /
-url: https://www.thebranch.ml
+url: https://www.thebranch.work
 plugins:
   - jekyll-feed
   - jekyll-paginate
   - jekyll-sitemap
   - jekyll-seo-tag
   - jekyll-tidy
-  - jekyll-compress-images
+  #- jekyll-compress-images
 google_analytics: UA-149944962-1
 include: ['_pages']
 
@@ -20,32 +20,33 @@ short_name: "The Branch"
 language: "en"
 lang_direction: "ltr"
 color: "#2f2f2f"
-title: "The Branch Conference"
-tagline: El evento de desarrollo, tecnología e innovación más grande de Panamá
-slogan: "... evolucionemos el ecosistema tecnológico de Panamá. Juntos!"
+title: "The Branch Agilidad e Innovación"
+tagline: el socio en agilidad y transformación organizativa que te ayudará a descubrir una mejor forma de trabajar...
+slogan: "... evolucionemos. Juntos!"
 description: The Branch es el evento de conferencias de desarrollo de software, tecnología e innovación, más grande de Panamá. Juntos evolucionamos Panamá!
 community: Construyamos una comunidad de comunidades.
-date: "Fecha por definir" ## SEPTIEMBRE 12 - 13, 2020
-place: "Lugar por definir"
+date: "Panamá"
+place: "República de Panamá."
 city: "CIUDAD DE PANAMÁ"
 logo-white: '/assets/img/identity/the-branch-logo-inverted.svg' 
 logo: '/assets/img/identity/the-branch-logo.svg'
 favicon: 'assets/images/favicon.ico'
 disqus: 'thebranch'
-email: 'hola@thebranch.tech'
-email2: 'equipo@thebranch.tech'
-twitter: https://twitter.com/thebranchconf
-facebook: https://www.facebook.com/thebranchconf
-linkedin: https://www.linkedin.com/company/thebranchconf/
-instagram: https://www.instagram.com/thebranchconf/
-slack: https://thebranchconf.slack.com/
-calendar_event: https://calendar.google.com/event?action=TEMPLATE&tmeid=MmQ4OGE1cWlsZTk2aDBmaW5laThpNGNkMXQgbWVyZ2UudGhlYnJhbmNoQG0&tmsrc=merge.thebranch%40gmail.com
-form_comunidades: https://docs.google.com/forms/d/e/1FAIpQLSeXU4WHGmA_vXir6b9zDgmIecySbTFOkipkTdriI3iud-7IGw/viewform?embedded=true
-form_voluntarios: https://docs.google.com/forms/d/e/1FAIpQLScVq1Bk7YLsn7gT4Q9whzYg6HqaK9LUjskRW1xERzjziFObOQ/viewform?embedded=true
-form_speakers: https://docs.google.com/forms/d/e/1FAIpQLSfF80CyKP1b3DEXVK5gKLDlbGuSDwgJ-NgkdZ07tuJdPcq51Q/viewform?embedded=true
-form_patrocinadores: https://docs.google.com/forms/d/e/1FAIpQLSdKfPxBc6ATFfRVZApgTURbolxpmuzmYIRqheRsGq4U61_nFQ/viewform?embedded=true
-form_encuesta_comunidades: https://docs.google.com/forms/d/e/1FAIpQLScQT2YF9Nyth_awKjMAdS1YjUgtsp9zDkX_ZWGlgW2DqzYViA/viewform?embedded=true
-mailchimp-list: https://tech.us4.list-manage.com/subscribe/post?u=5e0da60851d9d4ac16dd669af&amp;id=7e241858dc
+email: 'hola@thebranch.work'
+email2: 'marvin@thebranch.work'
+social-media: 
+twitter: 
+facebook: 
+linkedin: 
+instagram: 
+slack: 
+calendar_event: 
+form_comunidades: 
+form_voluntarios: 
+form_speakers: 
+form_patrocinadores: 
+form_encuesta_comunidades: 
+mailchimp-list: 
 ---
 excerpt_separator: <!--more-->
 ---

@@ -12,11 +12,11 @@ subtitle: Al acceder al sitio web de The Branch y al participar del evento de co
 
 #### Aviso legal, Términos y Condiciones, políticas de privacidad de The Branch
 
-**Aviso legal:** Por este medio, informamos que (el sitio web: [**www.thebranch.tech**](http://www.thebranch.tech/) y la conferencia The Branch) son propiedad de [_La Sociedad_].
+**Aviso legal:** Por este medio, informamos que (el sitio web: [**www.thebranch.work**](http://www.thebranch.work/) y la conferencia The Branch) son propiedad de [_La Sociedad_].
 
 Para Notificaciones, favor comunicarse a:
 
-* Correo Electrónico: [equipo@thebranch.tech](mailto:equipo@thebranch.tech?Subject=Consulta sobre Términos y condiciones).
+* Correo Electrónico: [{{ site.email }}](mailto:{{ site.email }}?Subject=Consulta sobre Términos y condiciones).
 
 * Dirección: Panamá.
 

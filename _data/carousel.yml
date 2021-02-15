@@ -2,61 +2,13 @@ docs_list_title: Carousel
 docs:
 
 - id: 0
-  image: assets/img/slider/slide3-2.jpg
-  heading: El evento de desarrollo, tecnología e innovación más grande de Panamá.
-  title: "The Branch Conference"
-  subtitle: 
+  image: assets/img/slider/slide1.png
+  heading: 
+  title: "Reinventa tu organización"
+  subtitle: "The Branch, el socio en agilidad y transformación organizativa que te ayudará a descubrir una mejor forma de trabajar..."
   btn: true
-  btn_text: "Quiero ser patrocinador"
-  btn_link: "/patrocinadores"
+  btn_text: "¿Cómo lo hacemos?"
+  btn_link: "#services"
   btn_type: btn-common
   first: true
-  show: true
-
-- id: 1
-  image: assets/img/slider/slide5-2.jpg
-  heading: Construyamos una comunidad de comunidades.
-  title: The Branch 2020
-  subtitle: 
-  btn: true
-  btn_text: Te contamos más
-  btn_link: "#2020"
-  btn_type: btn-common
-  first: false
-  show: true
-
-- id: 2
-  image: assets/img/slider/slide2-2.jpg
-  heading: The Branch es posible gracias al aporte generoso de nuestros patrocinadores.
-  title: ¿Quieres ser patrocinador?
-  subtitle: 
-  btn: true
-  btn_text: Conoce más
-  btn_link: "/patrocinadores"
-  btn_type: btn-border
-  first: false
-  show: false
-
-- id: 3
-  image: assets/img/slider/slide1.jpg
-  heading: Un encuentro para las comunidades
-  title: ¿Perteneces a una comunidad de tecnología?
-  subtitle: 
-  btn: true
-  btn_text: Colabora con nosotros
-  btn_link: "/comunidades"
-  btn_type: btn-common
-  first: false
-  show: true
-
-- id: 4
-  image: assets/img/slider/slide7-2.jpg
-  heading: Una oportunidad para poner tus habilidades en acción.
-  title: ¿Quieres participar como voluntario?
-  subtitle: 
-  btn: true
-  btn_text: Únete al equipo
-  btn_link: "/voluntarios"
-  btn_type: btn-border
-  first: false
   show: true
