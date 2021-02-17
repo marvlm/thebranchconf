@@ -4,7 +4,7 @@ permalink: "blog/:title/"
 paginate: 5
 paginate_path: "/posts/page:num/"
 baseurl: /
-url: https://www.thebranch.ml
+url: https://www.thebranch.work
 plugins:
   - jekyll-feed
   - jekyll-paginate
