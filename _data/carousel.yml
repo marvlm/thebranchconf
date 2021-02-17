@@ -3,7 +3,7 @@ docs:
 
 - id: 0
   image: assets/img/slider/slide1.png
-  heading: 
+  heading:
   title: "Reinventa tu organización"
   subtitle: "The Branch, el socio en agilidad y transformación organizativa que te ayudará a descubrir una mejor forma de trabajar..."
   btn: true

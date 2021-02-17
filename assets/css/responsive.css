@@ -99,6 +99,9 @@
   #main-slide .carousel-caption {
     top: 32%;
   }
+  .number h1 {
+    font-size: 24px;
+  }
   .countdown-timer .heading-count h2 {
     font-size: 25px;
   }
@@ -150,6 +153,9 @@
 @media (max-width: 767px) {
   .window {
     width: 95%;
+  }
+  .number h1 {
+    font-size: 22px;
   }
   .terminal {
     font-size: 12px;

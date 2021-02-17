@@ -2487,6 +2487,7 @@ article h1,article h2,article h3,article h4,article h5,article h6,article .h1,ar
 
 #main-slide .carousel-item .carousel-caption h2 {
   font-size: 30px;
+  font-family: 'Lato';
 }
 
 #main-slide .carousel-item .carousel-caption p {
