@@ -31,17 +31,17 @@ docs:
   footer: false
   side: left
 
-- title: Blog
-  url: /blog
-  header: true
-  footer: true
-  side: left
-
 - title: Contacto
   url: /index.html#contact-map
   header: true
   footer: false
   side: 
+
+- title: Blog
+  url: https://www.imarv.in/
+  header: true
+  footer: true
+  side: left
 
 - title: Política de Privacidad
   url: /politica-de-privacidad

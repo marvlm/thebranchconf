@@ -19,7 +19,7 @@
                     {% assign nav-item = item.url | downcase | split: '/' %}
                     {% if item.header == true %}
                     <li class="nav-item {% if current[1] == nav-item[1] %} active {% endif %}">
-                        <a class="nav-link" href="{{site.url}}{{ item.url }}">
+                        <a class="nav-link" href="{% if item.title != 'Blog' %} {{site.url}} {% endif %}{{ item.url }}">
                             {{ item.title }} 
                         </a>
                     </li>
